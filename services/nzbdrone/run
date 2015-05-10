@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec /sbin/setuser abc mono /opt/NzbDrone/NzbDrone.exe -nobrowswer -data=/config
