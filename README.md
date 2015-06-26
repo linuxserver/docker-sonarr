@@ -23,7 +23,7 @@ docker create \
 **Parameters**
 
 * `-p 8989` - the port quassel-core listens for connections on
-* `-v /config` - database and sonarr configuration storage
+* `-v /config` - database and sonarr configs
 * `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
 * `-e PUID` for for UserID - see below for explanation
