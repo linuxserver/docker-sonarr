@@ -8,8 +8,6 @@ The [LinuxServer.io](http://linuxserver.io) team brings you another quality cont
 
 [Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
-![](https://sonarr.tv/img/slider/qualityprofile.png)
-
 ## Usage
 
 ```
@@ -25,7 +23,8 @@ docker create \
 **Parameters**
 
 * `-p 8989` - the port quassel-core listens for connections on
-* `-v /tv` - database and quassel-core configuration storage
+* `-v /config` - database and sonarr configuration storage
+* `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
 * `-e PUID` for for UserID - see below for explanation
 
