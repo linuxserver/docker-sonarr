@@ -22,7 +22,7 @@ docker create \
 
 **Parameters**
 
-* `-p 8989` - the port quassel-core listens for connections on
+* `-p 8989` - the port sonarr webinterface
 * `-v /config` - database and sonarr configs
 * `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
@@ -36,7 +36,7 @@ Part of what makes our containers work so well is by allowing you to specify you
 
 ## Updates / Monitoring
 
-* Upgrade to the latest version of Plex simply `docker restart sonarr`.
+* Upgrade to the latest version of sonarr simply `docker restart sonarr`.
 * Monitor the logs of the container in realtime `docker logs -f sonarr`.
 
 **Credits**
