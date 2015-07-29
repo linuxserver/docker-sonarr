@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.16
+FROM phusion/baseimage:0.9.17
 MAINTAINER Stian Larsen <lonixx@gmail.com>
 RUN rm -rf /etc/service/sshd /etc/my_init.d/00_regen_ssh_host_keys.sh
 ENV DEBIAN_FRONTEND noninteractive
@@ -13,7 +13,7 @@ CMD ["/sbin/my_init"]
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC && \
 echo "deb http://update.nzbdrone.com/repos/apt/debian master main" >> /etc/apt/sources.list && \
 apt-get update -q && \
-apt-get install -qy libmono-cil-dev nzbdrone && \
+apt-get install -qy libmono-cil-dev python nzbdrone && \
 apt-get clean && \
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
