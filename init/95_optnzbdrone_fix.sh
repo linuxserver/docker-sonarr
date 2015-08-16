@@ -1,3 +1,3 @@
 #!/bin/bash
 
-chown -R 99:100 /opt/NzbDrone
+chown -R abc:abc /opt/NzbDrone
