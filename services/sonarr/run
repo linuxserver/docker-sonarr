@@ -1,3 +1,3 @@
 #!/bin/bash
 umask 0002
-exec /sbin/setuser abc mono /opt/NzbDrone/NzbDrone.exe -nobrowswer -data=/config
+XDG_CONFIG_HOME="/config/xdg" exec /sbin/setuser abc mono /opt/NzbDrone/NzbDrone.exe -nobrowswer -data=/config
