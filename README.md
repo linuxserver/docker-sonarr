@@ -41,7 +41,6 @@ Part of what makes our containers work so well is by allowing you to specify you
 * Upgrade to the latest version of sonarr simply `docker restart sonarr`.
 * Monitor the logs of the container in realtime `docker logs -f sonarr`.
 
-**Credits**
+## Changelog
 
-* lonix <lonixx@gmail.com>
-* IronicBadger <ironicbadger@linuxserver.io>
++ **31.08.2015:** Cleanup, changed sources to fetch binarys from. also a new baseimage. 
