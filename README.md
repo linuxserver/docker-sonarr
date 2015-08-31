@@ -15,6 +15,7 @@ docker create \
 	--name sonarr \
 	-p 8989:8989 \
 	-e PUID=<UID> -e PGID=<GID> \
+	-v /dev/rtc:/dev/rtc:ro \
 	-v </path/to/appdata>:/config \
 	-v <path/to/tvseries>:/tv \
 	linuxserver/sonarr
@@ -23,6 +24,7 @@ docker create \
 **Parameters**
 
 * `-p 8989` - the port sonarr webinterface
+* `-v /dev/rtc:/dev/rtc:ro` - map hwclock to the docker hwclock as ReadOnly (mono throws exeptions otherwise)
 * `-v /config` - database and sonarr configs
 * `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
