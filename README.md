@@ -18,6 +18,7 @@ docker create \
 	-v /dev/rtc:/dev/rtc:ro \
 	-v </path/to/appdata>:/config \
 	-v <path/to/tvseries>:/tv \
+  -v <path/to/downloadclient-downloads>:/downloads \
 	linuxserver/sonarr
 ```
 
