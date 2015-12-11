@@ -17,6 +17,7 @@ docker create \
 	-e PUID=<UID> -e PGID=<GID> \
 	-v /dev/rtc:/dev/rtc:ro \
 	-v </path/to/appdata>:/config \
+	-v </path/to/downloads>:/downloads \
 	-v <path/to/tvseries>:/tv \
 	linuxserver/sonarr
 ```
@@ -26,6 +27,7 @@ docker create \
 * `-p 8989` - the port sonarr webinterface
 * `-v /dev/rtc:/dev/rtc:ro` - map hwclock to the docker hwclock as ReadOnly (mono throws exeptions otherwise)
 * `-v /config` - database and sonarr configs
+* `-v /downloads` - downloads folder
 * `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
 * `-e PUID` for for UserID - see below for explanation
@@ -34,7 +36,7 @@ docker create \
 
 **TL;DR** - The `PGID` and `PUID` values set the user / group you'd like your container to 'run as' to the host OS. This can be a user you've created or even root (not recommended).
 
-Part of what makes our containers work so well is by allowing you to specify your own `PUID` and `PGID`. This avoids nasty permissions errors with relation to data volumes (`-v` flags). When an application is installed on the host OS it is normally added to the common group called users, Docker apps due to the nature of the technology can't be added to this group. So we added this feature to let you easily choose when running your containers.  
+Part of what makes our containers work so well is by allowing you to specify your own `PUID` and `PGID`. This avoids nasty permissions errors with relation to data volumes (`-v` flags). When an application is installed on the host OS it is normally added to the common group called users, Docker apps due to the nature of the technology can't be added to this group. So we added this feature to let you easily choose when running your containers.
 
 ## Updates / Monitoring
 
@@ -43,4 +45,4 @@ Part of what makes our containers work so well is by allowing you to specify you
 
 ## Changelog
 
-+ **31.08.2015:** Cleanup, changed sources to fetch binarys from. also a new baseimage. 
++ **31.08.2015:** Cleanup, changed sources to fetch binarys from. also a new baseimage.
