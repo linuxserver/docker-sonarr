@@ -28,7 +28,7 @@ docker create \
 **Parameters**
 
 * `-p 8989` - the port sonarr webinterface
-* `-v /dev/rtc:/dev/rtc:ro` - map hwclock to the docker hwclock as ReadOnly (mono throws exceptions otherwise)
+* `-v /dev/rtc:/dev/rtc:ro` - map hwclock as ReadOnly (mono throws exceptions otherwise)
 * `-v /config` - database and sonarr configs
 * `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
