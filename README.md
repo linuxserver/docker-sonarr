@@ -28,13 +28,13 @@ docker create \
 **Parameters**
 
 * `-p 8989` - the port sonarr webinterface
-* `-v /dev/rtc:/dev/rtc:ro` - map hwclock to the docker hwclock as ReadOnly (mono throws exeptions otherwise)
+* `-v /dev/rtc:/dev/rtc:ro` - map hwclock to the docker hwclock as ReadOnly (mono throws exceptions otherwise)
 * `-v /config` - database and sonarr configs
 * `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
 * `-e PUID` for for UserID - see below for explanation
 
-It is based on ubuntu xenial with S6 overlay, for shell access whilst the container is running do `docker exec -it musicbrainz /bin/bash`.
+It is based on ubuntu xenial with S6 overlay, for shell access whilst the container is running do `docker exec -it sonarr /bin/bash`.
 
 ### User / Group Identifiers
 
