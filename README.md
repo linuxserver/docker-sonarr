@@ -1,6 +1,6 @@
 ![https://linuxserver.io](https://www.linuxserver.io/wp-content/uploads/2015/06/linuxserver_medium.png)
 
-The [LinuxServer.io](https://linuxserver.io) team brings you another quality container release featuring auto-update on startup, easy user mapping and community support. Be sure to checkout our [forums](https://forum.linuxserver.io) or for real-time support our [IRC](https://www.linuxserver.io/index.php/irc/) on freenode at `#linuxserver.io`.
+The [LinuxServer.io](https://linuxserver.io) team brings you another quality container release featuring easy user mapping and community support. Be sure to checkout our [forums](https://forum.linuxserver.io) or for real-time support our [IRC](https://www.linuxserver.io/index.php/irc/) on freenode at `#linuxserver.io`.
 
 # linuxserver/sonarr
 
@@ -37,11 +37,11 @@ docker create \
 
 Part of what makes our containers work so well is by allowing you to specify your own `PUID` and `PGID`. This avoids nasty permissions errors with relation to data volumes (`-v` flags). When an application is installed on the host OS it is normally added to the common group called users, Docker apps due to the nature of the technology can't be added to this group. So we added this feature to let you easily choose when running your containers.  
 
-## Updates / Monitoring
+## Info
 
-* Upgrade to the latest version of sonarr simply `docker restart sonarr`.
 * Monitor the logs of the container in realtime `docker logs -f sonarr`.
 
 ## Changelog
 
-+ **31.08.2015:** Cleanup, changed sources to fetch binarys from. also a new baseimage. 
++ **20.07.16:** Rebase to xenial.
++ **31.08.15:** Cleanup, changed sources to fetch binarys from. also a new baseimage. 

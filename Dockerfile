@@ -1,23 +1,30 @@
-FROM linuxserver/baseimage
-MAINTAINER Stian Larsen <lonixx@gmail.com>
+FROM lsiobase/xenial
+MAINTAINER sparklyballs
 
-ENV APTLIST="libmono-cil-dev python nzbdrone"
+# set environment variables
+ARG DEBIAN_FRONTEND="noninteractive"
 
-# Configure nzbdrone's apt repository
-RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC && \
-echo "deb http://apt.sonarr.tv/ master main" > /etc/apt/sources.list.d/sonarr.list && \
-apt-get update -q && \
-apt-get install $APTLIST -qy && \
-apt-get clean && \
-rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+# add sonarr repository
+RUN \
+ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC && \
+ echo "deb http://apt.sonarr.tv/ master main" > \
+	/etc/apt/sources.list.d/sonarr.list && \
 
+# install packages
+ apt-get update && \
+ apt-get install -y \
+	nzbdrone && \
 
-#Adding Custom files
-ADD init/ /etc/my_init.d/
-ADD services/ /etc/service/
-RUN chmod -v +x /etc/service/*/run /etc/my_init.d/*.sh
- 
+# cleanup
+ apt-get clean && \
+ rm -rfv \
+	/tmp/* \
+	/var/lib/apt/lists/* \
+	/var/tmp/*
 
-#Ports and Volumes
+# add local files
+COPY root/ /
+
+# ports and volumes
 VOLUME /config /downloads /tv
 EXPOSE 8989
