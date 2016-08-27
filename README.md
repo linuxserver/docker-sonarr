@@ -60,5 +60,6 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 ## Changelog
 
++ **27.08.16:** Add badges to README.
 + **20.07.16:** Rebase to xenial.
 + **31.08.15:** Cleanup, changed sources to fetch binarys from. also a new baseimage. 
