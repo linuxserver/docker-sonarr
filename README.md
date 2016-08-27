@@ -15,7 +15,8 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 
 [Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
-![](https://sonarr.tv/img/logo.png)
+[![sonarr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/sonarr-banner.png)][sonarrurl]
+[sonarrurl]: https://sonarr.tv/
 
 ## Usage
 
