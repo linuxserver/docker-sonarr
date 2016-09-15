@@ -13,6 +13,7 @@ RUN \
 # install packages
  apt-get update && \
  apt-get install -y \
+	libcurl3 \
 	nzbdrone && \
 
 # cleanup
