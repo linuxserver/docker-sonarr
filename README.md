@@ -65,6 +65,8 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Changelog
 
++ **23.09.16:** Add cd to /opt fixes redirects with althub (issue #25)
+, make XDG config environment variable
 + **15.09.16:** Add libcurl3 package.
 + **09.09.16:** Add layer badges to README.
 + **27.08.16:** Add badges to README.
