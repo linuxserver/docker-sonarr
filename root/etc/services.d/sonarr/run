@@ -2,4 +2,8 @@
 
 umask 0002
 
-XDG_CONFIG_HOME="/config/xdg" exec s6-setuidgid abc mono /opt/NzbDrone/NzbDrone.exe -nobrowser -data=/config
+cd /opt/NzbDrone
+
+exec \
+	s6-setuidgid abc mono NzbDrone.exe \
+	-nobrowser -data=/config

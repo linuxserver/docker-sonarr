@@ -3,6 +3,7 @@ MAINTAINER sparklyballs
 
 # set environment variables
 ARG DEBIAN_FRONTEND="noninteractive"
+ENV XDG_CONFIG_HOME="/config/xdg"
 
 # add sonarr repository
 RUN \
@@ -18,7 +19,7 @@ RUN \
 
 # cleanup
  apt-get clean && \
- rm -rfv \
+ rm -rf \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
@@ -27,5 +28,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-VOLUME /config /downloads /tv
 EXPOSE 8989
+VOLUME /config /downloads /tv
