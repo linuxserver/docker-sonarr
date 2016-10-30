@@ -2,7 +2,7 @@
 
 umask 022
 
-cd /opt/NzbDrone
+cd /opt/NzbDrone || exit
 
 exec \
 	s6-setuidgid abc mono NzbDrone.exe \
