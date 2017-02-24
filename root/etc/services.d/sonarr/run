@@ -2,7 +2,7 @@
 
 umask 022
 
-cd /opt/NzbDrone || exit
+cd /opt/sonarr || exit
 
 exec \
 	s6-setuidgid abc mono --debug NzbDrone.exe \

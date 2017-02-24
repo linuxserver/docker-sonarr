@@ -1,32 +1,31 @@
 FROM lsiobase/xenial
 MAINTAINER sparklyballs
 
-# set environment variables
+# environment settings
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_CONFIG_HOME="/config/xdg"
 
-# add sonarr repository
+# install packages
 RUN \
- apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC && \
- echo "deb http://apt.sonarr.tv/ master main" > \
-	/etc/apt/sources.list.d/sonarr.list && \
-
-# install packages
+ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 \
+	--recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF && \
+ echo "deb http://download.mono-project.com/repo/debian wheezy main" \
+	| tee /etc/apt/sources.list.d/mono-xamarin.list && \
  apt-get update && \
  apt-get install -y \
-	libcurl3 \
-	nzbdrone && \
+	libmono-cil-dev \
+	mediainfo \
+	sqlite3 && \
 
 # cleanup
- apt-get clean && \
  rm -rf \
 	/tmp/* \
 	/var/lib/apt/lists/* \
 	/var/tmp/*
 
-# add local files
+# copy local files
 COPY root/ /
 
 # ports and volumes
 EXPOSE 8989
-VOLUME /config /downloads /tv
+VOLUME /config
