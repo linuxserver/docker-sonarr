@@ -46,6 +46,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 * `-v /dev/rtc:/dev/rtc:ro` - map hwclock as ReadOnly (mono throws exceptions otherwise)
 * `-v /config` - database and sonarr configs
 * `-v /tv` - location of TV library on disk
+* `-v /downloads` - location of downloads folder
 * `-e PGID` for for GroupID - see below for explanation
 * `-e PUID` for for UserID - see below for explanation
 
@@ -62,6 +63,12 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
     uid=1001(dockeruser) gid=1001(dockergroup) groups=1001(dockergroup)
 ```
 
+### Hardlink support
+
+Since docker doesn't support hardlinks over volumes, this feature won't work, and Sonarr will fallback to copying the files from `/downloads` to `/tv`. This can take quite some time with large files, and it will require additional disk space.
+
+For this feature to work, you will need to have the `download` folder and the `tv` folder on the same disk. Next, you need to map the parent directory that contains both the `download` folder and the `tv` folder to your docker container with the `-v <path/to/parent>:/data`. Finally, you need to update your "Remote Path Mappings" to match your new path. You also should update the Root Folder of your existing series in the "Series Editor" screen.
+
 ## Setting up the application
 Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
 
@@ -71,6 +78,7 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Changelog
 
++ **25.02.17:** Added documentation on hardlinks.
 + **30.09.16:** Fix umask
 + **23.09.16:** Add cd to /opt fixes redirects with althub (issue #25)
 , make XDG config environment variable
