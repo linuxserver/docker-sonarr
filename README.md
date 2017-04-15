@@ -27,7 +27,7 @@ docker create \
 	--name sonarr \
 	-p 8989:8989 \
 	-e PUID=<UID> -e PGID=<GID> \
-	-v /dev/rtc:/dev/rtc:ro \
+	-v /etc/localtime:/etc/localtime:ro \
 	-v </path/to/appdata>:/config \
 	-v <path/to/tvseries>:/tv \
 	-v <path/to/downloadclient-downloads>:/downloads \
@@ -43,7 +43,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 
 
 * `-p 8989` - the port sonarr webinterface
-* `-v /dev/rtc:/dev/rtc:ro` - map hwclock as ReadOnly (mono throws exceptions otherwise)
+* `-v /etc/localtime:/etc/localtime:ro` - map localtime as ReadOnly (mono throws exceptions otherwise)
 * `-v /config` - database and sonarr configs
 * `-v /tv` - location of TV library on disk
 * `-e PGID` for for GroupID - see below for explanation
@@ -71,6 +71,8 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Changelog
 
++ **14.04.17:** Change to mount /etc/localtime in README, thanks cbgj.
++ **13.04.17:** Switch to official mono repository.
 + **30.09.16:** Fix umask
 + **23.09.16:** Add cd to /opt fixes redirects with althub (issue #25)
 , make XDG config environment variable
