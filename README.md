@@ -27,7 +27,7 @@ docker create \
 	--name sonarr \
 	-p 8989:8989 \
 	-e PUID=<UID> -e PGID=<GID> \
-	-v /dev/rtc:/dev/rtc:ro \
+	-v /etc/localtime:/etc/localtime:ro \
 	-v </path/to/appdata>:/config \
 	-v <path/to/tvseries>:/tv \
 	-v <path/to/downloadclient-downloads>:/downloads \
