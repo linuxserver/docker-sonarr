@@ -41,7 +41,6 @@ Add one of the tags,  if required,  to the linuxserver/sonarr line of the run/cr
 
 #### Tags
 + **develop**
-+ **preview**
 
 ## Parameters
 
