@@ -35,6 +35,14 @@ docker create \
 	linuxserver/sonarr
 ```
 
+You can choose between ,using tags, various branch versions of sonarr, no tag is required to remain on the main branch.
+
+Add one of the tags,  if required,  to the linuxserver/sonarr line of the run/create command in the following format, linuxserver/sonarr:develop
+
+#### Tags
++ **develop**
++ **preview**
+
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
