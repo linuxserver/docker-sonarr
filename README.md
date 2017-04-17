@@ -84,7 +84,7 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Changelog
 
-+ **17.04.17:** Switch to using inhouse mono baseimage.
++ **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
 + **14.04.17:** Change to mount /etc/localtime in README, thanks cbgj.
 + **13.04.17:** Switch to official mono repository.
 + **30.09.16:** Fix umask
