@@ -35,6 +35,13 @@ docker create \
 	linuxserver/sonarr
 ```
 
+You can choose between ,using tags, various branch versions of sonarr, no tag is required to remain on the main branch.
+
+Add one of the tags,  if required,  to the linuxserver/sonarr line of the run/create command in the following format, linuxserver/sonarr:develop
+
+#### Tags
++ **develop**
+
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
@@ -77,7 +84,7 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Changelog
 
-+ **17.04.17:** Switch to using inhouse mono baseimage.
++ **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
 + **14.04.17:** Change to mount /etc/localtime in README, thanks cbgj.
 + **13.04.17:** Switch to official mono repository.
 + **30.09.16:** Fix umask
