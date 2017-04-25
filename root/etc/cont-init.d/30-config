@@ -1,16 +1,19 @@
 #!/usr/bin/with-contenv bash
 
-# install preview version of sonarr
-if [ ! -d "/opt/sonarr" ]; then
- mkdir -p /opt/sonarr && \
- curl -o \
- /tmp/sonarr.tar.gz -L \
-        "https://download.sonarr.tv/v2/phantom/latest/NzbDrone.phantom.tar.gz" && \
- tar xf \
- /tmp/sonarr.tar.gz -C \
-        /opt/sonarr --strip-components=1 && \
-rm /tmp/*.tar.gz
-fi
+# cleanup any existing install
+[[ -d /opt/sonarr ]] && \
+	rm -rf /opt/sonarr
+mkdir -p /opt/sonarr
+
+# (re)install preview version of sonarr
+curl -o \
+	/tmp/sonarr.tar.gz -L \
+	"https://download.sonarr.tv/v2/phantom/latest/NzbDrone.phantom.tar.gz"
+tar xf \
+	/tmp/sonarr.tar.gz -C \
+	/opt/sonarr --strip-components=1
+rm \
+	/tmp/*.tar.gz
 
 # cleanup pid if it exists
 [[ -e /config/nzbdrone.pid ]] && \
