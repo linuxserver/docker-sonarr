@@ -13,8 +13,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # linuxserver/sonarr
-
-[![](https://images.microbadger.com/badges/image/linuxserver/sonarr.svg)](http://microbadger.com/images/linuxserver/sonarr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/sonarr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/sonarr.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-hub-built/linuxserver-sonarr)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-hub-built/job/linuxserver-sonarr/)
+[![](https://images.microbadger.com/badges/version/linuxserver/sonarr.svg)](https://microbadger.com/images/linuxserver/sonarr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/linuxserver/sonarr.svg)](https://microbadger.com/images/linuxserver/sonarr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/sonarr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/linuxserver/sonarr.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/x86-64/x86-64-sonarr)](https://ci.linuxserver.io/job/Docker-Builders/job/x86-64/job/x86-64-sonarr/)
 
 [Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
@@ -40,6 +39,7 @@ You can choose between ,using tags, various branch versions of sonarr, no tag is
 Add one of the tags,  if required,  to the linuxserver/sonarr line of the run/create command in the following format, linuxserver/sonarr:develop
 
 #### Tags
+
 + **develop**
 
 ## Parameters
@@ -80,10 +80,19 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Info
 
-* Monitor the logs of the container in realtime `docker logs -f sonarr`.
+Monitor the logs of the container in realtime `docker logs -f sonarr`.
 
-## Changelog
+* container version number 
 
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' sonarr`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' linuxserver/sonarr`
+
+## Versions
+
++ **12.07.17:** Add inspect commands to README, move to jenkins build and push.
 + **17.04.17:** Switch to using inhouse mono baseimage, adds python also.
 + **14.04.17:** Change to mount /etc/localtime in README, thanks cbgj.
 + **13.04.17:** Switch to official mono repository.
