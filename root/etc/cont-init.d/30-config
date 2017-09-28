@@ -8,7 +8,7 @@ mkdir -p /opt/sonarr
 # (re)install preview version of sonarr
 curl -o \
 	/tmp/sonarr.tar.gz -L \
-	"http://services.sonarr.tv/v1/download/phantom/latest?os=linux"
+	"http://services.sonarr.tv/v1/download/phantom/latest?os=linux&version=3"
 tar xf \
 	/tmp/sonarr.tar.gz -C \
 	/opt/sonarr --strip-components=1
