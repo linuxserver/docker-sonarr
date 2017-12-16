@@ -1,27 +1,25 @@
 FROM lsiobase/mono
-MAINTAINER sparklyballs
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="sparklyballs"
 
 # set environment variables
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_CONFIG_HOME="/config/xdg"
 
-# add sonarr repository
 RUN \
+ echo "**** add sonarr repository ****" && \
  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC && \
  echo "deb http://apt.sonarr.tv/ master main" > \
 	/etc/apt/sources.list.d/sonarr.list && \
-
-# install packages
+ echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
 	nzbdrone && \
-
-# cleanup
+ echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
 	/tmp/* \
