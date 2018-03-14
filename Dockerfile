@@ -1,4 +1,4 @@
-FROM lsiobase/mono
+FROM lsiobase/mono:xenial
 MAINTAINER sparklyballs
 
 # environment settings
