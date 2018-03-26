@@ -18,6 +18,7 @@ RUN \
  echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
+ 	python3 \
 	nzbdrone && \
  echo "**** cleanup ****" && \
  apt-get clean && \
