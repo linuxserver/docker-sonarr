@@ -1,0 +1,41 @@
+FROM lsiobase/mono.arm64:xenial
+# Add qemu to build on x86_64 systems
+COPY qemu-aarch64-static /usr/bin
+
+# set version label
+ARG BUILD_DATE
+ARG VERSION
+ARG SONARR_VERSION
+LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="sparklyballs"
+
+# set environment variables
+ENV XDG_CONFIG_HOME="/config/xdg"
+
+# package versions
+ARG SONARR_BRANCH="master"
+
+RUN \
+ if [ -z ${SONARR_VERSION+x} ]; then \
+        SONARR_VERSION=$(curl -sX GET http://apt.sonarr.tv/dists/${SONARR_BRANCH}/main/binary-amd64/Packages \
+        |grep -A 6 -m 1 "Package: nzbdrone" | awk -F ": " '/Version/{print $2;exit}'); \
+ fi && \
+ echo "**** install sonarr ****" && \
+ mkdir -p \
+	/opt/NzbDrone && \
+ curl -o \
+ /tmp/sonarr.tar.gz -L \
+	"http://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.${SONARR_BRANCH}.${SONARR_VERSION}.mono.tar.gz" && \
+ tar xf \
+ /tmp/sonarr.tar.gz -C \
+	/opt/NzbDrone --strip-components=1 && \
+ echo "**** cleanup ****" && \
+ rm -rf \
+	/tmp/*
+
+# add local files
+COPY root/ /
+
+# ports and volumes
+EXPOSE 8989
+VOLUME /config /downloads /tv
