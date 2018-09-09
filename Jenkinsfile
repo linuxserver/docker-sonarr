@@ -16,7 +16,7 @@ pipeline {
     DIST_IMAGE = 'ubuntu'
     DIST_TAG = 'xenial'
     DIST_PACKAGES = 'none'
-    DIST_REPO = 'http://apt.sonarr.tv/dists/master/main/binary-amd64/Packages'
+    DIST_REPO = 'http://apt.sonarr.tv/dists/develop/main/binary-amd64/Packages'
     DIST_REPO_PACKAGE = 'nzbdrone'
     MULTIARCH='true'
     CI='true'
