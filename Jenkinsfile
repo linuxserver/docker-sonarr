@@ -99,25 +99,25 @@ pipeline {
     // If this is a master build use live docker endpoints
     stage("Set ENV live build"){
       when {
-        branch "master"
+        branch "develop"
         environment name: 'CHANGE_ID', value: ''
       }
       steps {
         script{
           env.IMAGE = env.DOCKERHUB_IMAGE
           if (env.MULTIARCH == 'true') {
-            env.CI_TAGS = 'amd64-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '|arm32v6-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '|arm64v8-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER
+            env.CI_TAGS = 'amd64-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-develop' + '|arm32v6-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-develop' + '|arm64v8-' + env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-develop'
           } else {
-            env.CI_TAGS = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER
+            env.CI_TAGS = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-develop'
           }
-          env.META_TAG = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER
+          env.META_TAG = env.EXT_RELEASE + '-ls' + env.LS_TAG_NUMBER + '-develop'
         }
       }
     }
     // If this is a dev build use dev docker endpoints
     stage("Set ENV dev build"){
       when {
-        not {branch "master"}
+        not {branch "develop"}
         environment name: 'CHANGE_ID', value: ''
       }
       steps {
@@ -315,7 +315,7 @@ pipeline {
                 -e BASE=\"${DIST_IMAGE}\" \
                 -e SECRET_KEY=\"${DO_SECRET}\" \
                 -e ACCESS_KEY=\"${DO_KEY}\" \
-                -e DOCKER_ENV=\"DB_HOST=${TEST_MYSQL_HOST}|DB_DATABASE=bookstack|DB_USERNAME=root|DB_PASSWORD=${TEST_MYSQL_PASSWORD}\" \
+                -e DOCKER_ENV=\"${CI_DOCKERENV}\" \
                 -e WEB_SCREENSHOT=\"${CI_WEB}\" \
                 -e WEB_AUTH=\"${CI_AUTH}\" \
                 -e WEB_PATH=\"${CI_WEBPATH}\" \
@@ -350,8 +350,8 @@ pipeline {
           sh '''#! /bin/bash
              echo $DOCKERPASS | docker login -u $DOCKERUSER --password-stdin
              '''
-          sh "docker tag ${IMAGE}:${META_TAG} ${IMAGE}:latest"
-          sh "docker push ${IMAGE}:latest"
+          sh "docker tag ${IMAGE}:${META_TAG} ${IMAGE}:develop"
+          sh "docker push ${IMAGE}:develop"
           sh "docker push ${IMAGE}:${META_TAG}"
         }
       }
@@ -380,24 +380,24 @@ pipeline {
                   docker tag lsiodev/buildcache:arm32v6-${COMMIT_SHA}-${BUILD_NUMBER} ${IMAGE}:arm32v6-${META_TAG}
                   docker tag lsiodev/buildcache:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER} ${IMAGE}:arm64v8-${META_TAG}
                 fi'''
-          sh "docker tag ${IMAGE}:amd64-${META_TAG} ${IMAGE}:amd64-latest"
-          sh "docker tag ${IMAGE}:arm32v6-${META_TAG} ${IMAGE}:arm32v6-latest"
-          sh "docker tag ${IMAGE}:arm64v8-${META_TAG} ${IMAGE}:arm64v8-latest"
+          sh "docker tag ${IMAGE}:amd64-${META_TAG} ${IMAGE}:amd64-develop"
+          sh "docker tag ${IMAGE}:arm32v6-${META_TAG} ${IMAGE}:arm32v6-develop"
+          sh "docker tag ${IMAGE}:arm64v8-${META_TAG} ${IMAGE}:arm64v8-develop"
           sh "docker push ${IMAGE}:amd64-${META_TAG}"
           sh "docker push ${IMAGE}:arm32v6-${META_TAG}"
           sh "docker push ${IMAGE}:arm64v8-${META_TAG}"
-          sh "docker push ${IMAGE}:amd64-latest"
-          sh "docker push ${IMAGE}:arm32v6-latest"
-          sh "docker push ${IMAGE}:arm64v8-latest"
-          sh "docker manifest push --purge ${IMAGE}:latest || :"
-          sh "docker manifest create ${IMAGE}:latest ${IMAGE}:amd64-latest ${IMAGE}:arm32v6-latest ${IMAGE}:arm64v8-latest"
-          sh "docker manifest annotate ${IMAGE}:latest ${IMAGE}:arm32v6-latest --os linux --arch arm"
-          sh "docker manifest annotate ${IMAGE}:latest ${IMAGE}:arm64v8-latest --os linux --arch arm64 --variant armv8"
+          sh "docker push ${IMAGE}:amd64-develop"
+          sh "docker push ${IMAGE}:arm32v6-develop"
+          sh "docker push ${IMAGE}:arm64v8-develop"
+          sh "docker manifest push --purge ${IMAGE}:develop || :"
+          sh "docker manifest create ${IMAGE}:develop ${IMAGE}:amd64-develop ${IMAGE}:arm32v6-develop ${IMAGE}:arm64v8-develop"
+          sh "docker manifest annotate ${IMAGE}:develop ${IMAGE}:arm32v6-develop --os linux --arch arm"
+          sh "docker manifest annotate ${IMAGE}:develop ${IMAGE}:arm64v8-develop --os linux --arch arm64 --variant armv8"
           sh "docker manifest push --purge ${IMAGE}:${EXT_RELEASE}-ls${LS_TAG_NUMBER} || :"
           sh "docker manifest create ${IMAGE}:${META_TAG} ${IMAGE}:amd64-${META_TAG} ${IMAGE}:arm32v6-${META_TAG} ${IMAGE}:arm64v8-${META_TAG}"
           sh "docker manifest annotate ${IMAGE}:${META_TAG} ${IMAGE}:arm32v6-${META_TAG} --os linux --arch arm"
           sh "docker manifest annotate ${IMAGE}:${META_TAG} ${IMAGE}:arm64v8-${META_TAG} --os linux --arch arm64 --variant armv8"
-          sh "docker manifest push --purge ${IMAGE}:latest"
+          sh "docker manifest push --purge ${IMAGE}:develop"
           sh "docker manifest push --purge ${IMAGE}:${META_TAG}"
         }
       }

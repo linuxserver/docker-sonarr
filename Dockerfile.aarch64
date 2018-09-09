@@ -13,7 +13,7 @@ LABEL maintainer="sparklyballs"
 ENV XDG_CONFIG_HOME="/config/xdg"
 
 # package versions
-ARG SONARR_BRANCH="master"
+ARG SONARR_BRANCH="develop"
 
 RUN \
  if [ -z ${SONARR_VERSION+x} ]; then \
