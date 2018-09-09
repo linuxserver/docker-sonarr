@@ -7,6 +7,7 @@ pipeline {
     BUILD_VERSION_ARG = 'SONARR_VERSION'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-sonarr'
+    CONTAINER_NAME = 'sonarr'
     DOCKERHUB_IMAGE = 'linuxserver/sonarr'
     DEV_DOCKERHUB_IMAGE = 'lsiodev/sonarr'
     PR_DOCKERHUB_IMAGE = 'lspipepr/sonarr'
@@ -450,7 +451,7 @@ pipeline {
                   -e DOCKERHUB_USERNAME=$DOCKERUSER \
                   -e DOCKERHUB_PASSWORD=$DOCKERPASS \
                   -e GIT_REPOSITORY=${LS_USER}/${LS_REPO} \
-                  -e DOCKER_REPOSITORY=${DOCKERHUB_IMAGE} \
+                  -e DOCKER_REPOSITORY=${IMAGE} \
                   -e GIT_BRANCH=master \
                   lsiodev/readme-sync bash -c 'node sync' '''
         }
