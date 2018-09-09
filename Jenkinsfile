@@ -71,20 +71,11 @@ pipeline {
     /* #######################
        Package Version Tagging
        ####################### */
-    // If this is an ubuntu base image determine the base package tag to use
-    stage("Set Package tag Ubuntu"){
-     when {
-       environment name: 'DIST_IMAGE', value: 'ubuntu'
-       not {environment name: 'DIST_PACKAGES', value: 'none'}
-     }
+    // If this does not track package tags
+    stage("Set Package tag None"){
      steps{
-       sh '''docker pull ubuntu:${DIST_TAG}'''
        script{
-         env.PACKAGE_TAG = sh(
-           script: '''docker run --rm ubuntu:${DIST_TAG} sh -c\
-                      'apt-get --allow-unauthenticated update -qq >/dev/null 2>&1 &&\
-                       apt-cache --no-all-versions show '"${DIST_PACKAGES}"' | md5sum | cut -c1-8' ''',
-           returnStdout: true).trim()
+         env.PACKAGE_TAG = 'none'
        }
      }
     }
