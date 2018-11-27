@@ -31,7 +31,7 @@ docker create \
 	-v </path/to/appdata>:/config \
 	-v <path/to/tvseries>:/tv \
 	-v <path/to/downloadclient-downloads>:/downloads \
-	linuxserver/sonarr
+	lsiodev/sonarr-preview
 ```
 
 You can choose between ,using tags, various branch versions of sonarr, no tag is required to remain on the main branch.
