@@ -5,5 +5,5 @@ umask 022
 cd /opt/NzbDrone || exit
 
 exec \
-	s6-setuidgid abc mono --debug NzbDrone.exe \
+	s6-setuidgid abc mono NzbDrone.exe \
 	-nobrowser -data=/config
