@@ -1,4 +1,5 @@
 FROM lsiobase/mono.armhf:xenial
+
 # Add qemu to build on x86_64 systems
 COPY qemu-arm-static /usr/bin
 
