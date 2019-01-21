@@ -129,8 +129,6 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
 
 Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
 
-
-
 ## Support Info
 
 * Shell access whilst the container is running: `docker exec -it sonarr /bin/bash`
