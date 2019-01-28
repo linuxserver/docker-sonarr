@@ -3,7 +3,7 @@
 # jenkins variables
 project_name: docker-sonarr
 external_type: na
-custom_version_command: "curl -sX GET http://apt.sonarr.tv/dists/master/main/binary-amd64/Packages |grep -A 6 -m 1 'Package: nzbdrone' | awk -F ': ' '/Version/{print $2;exit}'"
+custom_version_command: "curl -sX GET http://services.sonarr.tv/v1/download/master | jq -r '.version'"
 release_type: stable
 release_tag: latest
 ls_branch: master
