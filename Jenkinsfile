@@ -96,7 +96,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://services.sonarr.tv/v1/download/phantom-develop?version=3 | jq -jr '.version' ''',
+            script: ''' curl -sX GET https://services.sonarr.tv/v1/download/phantom-develop?version=3 | jq -jr '.version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }

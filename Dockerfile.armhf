@@ -23,12 +23,12 @@ RUN \
  echo "**** install sonarr ****" && \
  mkdir -p /opt/sonarr && \
   if [ -z ${SONARR_VERSION+x} ]; then \
-	SONARR_VERSION=$(curl -sX GET http://services.sonarr.tv/v1/download/${SONARR_BRANCH}?version=3 \
+	SONARR_VERSION=$(curl -sX GET https://services.sonarr.tv/v1/download/${SONARR_BRANCH}?version=3 \
 	| jq -r '.version'); \
  fi && \
  curl -o \
 	/tmp/sonarr.tar.gz -L \
-	"http://download.sonarr.tv/v3/${SONARR_BRANCH}/${SONARR_VERSION}/Sonarr.${SONARR_BRANCH}.${SONARR_VERSION}.linux.tar.gz" && \
+	"https://download.sonarr.tv/v3/${SONARR_BRANCH}/${SONARR_VERSION}/Sonarr.${SONARR_BRANCH}.${SONARR_VERSION}.linux.tar.gz" && \
  tar xf \
 	/tmp/sonarr.tar.gz -C \
 	/opt/sonarr --strip-components=1 && \
