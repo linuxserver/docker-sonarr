@@ -28,7 +28,7 @@ RUN \
  fi && \
  curl -o \
 	/tmp/sonarr.tar.gz -L \
-	"http://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.master.${SONARR_VERSION}.mono.tar.gz" && \
+	"http://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.${SONARR_BRANCH}.${SONARR_VERSION}.mono.tar.gz" && \
  tar xf \
 	/tmp/sonarr.tar.gz -C \
 	/opt/NzbDrone --strip-components=1 && \
