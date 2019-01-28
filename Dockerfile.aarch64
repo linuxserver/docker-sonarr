@@ -11,10 +11,9 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="sparklyballs"
 
 # set environment variables
+ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_CONFIG_HOME="/config/xdg"
-
-# package versions
-ARG SONARR_BRANCH="master"
+ENV SONARR_BRANCH="master"
 
 RUN \
  echo "**** install packages ****" && \
