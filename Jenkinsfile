@@ -96,7 +96,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://apt.sonarr.tv/dists/develop/main/binary-amd64/Packages |grep -A 6 -m 1 'Package: nzbdrone' | awk -F ': ' '/Version/{print $2;exit}' ''',
+            script: ''' curl -sX GET http://services.sonarr.tv/v1/download/develop | jq -r '.version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
