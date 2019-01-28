@@ -13,24 +13,28 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 ENV SONARR_BRANCH="develop"
 
 RUN \
- if [ -z ${SONARR_VERSION+x} ]; then \
-	SONARR_VERSION=$(curl -sX GET http://apt.sonarr.tv/dists/${SONARR_BRANCH}/main/binary-amd64/Packages \
-	|grep -A 6 -m 1 "Package: nzbdrone" | awk -F ": " '/Version/{print $2;exit}'); \
- fi && \
- echo "**** add sonarr repository ****" && \
- apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC && \
- echo "deb http://apt.sonarr.tv/ ${SONARR_BRANCH} main" > \
-	/etc/apt/sources.list.d/sonarr.list && \
  echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y \
-	nzbdrone=${SONARR_VERSION} && \
+        jq && \
+ echo "**** install sonarr ****" && \
+ mkdir -p /opt/NzbDrone && \
+  if [ -z ${SONARR_VERSION+x} ]; then \
+	SONARR_VERSION=$(curl -sX GET http://services.sonarr.tv/v1/download/${SONARR_BRANCH} \
+	| jq -r '.version'); \
+ fi && \
+ curl -o \
+	/tmp/sonarr.tar.gz -L \
+	"http://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.${SONARR_BRANCH}.${SONARR_VERSION}.mono.tar.gz" && \
+ tar xf \
+	/tmp/sonarr.tar.gz -C \
+	/opt/NzbDrone --strip-components=1 && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
 	/tmp/* \
-	/var/lib/apt/lists/* \
 	/var/tmp/*
+
 
 # add local files
 COPY root/ /
