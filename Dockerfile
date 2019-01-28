@@ -10,7 +10,7 @@ LABEL maintainer="sparklyballs"
 # set environment variables
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_CONFIG_HOME="/config/xdg"
-ENV SONARR_BRANCH="develop"
+ENV SONARR_BRANCH="phantom-develop"
 
 RUN \
  echo "**** install packages ****" && \
@@ -18,17 +18,17 @@ RUN \
  apt-get install -y \
         jq && \
  echo "**** install sonarr ****" && \
- mkdir -p /opt/NzbDrone && \
+ mkdir -p /opt/sonarr && \
   if [ -z ${SONARR_VERSION+x} ]; then \
-	SONARR_VERSION=$(curl -sX GET http://services.sonarr.tv/v1/download/${SONARR_BRANCH} \
+	SONARR_VERSION=$(curl -sX GET http://services.sonarr.tv/v1/download/${SONARR_BRANCH}?version=3 \
 	| jq -r '.version'); \
  fi && \
  curl -o \
 	/tmp/sonarr.tar.gz -L \
-	"http://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.${SONARR_BRANCH}.${SONARR_VERSION}.mono.tar.gz" && \
+	"http://download.sonarr.tv/v3/${SONARR_BRANCH}/${SONARR_VERSION}/Sonarr.${SONARR_BRANCH}.${SONARR_VERSION}.linux.tar.gz" && \
  tar xf \
 	/tmp/sonarr.tar.gz -C \
-	/opt/NzbDrone --strip-components=1 && \
+	/opt/sonarr --strip-components=1 && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
