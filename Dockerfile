@@ -7,7 +7,7 @@ ARG SONARR_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="sparklyballs"
 
-# environment settings
+# set environment variables
 ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_CONFIG_HOME="/config/xdg"
 ENV SONARR_BRANCH="phantom-develop"
@@ -41,4 +41,4 @@ COPY root/ /
 
 # ports and volumes
 EXPOSE 8989
-VOLUME /config
+VOLUME /config /downloads /tv

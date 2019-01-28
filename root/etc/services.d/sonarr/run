@@ -2,8 +2,8 @@
 
 umask 022
 
-cd /opt/sonarr || exit
+cd /opt/NzbDrone || exit
 
 exec \
-	s6-setuidgid abc mono --debug Sonarr.exe \
+	s6-setuidgid abc mono --debug NzbDrone.exe \
 	-nobrowser -data=/config
