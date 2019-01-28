@@ -96,7 +96,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://services.sonarr.tv/v1/download/master | jq -r '.version' ''',
+            script: ''' curl -sX GET https://services.sonarr.tv/v1/download/master | jq -r '.version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }

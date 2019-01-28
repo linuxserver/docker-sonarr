@@ -23,12 +23,12 @@ RUN \
  echo "**** install sonarr ****" && \
  mkdir -p /opt/NzbDrone && \
   if [ -z ${SONARR_VERSION+x} ]; then \
-	SONARR_VERSION=$(curl -sX GET http://services.sonarr.tv/v1/download/${SONARR_BRANCH} \
+	SONARR_VERSION=$(curl -sX GET https://services.sonarr.tv/v1/download/${SONARR_BRANCH} \
 	| jq -r '.version'); \
  fi && \
  curl -o \
 	/tmp/sonarr.tar.gz -L \
-	"http://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.${SONARR_BRANCH}.${SONARR_VERSION}.mono.tar.gz" && \
+	"https://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.${SONARR_BRANCH}.${SONARR_VERSION}.mono.tar.gz" && \
  tar xf \
 	/tmp/sonarr.tar.gz -C \
 	/opt/NzbDrone --strip-components=1 && \
