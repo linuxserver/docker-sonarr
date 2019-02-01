@@ -2,7 +2,7 @@
 
 umask 022
 
-cd /opt/sonarr || exit
+cd /usr/lib/sonarr/bin || exit
 
 exec \
 	s6-setuidgid abc mono --debug Sonarr.exe \
