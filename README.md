@@ -64,12 +64,15 @@ docker create \
   linuxserver/sonarr
 ```
 
-You can choose between ,using tags, various branch versions of sonarr, no tag is required to remain on the main branch.
+### Version Tags
 
-Add one of the tags,  if required,  to the linuxserver/sonarr line of the run/create command in the following format, linuxserver/sonarr:develop
-#### Tags
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
 
-+ **develop**
+| Tag | Description |
+| :----: | --- |
+| latest | stable builds from the master branch of sonarr (currently v2) |
+| develop | development builds from the develop branch of sonarr (currently v2) |
+| preview | preview builds from the phantom-develop branch of sonarr (currently v3) |
 
 
 ### docker-compose
@@ -142,7 +145,7 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Versions
 
-* **08.09.18:** - Adding Multi arch images and pipeline build logic
+* **01.02.19:** - Multi arch images and pipeline build logic
 * **15.12.17:** - Fix continuation lines.
 * **12.07.17:** - Add inspect commands to README, move to jenkins build and push.
 * **17.04.17:** - Switch to using inhouse mono baseimage, adds python also.
