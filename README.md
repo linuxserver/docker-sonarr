@@ -145,7 +145,8 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 ## Versions
 
-* **01.02.19:** - Multi arch images and pipeline build logic
+* **03.02.19:** - Add package version and package author, remove update folder.
+* **01.02.19:** - Multi arch images and pipeline build logic.
 * **15.12.17:** - Fix continuation lines.
 * **12.07.17:** - Add inspect commands to README, move to jenkins build and push.
 * **17.04.17:** - Switch to using inhouse mono baseimage, adds python also.

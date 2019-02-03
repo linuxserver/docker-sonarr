@@ -32,7 +32,8 @@ RUN \
  tar xf \
 	/tmp/sonarr.tar.gz -C \
 	/usr/lib/sonarr/bin --strip-components=1 && \
- echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}" > /usr/lib/sonarr/package_info && \
+ echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=linuxserver.io" > /usr/lib/sonarr/package_info && \
+ rm -rf /usr/lib/sonarr/bin/Sonarr.Update && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
