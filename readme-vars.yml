@@ -50,6 +50,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "09.02.19:", desc: "Stick mono version at 5.14 stable" }
   - { date: "01.02.19:", desc: "Multi arch images and pipeline build logic" }
   - { date: "15.12.17:", desc: "Fix continuation lines." }
   - { date: "12.07.17:", desc: "Add inspect commands to README, move to jenkins build and push." }

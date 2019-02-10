@@ -170,6 +170,7 @@ Below are the instructions for updating containers:
 
 ## Versions
 
+* **09.02.19:** - Stick mono version at 5.14 stable
 * **01.02.19:** - Multi arch images and pipeline build logic
 * **15.12.17:** - Fix continuation lines.
 * **12.07.17:** - Add inspect commands to README, move to jenkins build and push.
