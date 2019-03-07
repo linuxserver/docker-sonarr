@@ -1,353 +1,353 @@
-adduser/xenial,now 3.113+nmu3ubuntu4 all [installed]
-apt/xenial-updates,xenial-security,now 1.2.29ubuntu0.1 amd64 [installed]
-apt-transport-https/xenial-updates,xenial-security,now 1.2.29ubuntu0.1 amd64 [installed]
-apt-utils/xenial-updates,xenial-security,now 1.2.29ubuntu0.1 amd64 [installed]
-base-files/xenial-updates,now 9.4ubuntu4.8 amd64 [installed]
-base-passwd/xenial,now 3.5.39 amd64 [installed]
-bash/xenial-updates,xenial-security,now 4.3-14ubuntu1.2 amd64 [installed]
-binutils/xenial-updates,xenial-security,now 2.26.1-1ubuntu1~16.04.8 amd64 [installed,automatic]
-bsdutils/xenial-updates,now 1:2.27.1-6ubuntu3.6 amd64 [installed]
-bzip2/xenial,now 1.0.6-8 amd64 [installed]
-ca-certificates/xenial-updates,now 20170717~16.04.2 all [installed,automatic]
-ca-certificates-mono/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed]
-cli-common/stable-xenial,now 0.9+xamarin8+ubuntu1604b1 all [installed,automatic]
-coreutils/xenial-updates,now 8.25-2ubuntu3~16.04 amd64 [installed]
-curl/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12 amd64 [installed]
-dash/xenial,now 0.5.8-2.1ubuntu2 amd64 [installed]
-debconf/xenial,now 1.5.58ubuntu1 all [installed]
-debianutils/xenial,now 4.7 amd64 [installed]
-diffutils/xenial,now 1:3.3-3 amd64 [installed]
-dpkg/xenial-updates,now 1.18.4ubuntu1.5 amd64 [installed]
-dpkg-dev/xenial-updates,now 1.18.4ubuntu1.5 all [installed,automatic]
-e2fslibs/xenial,now 1.42.13-1ubuntu1 amd64 [installed]
-e2fsprogs/xenial,now 1.42.13-1ubuntu1 amd64 [installed]
-findutils/xenial,now 4.6.0+git+20160126-2 amd64 [installed]
-fontconfig-config/xenial-updates,xenial-security,now 2.11.94-0ubuntu1.1 all [installed,automatic]
-fonts-dejavu-core/xenial,now 2.35-1 all [installed,automatic]
-gcc-5-base/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed]
-gcc-6-base/xenial,now 6.0.1-0ubuntu1 amd64 [installed]
-gnupg/xenial-updates,xenial-security,now 1.4.20-1ubuntu3.3 amd64 [installed]
-gpgv/xenial-updates,xenial-security,now 1.4.20-1ubuntu3.3 amd64 [installed]
-grep/xenial-updates,now 2.25-1~16.04.1 amd64 [installed]
-gzip/xenial,now 1.6-4ubuntu1 amd64 [installed]
-hostname/xenial,now 3.16ubuntu2 amd64 [installed]
-init/xenial-updates,now 1.29ubuntu4 amd64 [installed]
-init-system-helpers/xenial-updates,now 1.29ubuntu4 all [installed]
-initscripts/xenial,now 2.88dsf-59.3ubuntu2 amd64 [installed]
-insserv/xenial,now 1.14.0-5ubuntu3 amd64 [installed]
-jq/xenial-updates,xenial-security,now 1.5+dfsg-1ubuntu0.1 amd64 [installed]
-krb5-locales/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1 all [installed,automatic]
-libacl1/xenial,now 2.2.52-3 amd64 [installed]
-libapparmor1/xenial-updates,xenial-security,now 2.10.95-0ubuntu2.10 amd64 [installed]
-libapt-inst2.0/xenial-updates,xenial-security,now 1.2.29ubuntu0.1 amd64 [installed,automatic]
-libapt-pkg5.0/xenial-updates,xenial-security,now 1.2.29ubuntu0.1 amd64 [installed]
-libasn1-8-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libattr1/xenial,now 1:2.4.47-2 amd64 [installed]
-libaudit-common/xenial-updates,now 1:2.4.5-1ubuntu2.1 all [installed]
-libaudit1/xenial-updates,now 1:2.4.5-1ubuntu2.1 amd64 [installed]
-libblkid1/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
-libbz2-1.0/xenial,now 1.0.6-8 amd64 [installed]
-libc-bin/xenial-updates,now 2.23-0ubuntu11 amd64 [installed]
-libc6/xenial-updates,now 2.23-0ubuntu11 amd64 [installed]
-libcairo2/xenial,now 1.14.6-1 amd64 [installed,automatic]
-libcap2/xenial,now 1:2.24-12 amd64 [installed]
-libcap2-bin/xenial,now 1:2.24-12 amd64 [installed]
-libcomerr2/xenial,now 1.42.13-1ubuntu1 amd64 [installed]
-libcryptsetup4/xenial-updates,now 2:1.6.6-5ubuntu2.1 amd64 [installed]
-libcurl3/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12 amd64 [installed,automatic]
-libcurl3-gnutls/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12 amd64 [installed,automatic]
-libcurl4-openssl-dev/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12 amd64 [installed]
-libdb5.3/xenial-updates,xenial-security,now 5.3.28-11ubuntu0.1 amd64 [installed]
-libdebconfclient0/xenial,now 0.198ubuntu1 amd64 [installed]
-libdevmapper1.02.1/xenial,now 2:1.02.110-1ubuntu10 amd64 [installed]
-libdpkg-perl/xenial-updates,now 1.18.4ubuntu1.5 all [installed,automatic]
-libexif12/xenial,now 0.6.21-2 amd64 [installed,automatic]
-libexpat1/xenial-updates,xenial-security,now 2.1.0-7ubuntu0.16.04.3 amd64 [installed,automatic]
-libfdisk1/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
-libffi6/xenial,now 3.2.1-4 amd64 [installed,automatic]
-libfontconfig1/xenial-updates,xenial-security,now 2.11.94-0ubuntu1.1 amd64 [installed,automatic]
-libfreetype6/xenial-updates,xenial-security,now 2.6.1-0.1ubuntu2.3 amd64 [installed,automatic]
-libgcc1/xenial,now 1:6.0.1-0ubuntu1 amd64 [installed]
-libgcrypt20/xenial-updates,xenial-security,now 1.6.5-2ubuntu0.5 amd64 [installed]
-libgdbm3/xenial,now 1.8.3-13.1 amd64 [installed,automatic]
-libgdiplus/stable-xenial,now 5.6-0xamarin5+ubuntu1604b1 amd64 [installed,automatic]
-libgif7/xenial-updates,now 5.1.4-0.3~16.04 amd64 [installed,automatic]
-libglib2.0-0/xenial-updates,xenial-security,now 2.48.2-0ubuntu4.1 amd64 [installed,automatic]
-libgmp10/xenial,now 2:6.1.0+dfsg-2 amd64 [installed,automatic]
-libgnutls30/xenial-updates,now 3.4.10-4ubuntu1.4 amd64 [installed,automatic]
-libgpg-error0/xenial,now 1.21-2ubuntu1 amd64 [installed]
-libgssapi-krb5-2/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,automatic]
-libgssapi3-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libhcrypto4-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libheimbase1-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libheimntlm0-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libhogweed4/xenial-updates,xenial-security,now 3.2-1ubuntu0.16.04.1 amd64 [installed,automatic]
-libhx509-5-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libidn11/xenial-updates,xenial-security,now 1.32-3ubuntu1.2 amd64 [installed,automatic]
-libjbig0/xenial,now 2.1-3.1 amd64 [installed,automatic]
-libjpeg-turbo8/xenial-updates,xenial-security,now 1.4.2-0ubuntu3.1 amd64 [installed,automatic]
-libjpeg8/xenial,now 8c-2ubuntu8 amd64 [installed,automatic]
-libk5crypto3/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,automatic]
-libkeyutils1/xenial,now 1.5.9-8ubuntu1 amd64 [installed,automatic]
-libkmod2/xenial-updates,now 22-1ubuntu5.2 amd64 [installed]
-libkrb5-26-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libkrb5-3/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,automatic]
-libkrb5support0/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1 amd64 [installed,automatic]
-libldap-2.4-2/xenial-updates,now 2.4.42+dfsg-2ubuntu3.4 amd64 [installed,automatic]
-liblz4-1/xenial,now 0.0~r131-2ubuntu2 amd64 [installed]
-liblzma5/xenial,now 5.1.1alpha+20120614-2ubuntu2 amd64 [installed]
-libmediainfo0v5/xenial,now 18.12-1 amd64 [installed,automatic]
-libmms0/xenial,now 0.6.4-1 amd64 [installed,automatic]
-libmono-2.0-dev/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,automatic]
-libmono-accessibility4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-cairo4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-cecil-private-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-cecil-vb0.9-cil/stable-xenial,now 4.7-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-cil-dev/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-codecontracts4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-compilerservices-symbolwriter4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-corlib4.5-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-cscompmgd0.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-csharp4.0c-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-custommarshalers4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-data-tds4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-db2-1.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-debugger-soft4.0a-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-http4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-i18n-cjk4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-i18n-mideast4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-i18n-other4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-i18n-rare4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-i18n-west4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-i18n4.0-all/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-i18n4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-ldap4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-management4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-messaging-rabbitmq4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-messaging4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-build-engine4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-build-framework4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-build-tasks-v4.0-4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-build-utilities-v4.0-4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-build4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-csharp4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-visualbasic10.0-cil/stable-xenial,now 4.7-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-visualc10.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-microsoft-web-infrastructure1.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-oracle4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-parallel4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-peapi4.0a-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-posix4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-rabbitmq4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-relaxng4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-security4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-sharpzip4.84-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-simd4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-smdiagnostics0.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-sqlite4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-componentmodel-composition4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-componentmodel-dataannotations4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-configuration-install4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-configuration4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-core4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-data-datasetextensions4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-data-entity4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-data-linq4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-data-services-client4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-data-services4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-data4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-deployment4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-design4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-drawing-design4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-drawing4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-dynamic4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-enterpriseservices4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-identitymodel-selectors4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-identitymodel4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-io-compression-filesystem4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-io-compression4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-json-microsoft4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-json4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-ldap-protocols4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-ldap4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-management4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-messaging4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-net-http-formatting4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-net-http-webrequest4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-net-http4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-net4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-numerics-vectors4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-numerics4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-core2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-debugger2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-experimental2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-interfaces2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-linq2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-observable-aliases0.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-platformservices2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-providers2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-runtime-remoting2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-windows-forms2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reactive-windows-threading2.2-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-reflection-context4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-runtime-caching4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-runtime-durableinstancing4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-runtime-serialization-formatters-soap4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-runtime-serialization4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-runtime4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-security4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-servicemodel-activation4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-servicemodel-discovery4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-servicemodel-internals0.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-servicemodel-routing4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-servicemodel-web4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-servicemodel4.0a-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-serviceprocess4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-threading-tasks-dataflow4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-transactions4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-abstractions4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-applicationservices4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-dynamicdata4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-extensions-design4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-extensions4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-http-selfhost4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-http-webhost4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-http4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-mobile4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-mvc3.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-razor2.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-regularexpressions4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-routing4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-services4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-webpages-deployment2.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-webpages-razor2.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web-webpages2.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-web4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-windows-forms-datavisualization4.0a-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-windows-forms4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-windows4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-workflow-activities4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-workflow-componentmodel4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-workflow-runtime4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-xaml4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-xml-linq4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-xml-serialization4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system-xml4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-system4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-tasklets4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-webbrowser4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-webmatrix-data4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-windowsbase4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmono-xbuild-tasks4.0-cil/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-libmonosgen-2.0-1/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,automatic]
-libmonosgen-2.0-dev/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,automatic]
-libmount1/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
-libncurses5/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
-libncursesw5/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
-libnettle6/xenial-updates,xenial-security,now 3.2-1ubuntu0.16.04.1 amd64 [installed,automatic]
-libnunit-cil-dev/xenial,now 2.6.4+dfsg-1 all [installed,automatic]
-libnunit-console-runner2.6.3-cil/xenial,now 2.6.4+dfsg-1 all [installed,automatic]
-libnunit-core-interfaces2.6.3-cil/xenial,now 2.6.4+dfsg-1 all [installed,automatic]
-libnunit-core2.6.3-cil/xenial,now 2.6.4+dfsg-1 all [installed,automatic]
-libnunit-framework2.6.3-cil/xenial,now 2.6.4+dfsg-1 all [installed,automatic]
-libnunit-mocks2.6.3-cil/xenial,now 2.6.4+dfsg-1 all [installed,automatic]
-libnunit-util2.6.3-cil/xenial,now 2.6.4+dfsg-1 all [installed,automatic]
-libonig2/xenial-updates,xenial-security,now 5.9.6-1ubuntu0.1 amd64 [installed,automatic]
-libp11-kit0/xenial-updates,now 0.23.2-5~ubuntu16.04.1 amd64 [installed,automatic]
-libpam-modules/xenial-updates,now 1.1.8-3.2ubuntu2.1 amd64 [installed]
-libpam-modules-bin/xenial-updates,now 1.1.8-3.2ubuntu2.1 amd64 [installed]
-libpam-runtime/xenial-updates,now 1.1.8-3.2ubuntu2.1 all [installed]
-libpam0g/xenial-updates,now 1.1.8-3.2ubuntu2.1 amd64 [installed]
-libpcre3/xenial,now 2:8.38-3.1 amd64 [installed]
-libperl5.22/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6 amd64 [installed,automatic]
-libpixman-1-0/xenial,now 0.33.6-1 amd64 [installed,automatic]
-libpng12-0/xenial-updates,xenial-security,now 1.2.54-1ubuntu1.1 amd64 [installed,automatic]
-libprocps4/xenial-updates,xenial-security,now 2:3.3.10-4ubuntu2.4 amd64 [installed]
-libpython-stdlib/xenial-updates,now 2.7.12-1~16.04 amd64 [installed,automatic]
-libpython2.7-minimal/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,automatic]
-libpython2.7-stdlib/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,automatic]
-libreadline6/xenial,now 6.3-8ubuntu2 amd64 [installed]
-libroken18-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-librtmp1/xenial-updates,xenial-security,now 2.4+20151223.gitfa8646d-1ubuntu0.1 amd64 [installed,automatic]
-libsasl2-2/xenial-updates,now 2.1.26.dfsg1-14ubuntu0.1 amd64 [installed,automatic]
-libsasl2-modules/xenial-updates,now 2.1.26.dfsg1-14ubuntu0.1 amd64 [installed,automatic]
-libsasl2-modules-db/xenial-updates,now 2.1.26.dfsg1-14ubuntu0.1 amd64 [installed,automatic]
-libseccomp2/xenial-updates,now 2.3.1-2.1ubuntu2~16.04.1 amd64 [installed]
-libselinux1/xenial,now 2.4-3build2 amd64 [installed]
-libsemanage-common/xenial,now 2.3-1build3 all [installed]
-libsemanage1/xenial,now 2.3-1build3 amd64 [installed]
-libsepol1/xenial,now 2.4-2 amd64 [installed]
-libsmartcols1/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
-libsqlite3-0/xenial,now 3.11.0-1ubuntu1 amd64 [installed,upgradable to: 3.11.0-1ubuntu1.1]
-libss2/xenial,now 1.42.13-1ubuntu1 amd64 [installed]
-libssl1.0.0/now 1.0.2g-1ubuntu4.14 amd64 [installed,upgradable to: 1.0.2g-1ubuntu4.15]
-libstdc++6/xenial-updates,now 5.4.0-6ubuntu1~16.04.11 amd64 [installed]
-libsystemd0/xenial-updates,xenial-security,now 229-4ubuntu21.16 amd64 [installed]
-libtasn1-6/xenial-updates,xenial-security,now 4.7-3ubuntu0.16.04.3 amd64 [installed,automatic]
-libtiff5/xenial-updates,xenial-security,now 4.0.6-1ubuntu0.5 amd64 [installed,automatic]
-libtinfo5/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
-libudev1/xenial-updates,xenial-security,now 229-4ubuntu21.16 amd64 [installed]
-libusb-0.1-4/xenial,now 2:0.1.12-28 amd64 [installed]
-libustr-1.0-1/xenial,now 1.0.4-5 amd64 [installed]
-libuuid1/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
-libwind0-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1 amd64 [installed,automatic]
-libx11-6/xenial-updates,xenial-security,now 2:1.6.3-1ubuntu2.1 amd64 [installed,automatic]
-libx11-data/xenial-updates,xenial-security,now 2:1.6.3-1ubuntu2.1 all [installed,automatic]
-libxau6/xenial,now 1:1.0.8-1 amd64 [installed,automatic]
-libxcb-render0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
-libxcb-shm0/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
-libxcb1/xenial,now 1.11.1-1ubuntu1 amd64 [installed,automatic]
-libxdmcp6/xenial,now 1:1.1.2-1.1 amd64 [installed,automatic]
-libxext6/xenial,now 2:1.3.3-1 amd64 [installed,automatic]
-libxrender1/xenial,now 1:0.9.9-0ubuntu1 amd64 [installed,automatic]
-libzen0v5/xenial,now 0.4.37-1 amd64 [installed,automatic]
-locales/xenial-updates,now 2.23-0ubuntu11 all [installed]
-login/xenial-updates,xenial-security,now 1:4.2-3.1ubuntu5.3 amd64 [installed]
-lsb-base/xenial-updates,now 9.20160110ubuntu0.2 all [installed]
-make/xenial,now 4.1-6 amd64 [installed,automatic]
-makedev/xenial-updates,now 2.3.1-93ubuntu2~ubuntu16.04.1 all [installed]
-mawk/xenial,now 1.3.3-17ubuntu2 amd64 [installed]
-mediainfo/xenial,now 18.12-1 amd64 [installed]
-mime-support/xenial,now 3.59ubuntu1 all [installed,automatic]
-mono-4.0-gac/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-mono-devel/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed]
-mono-gac/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-mono-mcs/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-mono-roslyn/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-mono-runtime/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,automatic]
-mono-runtime-common/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,automatic]
-mono-runtime-sgen/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 amd64 [installed,automatic]
-mono-vbnc/stable-xenial,now 4.7-0xamarin1+ubuntu1604b1 all [installed]
-mono-xbuild/stable-xenial,now 5.18.0.240-0xamarin1+ubuntu1604b1 all [installed,automatic]
-mount/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
-multiarch-support/xenial-updates,now 2.23-0ubuntu11 amd64 [installed]
-ncurses-base/xenial,now 6.0+20160213-1ubuntu1 all [installed]
-ncurses-bin/xenial,now 6.0+20160213-1ubuntu1 amd64 [installed]
-openssl/now 1.0.2g-1ubuntu4.14 amd64 [installed,upgradable to: 1.0.2g-1ubuntu4.15]
-passwd/xenial-updates,xenial-security,now 1:4.2-3.1ubuntu5.3 amd64 [installed]
-patch/xenial-updates,xenial-security,now 2.7.5-1ubuntu0.16.04.1 amd64 [installed,automatic]
-perl/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6 amd64 [installed,automatic]
-perl-base/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6 amd64 [installed]
-perl-modules-5.22/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6 all [installed,automatic]
-pkg-config/xenial,now 0.29.1-0ubuntu1 amd64 [installed,automatic]
-procps/xenial-updates,xenial-security,now 2:3.3.10-4ubuntu2.4 amd64 [installed]
-python/xenial-updates,now 2.7.12-1~16.04 amd64 [installed]
-python-minimal/xenial-updates,now 2.7.12-1~16.04 amd64 [installed,automatic]
-python2.7/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,automatic]
-python2.7-minimal/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4 amd64 [installed,automatic]
-readline-common/xenial,now 6.3-8ubuntu2 all [installed]
-sed/xenial,now 4.2.2-7 amd64 [installed]
-sensible-utils/xenial-updates,xenial-security,now 0.0.9ubuntu0.16.04.1 all [installed]
-sqlite3/xenial,now 3.11.0-1ubuntu1 amd64 [installed,upgradable to: 3.11.0-1ubuntu1.1]
-systemd/xenial-updates,xenial-security,now 229-4ubuntu21.16 amd64 [installed]
-systemd-sysv/xenial-updates,xenial-security,now 229-4ubuntu21.16 amd64 [installed]
-sysv-rc/xenial,now 2.88dsf-59.3ubuntu2 all [installed]
-sysvinit-utils/xenial,now 2.88dsf-59.3ubuntu2 amd64 [installed]
-tar/xenial-updates,xenial-security,now 1.28-2.1ubuntu0.1 amd64 [installed]
-tzdata/xenial-updates,xenial-security,now 2018i-0ubuntu0.16.04 all [installed]
-ubuntu-keyring/xenial,now 2012.05.19 all [installed]
-ucf/xenial,now 3.0036 all [installed,automatic]
-unzip/xenial,now 6.0-20ubuntu1 amd64 [installed]
-util-linux/xenial-updates,now 2.27.1-6ubuntu3.6 amd64 [installed]
-xz-utils/xenial,now 5.1.1alpha+20120614-2ubuntu2 amd64 [installed,automatic]
-zlib1g/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1 amd64 [installed]
+adduser/xenial,now 3.113+nmu3ubuntu4
+apt/xenial-updates,xenial-security,now 1.2.29ubuntu0.1
+apt-transport-https/xenial-updates,xenial-security,now 1.2.29ubuntu0.1
+apt-utils/xenial-updates,xenial-security,now 1.2.29ubuntu0.1
+base-files/xenial-updates,now 9.4ubuntu4.8
+base-passwd/xenial,now 3.5.39
+bash/xenial-updates,xenial-security,now 4.3-14ubuntu1.2
+binutils/xenial-updates,xenial-security,now 2.26.1-1ubuntu1~16.04.8
+bsdutils/xenial-updates,now 1:2.27.1-6ubuntu3.6
+bzip2/xenial,now 1.0.6-8
+ca-certificates/xenial-updates,now 20170717~16.04.2
+ca-certificates-mono/now 5.18.0.240-0xamarin1+ubuntu1604b1
+cli-common/stable-xenial,now 0.9+xamarin8+ubuntu1604b1
+coreutils/xenial-updates,now 8.25-2ubuntu3~16.04
+curl/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12
+dash/xenial,now 0.5.8-2.1ubuntu2
+debconf/xenial,now 1.5.58ubuntu1
+debianutils/xenial,now 4.7
+diffutils/xenial,now 1:3.3-3
+dpkg/xenial-updates,now 1.18.4ubuntu1.5
+dpkg-dev/xenial-updates,now 1.18.4ubuntu1.5
+e2fslibs/xenial,now 1.42.13-1ubuntu1
+e2fsprogs/xenial,now 1.42.13-1ubuntu1
+findutils/xenial,now 4.6.0+git+20160126-2
+fontconfig-config/xenial-updates,xenial-security,now 2.11.94-0ubuntu1.1
+fonts-dejavu-core/xenial,now 2.35-1
+gcc-5-base/xenial-updates,now 5.4.0-6ubuntu1~16.04.11
+gcc-6-base/xenial,now 6.0.1-0ubuntu1
+gnupg/xenial-updates,xenial-security,now 1.4.20-1ubuntu3.3
+gpgv/xenial-updates,xenial-security,now 1.4.20-1ubuntu3.3
+grep/xenial-updates,now 2.25-1~16.04.1
+gzip/xenial,now 1.6-4ubuntu1
+hostname/xenial,now 3.16ubuntu2
+init/xenial-updates,now 1.29ubuntu4
+init-system-helpers/xenial-updates,now 1.29ubuntu4
+initscripts/xenial,now 2.88dsf-59.3ubuntu2
+insserv/xenial,now 1.14.0-5ubuntu3
+jq/xenial-updates,xenial-security,now 1.5+dfsg-1ubuntu0.1
+krb5-locales/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1
+libacl1/xenial,now 2.2.52-3
+libapparmor1/xenial-updates,xenial-security,now 2.10.95-0ubuntu2.10
+libapt-inst2.0/xenial-updates,xenial-security,now 1.2.29ubuntu0.1
+libapt-pkg5.0/xenial-updates,xenial-security,now 1.2.29ubuntu0.1
+libasn1-8-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libattr1/xenial,now 1:2.4.47-2
+libaudit-common/xenial-updates,now 1:2.4.5-1ubuntu2.1
+libaudit1/xenial-updates,now 1:2.4.5-1ubuntu2.1
+libblkid1/xenial-updates,now 2.27.1-6ubuntu3.6
+libbz2-1.0/xenial,now 1.0.6-8
+libc-bin/xenial-updates,now 2.23-0ubuntu11
+libc6/xenial-updates,now 2.23-0ubuntu11
+libcairo2/xenial,now 1.14.6-1
+libcap2/xenial,now 1:2.24-12
+libcap2-bin/xenial,now 1:2.24-12
+libcomerr2/xenial,now 1.42.13-1ubuntu1
+libcryptsetup4/xenial-updates,now 2:1.6.6-5ubuntu2.1
+libcurl3/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12
+libcurl3-gnutls/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12
+libcurl4-openssl-dev/xenial-updates,xenial-security,now 7.47.0-1ubuntu2.12
+libdb5.3/xenial-updates,xenial-security,now 5.3.28-11ubuntu0.1
+libdebconfclient0/xenial,now 0.198ubuntu1
+libdevmapper1.02.1/xenial,now 2:1.02.110-1ubuntu10
+libdpkg-perl/xenial-updates,now 1.18.4ubuntu1.5
+libexif12/xenial,now 0.6.21-2
+libexpat1/xenial-updates,xenial-security,now 2.1.0-7ubuntu0.16.04.3
+libfdisk1/xenial-updates,now 2.27.1-6ubuntu3.6
+libffi6/xenial,now 3.2.1-4
+libfontconfig1/xenial-updates,xenial-security,now 2.11.94-0ubuntu1.1
+libfreetype6/xenial-updates,xenial-security,now 2.6.1-0.1ubuntu2.3
+libgcc1/xenial,now 1:6.0.1-0ubuntu1
+libgcrypt20/xenial-updates,xenial-security,now 1.6.5-2ubuntu0.5
+libgdbm3/xenial,now 1.8.3-13.1
+libgdiplus/stable-xenial,now 5.6-0xamarin5+ubuntu1604b1
+libgif7/xenial-updates,now 5.1.4-0.3~16.04
+libglib2.0-0/xenial-updates,xenial-security,now 2.48.2-0ubuntu4.1
+libgmp10/xenial,now 2:6.1.0+dfsg-2
+libgnutls30/xenial-updates,now 3.4.10-4ubuntu1.4
+libgpg-error0/xenial,now 1.21-2ubuntu1
+libgssapi-krb5-2/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1
+libgssapi3-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libhcrypto4-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libheimbase1-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libheimntlm0-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libhogweed4/xenial-updates,xenial-security,now 3.2-1ubuntu0.16.04.1
+libhx509-5-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libidn11/xenial-updates,xenial-security,now 1.32-3ubuntu1.2
+libjbig0/xenial,now 2.1-3.1
+libjpeg-turbo8/xenial-updates,xenial-security,now 1.4.2-0ubuntu3.1
+libjpeg8/xenial,now 8c-2ubuntu8
+libk5crypto3/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1
+libkeyutils1/xenial,now 1.5.9-8ubuntu1
+libkmod2/xenial-updates,now 22-1ubuntu5.2
+libkrb5-26-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libkrb5-3/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1
+libkrb5support0/xenial-updates,xenial-security,now 1.13.2+dfsg-5ubuntu2.1
+libldap-2.4-2/xenial-updates,now 2.4.42+dfsg-2ubuntu3.4
+liblz4-1/xenial,now 0.0~r131-2ubuntu2
+liblzma5/xenial,now 5.1.1alpha+20120614-2ubuntu2
+libmediainfo0v5/xenial,now 18.12-1
+libmms0/xenial,now 0.6.4-1
+libmono-2.0-dev/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-accessibility4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-cairo4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-cecil-private-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-cecil-vb0.9-cil/stable-xenial,now 4.7-0xamarin1+ubuntu1604b1
+libmono-cil-dev/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-codecontracts4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-compilerservices-symbolwriter4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-corlib4.5-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-cscompmgd0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-csharp4.0c-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-custommarshalers4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-data-tds4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-db2-1.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-debugger-soft4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-http4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-i18n-cjk4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-i18n-mideast4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-i18n-other4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-i18n-rare4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-i18n-west4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-i18n4.0-all/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-i18n4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-ldap4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-management4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-messaging-rabbitmq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-messaging4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-build-engine4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-build-framework4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-build-tasks-v4.0-4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-build-utilities-v4.0-4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-build4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-csharp4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-visualbasic10.0-cil/stable-xenial,now 4.7-0xamarin1+ubuntu1604b1
+libmono-microsoft-visualc10.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-microsoft-web-infrastructure1.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-oracle4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-parallel4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-peapi4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-posix4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-rabbitmq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-relaxng4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-security4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-sharpzip4.84-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-simd4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-smdiagnostics0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-sqlite4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-componentmodel-composition4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-componentmodel-dataannotations4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-configuration-install4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-configuration4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-core4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-data-datasetextensions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-data-entity4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-data-linq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-data-services-client4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-data-services4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-data4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-deployment4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-design4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-drawing-design4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-drawing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-dynamic4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-enterpriseservices4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-identitymodel-selectors4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-identitymodel4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-io-compression-filesystem4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-io-compression4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-json-microsoft4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-json4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-ldap-protocols4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-ldap4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-management4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-messaging4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-net-http-formatting4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-net-http-webrequest4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-net-http4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-net4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-numerics-vectors4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-numerics4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-core2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-debugger2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-experimental2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-interfaces2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-linq2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-observable-aliases0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-platformservices2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-providers2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-runtime-remoting2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-windows-forms2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reactive-windows-threading2.2-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-reflection-context4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-runtime-caching4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-runtime-durableinstancing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-runtime-serialization-formatters-soap4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-runtime-serialization4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-runtime4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-security4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-servicemodel-activation4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-servicemodel-discovery4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-servicemodel-internals0.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-servicemodel-routing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-servicemodel-web4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-servicemodel4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-serviceprocess4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-threading-tasks-dataflow4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-transactions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-abstractions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-applicationservices4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-dynamicdata4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-extensions-design4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-extensions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-http-selfhost4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-http-webhost4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-http4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-mobile4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-mvc3.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-razor2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-regularexpressions4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-routing4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-services4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-webpages-deployment2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-webpages-razor2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web-webpages2.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-web4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-windows-forms-datavisualization4.0a-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-windows-forms4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-windows4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-workflow-activities4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-workflow-componentmodel4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-workflow-runtime4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-xaml4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-xml-linq4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-xml-serialization4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system-xml4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-system4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-tasklets4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-webbrowser4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-webmatrix-data4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-windowsbase4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmono-xbuild-tasks4.0-cil/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmonosgen-2.0-1/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmonosgen-2.0-dev/now 5.18.0.240-0xamarin1+ubuntu1604b1
+libmount1/xenial-updates,now 2.27.1-6ubuntu3.6
+libncurses5/xenial,now 6.0+20160213-1ubuntu1
+libncursesw5/xenial,now 6.0+20160213-1ubuntu1
+libnettle6/xenial-updates,xenial-security,now 3.2-1ubuntu0.16.04.1
+libnunit-cil-dev/xenial,now 2.6.4+dfsg-1
+libnunit-console-runner2.6.3-cil/xenial,now 2.6.4+dfsg-1
+libnunit-core-interfaces2.6.3-cil/xenial,now 2.6.4+dfsg-1
+libnunit-core2.6.3-cil/xenial,now 2.6.4+dfsg-1
+libnunit-framework2.6.3-cil/xenial,now 2.6.4+dfsg-1
+libnunit-mocks2.6.3-cil/xenial,now 2.6.4+dfsg-1
+libnunit-util2.6.3-cil/xenial,now 2.6.4+dfsg-1
+libonig2/xenial-updates,xenial-security,now 5.9.6-1ubuntu0.1
+libp11-kit0/xenial-updates,now 0.23.2-5~ubuntu16.04.1
+libpam-modules/xenial-updates,now 1.1.8-3.2ubuntu2.1
+libpam-modules-bin/xenial-updates,now 1.1.8-3.2ubuntu2.1
+libpam-runtime/xenial-updates,now 1.1.8-3.2ubuntu2.1
+libpam0g/xenial-updates,now 1.1.8-3.2ubuntu2.1
+libpcre3/xenial,now 2:8.38-3.1
+libperl5.22/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6
+libpixman-1-0/xenial,now 0.33.6-1
+libpng12-0/xenial-updates,xenial-security,now 1.2.54-1ubuntu1.1
+libprocps4/xenial-updates,xenial-security,now 2:3.3.10-4ubuntu2.4
+libpython-stdlib/xenial-updates,now 2.7.12-1~16.04
+libpython2.7-minimal/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4
+libpython2.7-stdlib/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4
+libreadline6/xenial,now 6.3-8ubuntu2
+libroken18-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+librtmp1/xenial-updates,xenial-security,now 2.4+20151223.gitfa8646d-1ubuntu0.1
+libsasl2-2/xenial-updates,now 2.1.26.dfsg1-14ubuntu0.1
+libsasl2-modules/xenial-updates,now 2.1.26.dfsg1-14ubuntu0.1
+libsasl2-modules-db/xenial-updates,now 2.1.26.dfsg1-14ubuntu0.1
+libseccomp2/xenial-updates,now 2.3.1-2.1ubuntu2~16.04.1
+libselinux1/xenial,now 2.4-3build2
+libsemanage-common/xenial,now 2.3-1build3
+libsemanage1/xenial,now 2.3-1build3
+libsepol1/xenial,now 2.4-2
+libsmartcols1/xenial-updates,now 2.27.1-6ubuntu3.6
+libsqlite3-0/xenial,now 3.11.0-1ubuntu1
+libss2/xenial,now 1.42.13-1ubuntu1
+libssl1.0.0/now 1.0.2g-1ubuntu4.14
+libstdc++6/xenial-updates,now 5.4.0-6ubuntu1~16.04.11
+libsystemd0/xenial-updates,xenial-security,now 229-4ubuntu21.16
+libtasn1-6/xenial-updates,xenial-security,now 4.7-3ubuntu0.16.04.3
+libtiff5/xenial-updates,xenial-security,now 4.0.6-1ubuntu0.5
+libtinfo5/xenial,now 6.0+20160213-1ubuntu1
+libudev1/xenial-updates,xenial-security,now 229-4ubuntu21.16
+libusb-0.1-4/xenial,now 2:0.1.12-28
+libustr-1.0-1/xenial,now 1.0.4-5
+libuuid1/xenial-updates,now 2.27.1-6ubuntu3.6
+libwind0-heimdal/xenial-updates,xenial-security,now 1.7~git20150920+dfsg-4ubuntu1.16.04.1
+libx11-6/xenial-updates,xenial-security,now 2:1.6.3-1ubuntu2.1
+libx11-data/xenial-updates,xenial-security,now 2:1.6.3-1ubuntu2.1
+libxau6/xenial,now 1:1.0.8-1
+libxcb-render0/xenial,now 1.11.1-1ubuntu1
+libxcb-shm0/xenial,now 1.11.1-1ubuntu1
+libxcb1/xenial,now 1.11.1-1ubuntu1
+libxdmcp6/xenial,now 1:1.1.2-1.1
+libxext6/xenial,now 2:1.3.3-1
+libxrender1/xenial,now 1:0.9.9-0ubuntu1
+libzen0v5/xenial,now 0.4.37-1
+locales/xenial-updates,now 2.23-0ubuntu11
+login/xenial-updates,xenial-security,now 1:4.2-3.1ubuntu5.3
+lsb-base/xenial-updates,now 9.20160110ubuntu0.2
+make/xenial,now 4.1-6
+makedev/xenial-updates,now 2.3.1-93ubuntu2~ubuntu16.04.1
+mawk/xenial,now 1.3.3-17ubuntu2
+mediainfo/xenial,now 18.12-1
+mime-support/xenial,now 3.59ubuntu1
+mono-4.0-gac/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-devel/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-gac/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-mcs/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-roslyn/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-runtime/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-runtime-common/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-runtime-sgen/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mono-vbnc/stable-xenial,now 4.7-0xamarin1+ubuntu1604b1
+mono-xbuild/now 5.18.0.240-0xamarin1+ubuntu1604b1
+mount/xenial-updates,now 2.27.1-6ubuntu3.6
+multiarch-support/xenial-updates,now 2.23-0ubuntu11
+ncurses-base/xenial,now 6.0+20160213-1ubuntu1
+ncurses-bin/xenial,now 6.0+20160213-1ubuntu1
+openssl/now 1.0.2g-1ubuntu4.14
+passwd/xenial-updates,xenial-security,now 1:4.2-3.1ubuntu5.3
+patch/xenial-updates,xenial-security,now 2.7.5-1ubuntu0.16.04.1
+perl/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6
+perl-base/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6
+perl-modules-5.22/xenial-updates,xenial-security,now 5.22.1-9ubuntu0.6
+pkg-config/xenial,now 0.29.1-0ubuntu1
+procps/xenial-updates,xenial-security,now 2:3.3.10-4ubuntu2.4
+python/xenial-updates,now 2.7.12-1~16.04
+python-minimal/xenial-updates,now 2.7.12-1~16.04
+python2.7/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4
+python2.7-minimal/xenial-updates,xenial-security,now 2.7.12-1ubuntu0~16.04.4
+readline-common/xenial,now 6.3-8ubuntu2
+sed/xenial,now 4.2.2-7
+sensible-utils/xenial-updates,xenial-security,now 0.0.9ubuntu0.16.04.1
+sqlite3/xenial,now 3.11.0-1ubuntu1
+systemd/xenial-updates,xenial-security,now 229-4ubuntu21.16
+systemd-sysv/xenial-updates,xenial-security,now 229-4ubuntu21.16
+sysv-rc/xenial,now 2.88dsf-59.3ubuntu2
+sysvinit-utils/xenial,now 2.88dsf-59.3ubuntu2
+tar/xenial-updates,xenial-security,now 1.28-2.1ubuntu0.1
+tzdata/xenial-updates,xenial-security,now 2018i-0ubuntu0.16.04
+ubuntu-keyring/xenial,now 2012.05.19
+ucf/xenial,now 3.0036
+unzip/xenial,now 6.0-20ubuntu1
+util-linux/xenial-updates,now 2.27.1-6ubuntu3.6
+xz-utils/xenial,now 5.1.1alpha+20120614-2ubuntu2
+zlib1g/xenial-updates,now 1:1.2.8.dfsg-2ubuntu4.1
