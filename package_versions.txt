@@ -282,11 +282,11 @@ libsqlite3-0/xenial-updates,xenial-security,now 3.11.0-1ubuntu1.1
 libss2/xenial,now 1.42.13-1ubuntu1
 libssl1.0.0/xenial-updates,xenial-security,now 1.0.2g-1ubuntu4.15
 libstdc++6/xenial-updates,now 5.4.0-6ubuntu1~16.04.11
-libsystemd0/xenial-updates,xenial-security,now 229-4ubuntu21.16
+libsystemd0/xenial-security,now 229-4ubuntu21.16
 libtasn1-6/xenial-updates,xenial-security,now 4.7-3ubuntu0.16.04.3
-libtiff5/xenial-updates,xenial-security,now 4.0.6-1ubuntu0.5
+libtiff5/now 4.0.6-1ubuntu0.5
 libtinfo5/xenial,now 6.0+20160213-1ubuntu1
-libudev1/xenial-updates,xenial-security,now 229-4ubuntu21.16
+libudev1/xenial-security,now 229-4ubuntu21.16
 libusb-0.1-4/xenial,now 2:0.1.12-28
 libustr-1.0-1/xenial,now 1.0.4-5
 libuuid1/xenial-updates,now 2.27.1-6ubuntu3.6
@@ -339,8 +339,8 @@ readline-common/xenial,now 6.3-8ubuntu2
 sed/xenial,now 4.2.2-7
 sensible-utils/xenial-updates,xenial-security,now 0.0.9ubuntu0.16.04.1
 sqlite3/xenial-updates,xenial-security,now 3.11.0-1ubuntu1.1
-systemd/xenial-updates,xenial-security,now 229-4ubuntu21.16
-systemd-sysv/xenial-updates,xenial-security,now 229-4ubuntu21.16
+systemd/xenial-security,now 229-4ubuntu21.16
+systemd-sysv/xenial-security,now 229-4ubuntu21.16
 sysv-rc/xenial,now 2.88dsf-59.3ubuntu2
 sysvinit-utils/xenial,now 2.88dsf-59.3ubuntu2
 tar/xenial-updates,xenial-security,now 1.28-2.1ubuntu0.1
