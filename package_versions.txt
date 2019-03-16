@@ -70,7 +70,7 @@ libfreetype6/xenial-updates,xenial-security,now 2.6.1-0.1ubuntu2.3
 libgcc1/xenial,now 1:6.0.1-0ubuntu1
 libgcrypt20/xenial-updates,xenial-security,now 1.6.5-2ubuntu0.5
 libgdbm3/xenial,now 1.8.3-13.1
-libgdiplus/stable-xenial,now 5.6-0xamarin5+ubuntu1604b1
+libgdiplus/now 5.6-0xamarin5+ubuntu1604b1
 libgif7/xenial-updates,now 5.1.4-0.3~16.04
 libglib2.0-0/xenial-updates,xenial-security,now 2.48.2-0ubuntu4.1
 libgmp10/xenial,now 2:6.1.0+dfsg-2
