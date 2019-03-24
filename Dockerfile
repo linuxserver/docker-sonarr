@@ -35,7 +35,6 @@ RUN \
 	/tmp/* \
 	/var/tmp/*
 
-
 # add local files
 COPY root/ /
 
