@@ -1,7 +1,7 @@
 adduser3.113+nmu3ubuntu4
-apt1.2.29ubuntu0.1
+apt1.2.31
 apt-transport-https1.2.31
-apt-utils1.2.29ubuntu0.1
+apt-utils1.2.31
 base-files9.4ubuntu4.8
 base-passwd3.5.39
 bash4.3-14ubuntu1.2
@@ -39,8 +39,8 @@ jq1.5+dfsg-1ubuntu0.1
 krb5-locales1.13.2+dfsg-5ubuntu2.1
 libacl12.2.52-3
 libapparmor12.10.95-0ubuntu2.10
-libapt-inst2.01.2.29ubuntu0.1
-libapt-pkg5.01.2.29ubuntu0.1
+libapt-inst2.01.2.31
+libapt-pkg5.01.2.31
 libasn1-8-heimdal1.7~git20150920+dfsg-4ubuntu1.16.04.1
 libattr11:2.4.47-2
 libaudit11:2.4.5-1ubuntu2.1
