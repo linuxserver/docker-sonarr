@@ -96,7 +96,7 @@ libkrb5support01.13.2+dfsg-5ubuntu2.1
 libldap-2.4-22.4.42+dfsg-2ubuntu3.4
 liblz4-10.0~r131-2ubuntu2
 liblzma55.1.1alpha+20120614-2ubuntu2
-libmediainfo0v518.12-1
+libmediainfo0v519.04-1
 libmms00.6.4-1
 libmono-2.0-dev5.20.1.19-0xamarin2+ubuntu1604b1
 libmono-accessibility4.0-cil5.20.1.19-0xamarin2+ubuntu1604b1
@@ -307,7 +307,7 @@ lsb-base9.20160110ubuntu0.2
 make4.1-6
 makedev2.3.1-93ubuntu2~ubuntu16.04.1
 mawk1.3.3-17ubuntu2
-mediainfo18.12-1
+mediainfo19.04-1
 mime-support3.59ubuntu1
 mono-4.0-gac5.20.1.19-0xamarin2+ubuntu1604b1
 mono-devel5.20.1.19-0xamarin2+ubuntu1604b1
