@@ -51,6 +51,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "10.05.19:", desc: "Rebase to Bionic." }
   - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
   - { date: "01.02.19:", desc: "Multi arch images and pipeline build logic" }
   - { date: "15.12.17:", desc: "Fix continuation lines." }
