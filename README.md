@@ -41,6 +41,16 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v7-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Stable releases from Sonarr (currently v2) |
+| develop | Development releases from Sonarr (currently v2) |
+| preview | Preview releases from Sonarr (currently v3) |
+| 5.14 | Stable Sonarr releases, but run on Mono 5.14 |
 
 ## Usage
 
@@ -61,16 +71,6 @@ docker create \
   --restart unless-stopped \
   linuxserver/sonarr
 ```
-
-### Version Tags
-
-This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
-
-| Tag | Description |
-| :----: | --- |
-| latest | stable builds from the master branch of sonarr (currently v2) |
-| develop | development builds from the develop branch of sonarr (currently v2) |
-| preview | preview builds from the phantom-develop branch of sonarr (currently v3) |
 
 
 ### docker-compose
