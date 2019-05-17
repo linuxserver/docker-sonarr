@@ -14,20 +14,13 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
-# Optional Block
-optional_block_1: true
-optional_block_1_items:
-  - |
-    ### Version Tags
-    
-    This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
-    
-    | Tag | Description |
-    | :----: | --- |
-    | latest | stable builds from the master branch of sonarr (currently v2) |
-    | develop | development builds from the develop branch of sonarr (currently v2) |
-    | preview | preview builds from the phantom-develop branch of sonarr (currently v3) |
-    
+# development version
+development_versions: true
+development_versions_items:
+  - { tag: "latest", desc: "Stable releases from Sonarr (currently v2)" }
+  - { tag: "develop", desc: "Development releases from Sonarr (currently v2)" }
+  - { tag: "preview", desc: "Preview releases from Sonarr (currently v3)" }
+  - { tag: "5.14", desc: "Stable Sonarr releases, but run on Mono 5.14" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
