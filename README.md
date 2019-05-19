@@ -41,6 +41,16 @@ The architectures supported by this image are:
 | arm64 | arm64v8-latest |
 | armhf | arm32v7-latest |
 
+## Version Tags
+
+This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
+
+| Tag | Description |
+| :----: | --- |
+| latest | Stable releases from Sonarr (currently v2) |
+| develop | Development releases from Sonarr (currently v2) |
+| preview | Preview releases from Sonarr (currently v3) |
+| 5.14 | Stable Sonarr releases, but run on Mono 5.14 |
 
 ## Usage
 
@@ -61,16 +71,6 @@ docker create \
   --restart unless-stopped \
   linuxserver/sonarr
 ```
-
-### Version Tags
-
-This image provides various versions that are available via tags. `latest` tag usually provides the latest stable version. Others are considered under development and caution must be exercised when using them.
-
-| Tag | Description |
-| :----: | --- |
-| latest | stable builds from the master branch of sonarr (currently v2) |
-| develop | development builds from the develop branch of sonarr (currently v2) |
-| preview | preview builds from the phantom-develop branch of sonarr (currently v3) |
 
 
 ### docker-compose
@@ -193,6 +193,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.05.19:** - Rebase to Bionic.
 * **23.03.19:** - Switching to new Base images, shift to arm32v7 tag.
 * **03.02.19:** - Add package version and package author, remove update folder.
 * **01.02.19:** - Multi arch images and pipeline build logic.
