@@ -4,7 +4,7 @@ apt-transport-https1.6.10
 apt-utils1.6.10
 base-files10.1ubuntu2.4
 base-passwd3.5.44
-bash4.4.18-2ubuntu1
+bash4.4.18-2ubuntu1.1
 binutils2.30-21ubuntu1~18.04.1
 binutils-common2.30-21ubuntu1~18.04.1
 binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.1
@@ -14,9 +14,9 @@ ca-certificates20180409
 ca-certificates-mono5.20.1.19-0xamarin2+ubuntu1804b1
 cli-common0.9+xamarin8+ubuntu1804b1
 coreutils8.28-1ubuntu1
-curl7.58.0-2ubuntu3.6
+curl7.58.0-2ubuntu3.7
 dash0.5.8-2.10
-debconf1.5.66
+debconf1.5.66ubuntu1
 debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.2
@@ -61,9 +61,9 @@ libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1
 libcom-err21.44.1-1ubuntu1.1
-libcurl3-gnutls7.58.0-2ubuntu3.6
-libcurl47.58.0-2ubuntu3.6
-libcurl4-openssl-dev7.58.0-2ubuntu3.6
+libcurl3-gnutls7.58.0-2ubuntu3.7
+libcurl47.58.0-2ubuntu3.7
+libcurl4-openssl-dev7.58.0-2ubuntu3.7
 libdb5.35.3.28-13.1ubuntu1
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.1
