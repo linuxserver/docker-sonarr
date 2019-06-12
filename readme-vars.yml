@@ -36,6 +36,7 @@ param_ports:
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Sonarr"}
+  - { env_var: "UMASK_SET", env_value: "022", desc: "control permissions of files and directories created by Sonarr"}
 
 # application setup block
 app_setup_block_enabled: true
