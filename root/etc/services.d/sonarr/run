@@ -1,6 +1,8 @@
 #!/usr/bin/with-contenv bash
 
-umask 022
+UMASK_SET=${UMASK_SET:-022}
+
+umask "$UMASK_SET"
 
 cd /opt/NzbDrone || exit
 
