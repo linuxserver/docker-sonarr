@@ -9,7 +9,7 @@ binutils2.30-21ubuntu1~18.04.2
 binutils-common2.30-21ubuntu1~18.04.2
 binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.2
 bsdutils1:2.31.1-0.4ubuntu3.3
-bzip21.0.6-8.1
+bzip21.0.6-8.1ubuntu0.1
 ca-certificates20180409
 ca-certificates-mono5.20.1.19-0xamarin2+ubuntu1804b1
 cli-common0.9+xamarin8+ubuntu1804b1
@@ -55,7 +55,7 @@ libaudit-common1:2.8.2-1ubuntu1
 libbinutils2.30-21ubuntu1~18.04.2
 libblkid12.31.1-0.4ubuntu3.3
 libbsd00.8.7-1
-libbz2-1.01.0.6-8.1
+libbz2-1.01.0.6-8.1ubuntu0.1
 libc62.27-3ubuntu1
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
@@ -68,7 +68,7 @@ libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.1
 libexif120.6.21-4
-libexpat12.2.5-3
+libexpat12.2.5-3ubuntu0.1
 libext2fs21.44.1-1ubuntu1.1
 libfdisk12.31.1-0.4ubuntu3.3
 libffi63.2.1-8
@@ -293,13 +293,13 @@ libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.3
 libsqlite3-03.22.0-1ubuntu0.1
 libss21.44.1-1ubuntu1.1
-libssl1.11.1.1-1ubuntu2.1~18.04.2
+libssl1.11.1.1-1ubuntu2.1~18.04.3
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.22
+libsystemd0237-3ubuntu10.23
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.2
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.22
+libudev1237-3ubuntu10.23
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.3
 libwind0-heimdal7.5.0+dfsg-1
@@ -335,7 +335,7 @@ mount2.31.1-0.4ubuntu3.3
 multiarch-support2.27-3ubuntu1
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-openssl1.1.1-1ubuntu2.1~18.04.2
+openssl1.1.1-1ubuntu2.1~18.04.3
 passwd1:4.5-1ubuntu2
 patch2.7.6-2ubuntu1
 perl5.26.1-6ubuntu0.3
