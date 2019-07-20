@@ -4,7 +4,7 @@ apt-transport-https1.6.11
 apt-utils1.6.11
 base-files10.1ubuntu2.4
 base-passwd3.5.44
-bash4.4.18-2ubuntu1.1
+bash4.4.18-2ubuntu1.2
 binutils2.30-21ubuntu1~18.04.2
 binutils-common2.30-21ubuntu1~18.04.2
 binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.2
@@ -80,7 +80,7 @@ libgdbm51.14.1-6
 libgdbm-compat41.14.1-6
 libgdiplus5.6.1-0xamarin1+ubuntu1804b1
 libgif75.1.4-2
-libglib2.0-02.56.4-0ubuntu0.18.04.3
+libglib2.0-02.56.4-0ubuntu0.18.04.4
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.1
 libgpg-error01.27-6
@@ -295,11 +295,11 @@ libsqlite3-03.22.0-1ubuntu0.1
 libss21.44.1-1ubuntu1.1
 libssl1.11.1.1-1ubuntu2.1~18.04.3
 libstdc++68.3.0-6ubuntu1~18.04.1
-libsystemd0237-3ubuntu10.23
+libsystemd0237-3ubuntu10.24
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.2
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.23
+libudev1237-3ubuntu10.24
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.3
 libwind0-heimdal7.5.0+dfsg-1
@@ -355,7 +355,7 @@ sensible-utils0.0.12
 sqlite33.22.0-1ubuntu0.1
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.1
-tzdata2019a-0ubuntu0.18.04
+tzdata2019b-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
 unzip6.0-21ubuntu1
