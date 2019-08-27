@@ -21,7 +21,7 @@ debianutils4.8.4
 diffutils1:3.6-1
 dirmngr2.2.4-1ubuntu1.2
 dpkg1.19.0.5ubuntu2.1
-dpkg-dev1.19.0.5ubuntu2.1
+dpkg-dev1.19.0.5ubuntu2.2
 e2fsprogs1.44.1-1ubuntu1.1
 fdisk2.31.1-0.4ubuntu3.3
 findutils4.6.0+git+20170828-2
@@ -66,7 +66,7 @@ libcurl47.58.0-2ubuntu3.7
 libcurl4-openssl-dev7.58.0-2ubuntu3.7
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
-libdpkg-perl1.19.0.5ubuntu2.1
+libdpkg-perl1.19.0.5ubuntu2.2
 libexif120.6.21-4
 libexpat12.2.5-3ubuntu0.1
 libext2fs21.44.1-1ubuntu1.1
@@ -79,7 +79,7 @@ libgcrypt201.8.1-4ubuntu1.1
 libgdbm51.14.1-6
 libgdbm-compat41.14.1-6
 libgdiplus5.6-0xamarin5+ubuntu1804b1
-libgif75.1.4-2
+libgif75.1.4-2ubuntu0.1
 libglib2.0-02.56.4-0ubuntu0.18.04.4
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.1
