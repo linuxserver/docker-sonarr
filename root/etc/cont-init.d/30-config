@@ -4,6 +4,13 @@
 [[ -e /config/nzbdrone.pid ]] && \
 	rm -rf /config/nzbdrone.pid
 
+# create backup directory in tmp and assign necessary permissions
+mkdir /tmp/sonarr_backup
+chown -R abc:abc \
+	/tmp/sonarr_backup
+chmod -R 776 \
+	/tmp/sonarr_backup
+
 # permissions
 chown -R abc:abc \
 	/opt/NzbDrone
