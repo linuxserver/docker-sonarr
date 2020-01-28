@@ -54,7 +54,7 @@ libaudit11:2.8.2-1ubuntu1
 libaudit-common1:2.8.2-1ubuntu1
 libbinutils2.30-21ubuntu1~18.04.2
 libblkid12.31.1-0.4ubuntu3.4
-libbsd00.8.7-1
+libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
 libc62.27-3ubuntu1
 libcairo21.15.10-2ubuntu0.1
@@ -75,14 +75,14 @@ libffi63.2.1-8
 libfontconfig12.12.6-0ubuntu2
 libfreetype62.8.1-2ubuntu2
 libgcc11:8.3.0-6ubuntu1~18.04.1
-libgcrypt201.8.1-4ubuntu1.1
+libgcrypt201.8.1-4ubuntu1.2
 libgdbm51.14.1-6
 libgdbm-compat41.14.1-6
 libgdiplus5.6-0xamarin5+ubuntu1804b1
 libgif75.1.4-2ubuntu0.1
 libglib2.0-02.56.4-0ubuntu0.18.04.4
 libgmp102:6.1.2+dfsg-2
-libgnutls303.5.18-1ubuntu1.1
+libgnutls303.5.18-1ubuntu1.2
 libgpg-error01.27-6
 libgssapi3-heimdal7.5.0+dfsg-1
 libgssapi-krb5-21.16-2ubuntu0.1
@@ -350,6 +350,7 @@ python2.72.7.17-1~18.04
 python2.7-minimal2.7.17-1~18.04
 python-minimal2.7.15~rc1-1
 readline-common7.0-3
+repo-mediaarea1.0-12
 sed4.4-2
 sensible-utils0.0.12
 sqlite33.22.0-1ubuntu0.2
