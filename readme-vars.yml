@@ -26,9 +26,9 @@ development_versions_items:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "<path/to/data>", desc: "Database and sonarr configs" }
-  - { vol_path: "/tv", vol_host_path: "<path/to/tvseries>", desc: "Location of TV library on disk (See note in Application setup)" }
-  - { vol_path: "/downloads", vol_host_path: "<path/to/downloadclient-downloads>", desc: "Location of download managers output directory (See note in Application setup)" }
+  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Database and sonarr configs" }
+  - { vol_path: "/tv", vol_host_path: "/path/to/tvseries", desc: "Location of TV library on disk (See note in Application setup)" }
+  - { vol_path: "/downloads", vol_host_path: "/path/to/downloadclient-downloads", desc: "Location of download managers output directory (See note in Application setup)" }
 
 param_usage_include_ports: true
 param_ports:
