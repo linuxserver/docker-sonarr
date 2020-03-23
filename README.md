@@ -80,9 +80,9 @@ docker create \
   -e TZ=Europe/London \
   -e UMASK_SET=022 `#optional` \
   -p 8989:8989 \
-  -v <path/to/data>:/config \
-  -v <path/to/tvseries>:/tv \
-  -v <path/to/downloadclient-downloads>:/downloads \
+  -v /path/to/data:/config \
+  -v /path/to/tvseries:/tv \
+  -v /path/to/downloadclient-downloads:/downloads \
   --restart unless-stopped \
   linuxserver/sonarr
 ```
@@ -105,9 +105,9 @@ services:
       - TZ=Europe/London
       - UMASK_SET=022 #optional
     volumes:
-      - <path/to/data>:/config
-      - <path/to/tvseries>:/tv
-      - <path/to/downloadclient-downloads>:/downloads
+      - /path/to/data:/config
+      - /path/to/tvseries:/tv
+      - /path/to/downloadclient-downloads:/downloads
     ports:
       - 8989:8989
     restart: unless-stopped
