@@ -27,7 +27,7 @@ fdisk2.31.1-0.4ubuntu3.5
 findutils4.6.0+git+20170828-2
 fontconfig-config2.12.6-0ubuntu2
 fonts-dejavu-core2.37-1
-gcc-8-base8.3.0-6ubuntu1~18.04.1
+gcc-8-base8.3.0-26ubuntu1~18.04
 gnupg2.2.4-1ubuntu1.2
 gnupg-l10n2.2.4-1ubuntu1.2
 gnupg-utils2.2.4-1ubuntu1.2
@@ -74,13 +74,13 @@ libfdisk12.31.1-0.4ubuntu3.5
 libffi63.2.1-8
 libfontconfig12.12.6-0ubuntu2
 libfreetype62.8.1-2ubuntu2
-libgcc11:8.3.0-6ubuntu1~18.04.1
+libgcc11:8.3.0-26ubuntu1~18.04
 libgcrypt201.8.1-4ubuntu1.2
 libgdbm51.14.1-6
 libgdbm-compat41.14.1-6
 libgdiplus5.6-0xamarin5+ubuntu1804b1
 libgif75.1.4-2ubuntu0.1
-libglib2.0-02.56.4-0ubuntu0.18.04.4
+libglib2.0-02.56.4-0ubuntu0.18.04.6
 libgmp102:6.1.2+dfsg-2
 libgnutls303.5.18-1ubuntu1.3
 libgpg-error01.27-6
@@ -294,7 +294,7 @@ libsmartcols12.31.1-0.4ubuntu3.5
 libsqlite3-03.22.0-1ubuntu0.3
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
-libstdc++68.3.0-6ubuntu1~18.04.1
+libstdc++68.3.0-26ubuntu1~18.04
 libsystemd0237-3ubuntu10.39
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.3
