@@ -18,7 +18,7 @@ RUN \
  apt-get install -y \
         jq && \
  echo "**** install sonarr ****" && \
- mkdir -p /opt/NzbDrone && \
+ mkdir -p /app/sonarr/bin && \
   if [ -z ${SONARR_VERSION+x} ]; then \
 	SONARR_VERSION=$(curl -sX GET https://services.sonarr.tv/v1/download/${SONARR_BRANCH} \
 	| jq -r '.version'); \
@@ -28,7 +28,7 @@ RUN \
 	"https://download.sonarr.tv/v2/${SONARR_BRANCH}/mono/NzbDrone.${SONARR_BRANCH}.${SONARR_VERSION}.mono.tar.gz" && \
  tar xf \
 	/tmp/sonarr.tar.gz -C \
-	/opt/NzbDrone --strip-components=1 && \
+	/app/sonarr/bin --strip-components=1 && \
  echo "**** cleanup ****" && \
  apt-get clean && \
  rm -rf \
