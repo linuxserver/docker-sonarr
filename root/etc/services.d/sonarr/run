@@ -4,7 +4,7 @@ UMASK_SET=${UMASK_SET:-022}
 
 umask "$UMASK_SET"
 
-cd /opt/NzbDrone || exit
+cd /app/sonarr/bin || exit
 
 exec \
 	s6-setuidgid abc mono --debug NzbDrone.exe \
