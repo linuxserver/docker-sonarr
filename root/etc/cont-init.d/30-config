@@ -6,5 +6,5 @@
 
 # permissions
 chown -R abc:abc \
-	/usr/lib/sonarr \
+	/app/sonarr \
 	/config
