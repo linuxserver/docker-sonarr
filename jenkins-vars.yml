@@ -25,3 +25,6 @@ repo_vars:
   - CI_DOCKERENV='TZ=US/Pacific'
   - CI_AUTH='user:password'
   - CI_WEBPATH=''
+sponsor_links:
+  - { name: "Sonarr", url: "https://sonarr.tv/donate" }
+  
