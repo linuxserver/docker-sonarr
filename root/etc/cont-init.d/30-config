@@ -6,4 +6,4 @@
 
 # permissions
 chown -R abc:abc \
-	/opt/NzbDrone
+	/app/sonarr/bin
