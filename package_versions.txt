@@ -5,9 +5,9 @@ apt-utils1.6.12
 base-files10.1ubuntu2.8
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
-binutils2.30-21ubuntu1~18.04.2
-binutils-common2.30-21ubuntu1~18.04.2
-binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.2
+binutils2.30-21ubuntu1~18.04.3
+binutils-common2.30-21ubuntu1~18.04.3
+binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.3
 bsdutils1:2.31.1-0.4ubuntu3.6
 bzip21.0.6-8.1ubuntu0.2
 ca-certificates20180409
@@ -52,7 +52,7 @@ libassuan02.5.1-2
 libattr11:2.4.47-2build1
 libaudit11:2.8.2-1ubuntu1
 libaudit-common1:2.8.2-1ubuntu1
-libbinutils2.30-21ubuntu1~18.04.2
+libbinutils2.30-21ubuntu1~18.04.3
 libblkid12.31.1-0.4ubuntu3.6
 libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
