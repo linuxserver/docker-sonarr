@@ -106,7 +106,7 @@ libldap-2.4-22.4.45+dfsg-1ubuntu1.4
 libldap-common2.4.45+dfsg-1ubuntu1.4
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
-libmediainfo0v517.12-1ubuntu0.1
+libmediainfo0v520.03-1
 libmms00.6.4-2
 libmono-2.0-dev5.20.1.34-0xamarin4+ubuntu1804b1
 libmono-accessibility4.0-cil5.20.1.34-0xamarin4+ubuntu1804b1
@@ -299,7 +299,6 @@ libsystemd0237-3ubuntu10.39
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
-libtinyxml2-66.0.0+dfsg-1
 libudev1237-3ubuntu10.39
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
@@ -313,14 +312,14 @@ libxcb-shm01.13-2~ubuntu18.04
 libxdmcp61:1.1.2-3
 libxext62:1.3.3-1
 libxrender11:0.9.10-1
-libzen0v50.4.37-1
+libzen0v50.4.38-1
 libzstd11.3.3+dfsg-2ubuntu1.1
 locales2.27-3ubuntu1
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 make4.1-9.1ubuntu1
 mawk1.3.3-17ubuntu3
-mediainfo17.12-1
+mediainfo20.03-1
 mime-support3.60ubuntu1
 mono-4.0-gac5.20.1.34-0xamarin4+ubuntu1804b1
 mono-devel5.20.1.34-0xamarin4+ubuntu1804b1
