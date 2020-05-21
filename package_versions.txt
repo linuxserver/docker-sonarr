@@ -1,7 +1,7 @@
 adduser3.116ubuntu1
-apt1.6.12
-apt-transport-https1.6.12
-apt-utils1.6.12
+apt1.6.12ubuntu0.1
+apt-transport-https1.6.12ubuntu0.1
+apt-utils1.6.12ubuntu0.1
 base-files10.1ubuntu2.8
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
@@ -45,8 +45,8 @@ init-system-helpers1.51
 jq1.5+dfsg-2
 krb5-locales1.16-2ubuntu0.1
 libacl12.2.52-3build1
-libapt-inst2.01.6.12
-libapt-pkg5.01.6.12
+libapt-inst2.01.6.12ubuntu0.1
+libapt-pkg5.01.6.12ubuntu0.1
 libasn1-8-heimdal7.5.0+dfsg-1
 libassuan02.5.1-2
 libattr11:2.4.47-2build1
@@ -67,7 +67,7 @@ libcurl4-openssl-dev7.58.0-2ubuntu3.8
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.3
-libexif120.6.21-4ubuntu0.1
+libexif120.6.21-4ubuntu0.2
 libexpat12.2.5-3ubuntu0.2
 libext2fs21.44.1-1ubuntu1.3
 libfdisk12.31.1-0.4ubuntu3.6
@@ -102,8 +102,8 @@ libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.1
 libkrb5support01.16-2ubuntu0.1
 libksba81.3.5-2
-libldap-2.4-22.4.45+dfsg-1ubuntu1.4
-libldap-common2.4.45+dfsg-1ubuntu1.4
+libldap-2.4-22.4.45+dfsg-1ubuntu1.5
+libldap-common2.4.45+dfsg-1ubuntu1.5
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
 libmediainfo0v520.03-1
@@ -295,11 +295,11 @@ libsqlite3-03.22.0-1ubuntu0.3
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.5
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.39
+libsystemd0237-3ubuntu10.40
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.39
+libudev1237-3ubuntu10.40
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
 libwind0-heimdal7.5.0+dfsg-1
@@ -356,7 +356,7 @@ sensible-utils0.0.12
 sqlite33.22.0-1ubuntu0.3
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.1
-tzdata2019c-0ubuntu0.18.04
+tzdata2020a-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
 unzip6.0-21ubuntu1
