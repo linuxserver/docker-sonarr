@@ -10,7 +10,7 @@ binutils-common2.30-21ubuntu1~18.04.3
 binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.3
 bsdutils1:2.31.1-0.4ubuntu3.6
 bzip21.0.6-8.1ubuntu0.2
-ca-certificates20180409
+ca-certificates20190110~18.04.1
 ca-certificates-mono5.14.0.177-0xamarin3+ubuntu1804b1
 cli-common0.9+xamarin7+ubuntu1804b1
 coreutils8.28-1ubuntu1
