@@ -14,7 +14,7 @@ ca-certificates20190110~18.04.1
 ca-certificates-mono5.14.0.177-0xamarin3+ubuntu1804b1
 cli-common0.9+xamarin7+ubuntu1804b1
 coreutils8.28-1ubuntu1
-curl7.58.0-2ubuntu3.8
+curl7.58.0-2ubuntu3.9
 dash0.5.8-2.10
 debconf1.5.66ubuntu1
 debianutils4.8.4
@@ -61,9 +61,9 @@ libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1
 libcom-err21.44.1-1ubuntu1.3
-libcurl3-gnutls7.58.0-2ubuntu3.8
-libcurl47.58.0-2ubuntu3.8
-libcurl4-openssl-dev7.58.0-2ubuntu3.8
+libcurl3-gnutls7.58.0-2ubuntu3.9
+libcurl47.58.0-2ubuntu3.9
+libcurl4-openssl-dev7.58.0-2ubuntu3.9
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.3
@@ -305,7 +305,7 @@ libuuid12.31.1-0.4ubuntu3.6
 libwind0-heimdal7.5.0+dfsg-1
 libx11-62:1.6.4-3ubuntu0.2
 libx11-data2:1.6.4-3ubuntu0.2
-libxau61:1.0.8-1
+libxau61:1.0.8-1ubuntu1
 libxcb11.13-2~ubuntu18.04
 libxcb-render01.13-2~ubuntu18.04
 libxcb-shm01.13-2~ubuntu18.04
