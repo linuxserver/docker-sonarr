@@ -2,7 +2,7 @@ adduser3.116ubuntu1
 apt1.6.12ubuntu0.1
 apt-transport-https1.6.12ubuntu0.1
 apt-utils1.6.12ubuntu0.1
-base-files10.1ubuntu2.8
+base-files10.1ubuntu2.9
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 binutils2.30-21ubuntu1~18.04.4
@@ -106,7 +106,7 @@ libldap-2.4-22.4.45+dfsg-1ubuntu1.6
 libldap-common2.4.45+dfsg-1ubuntu1.6
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
-libmediainfo0v520.03-1
+libmediainfo0v520.08-1
 libmms00.6.4-2
 libmono-2.0-dev5.20.1.34-0xamarin4+ubuntu1804b1
 libmono-accessibility4.0-cil5.20.1.34-0xamarin4+ubuntu1804b1
@@ -295,11 +295,11 @@ libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.41
+libsystemd0237-3ubuntu10.42
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.41
+libudev1237-3ubuntu10.42
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
 libwind0-heimdal7.5.0+dfsg-1
@@ -319,7 +319,7 @@ login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 make4.1-9.1ubuntu1
 mawk1.3.3-17ubuntu3
-mediainfo20.03-1
+mediainfo20.08-1
 mime-support3.60ubuntu1
 mono-4.0-gac5.20.1.34-0xamarin4+ubuntu1804b1
 mono-devel5.20.1.34-0xamarin4+ubuntu1804b1
