@@ -2,7 +2,7 @@ adduser3.116ubuntu1
 apt1.6.12ubuntu0.1
 apt-transport-https1.6.12ubuntu0.1
 apt-utils1.6.12ubuntu0.1
-base-files10.1ubuntu2.8
+base-files10.1ubuntu2.9
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 binutils2.30-21ubuntu1~18.04.4
@@ -14,7 +14,7 @@ ca-certificates20190110~18.04.1
 ca-certificates-mono5.14.0.177-0xamarin3+ubuntu1804b1
 cli-common0.9+xamarin7+ubuntu1804b1
 coreutils8.28-1ubuntu1
-curl7.58.0-2ubuntu3.9
+curl7.58.0-2ubuntu3.10
 dash0.5.8-2.10
 debconf1.5.66ubuntu1
 debianutils4.8.4
@@ -61,9 +61,9 @@ libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
 libc-bin2.27-3ubuntu1.2
 libcom-err21.44.1-1ubuntu1.3
-libcurl3-gnutls7.58.0-2ubuntu3.9
-libcurl47.58.0-2ubuntu3.9
-libcurl4-openssl-dev7.58.0-2ubuntu3.9
+libcurl3-gnutls7.58.0-2ubuntu3.10
+libcurl47.58.0-2ubuntu3.10
+libcurl4-openssl-dev7.58.0-2ubuntu3.10
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.3
@@ -295,11 +295,11 @@ libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.41
+libsystemd0237-3ubuntu10.42
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.41
+libudev1237-3ubuntu10.42
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.6
 libwind0-heimdal7.5.0+dfsg-1
