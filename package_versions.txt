@@ -2,7 +2,7 @@ adduser3.116ubuntu1
 apt1.6.12ubuntu0.1
 apt-transport-https1.6.12ubuntu0.1
 apt-utils1.6.12ubuntu0.1
-base-files10.1ubuntu2.9
+base-files10.1ubuntu2.10
 base-passwd3.5.44
 bash4.4.18-2ubuntu1.2
 binutils2.30-21ubuntu1~18.04.4
@@ -266,10 +266,10 @@ libnunit-mocks2.6.3-cil2.6.4+dfsg-1
 libnunit-util2.6.3-cil2.6.4+dfsg-1
 libonig46.7.0-1
 libp11-kit00.23.9-2
-libpam0g1.1.8-3.6ubuntu2.18.04.1
-libpam-modules1.1.8-3.6ubuntu2.18.04.1
-libpam-modules-bin1.1.8-3.6ubuntu2.18.04.1
-libpam-runtime1.1.8-3.6ubuntu2.18.04.1
+libpam0g1.1.8-3.6ubuntu2.18.04.2
+libpam-modules1.1.8-3.6ubuntu2.18.04.2
+libpam-modules-bin1.1.8-3.6ubuntu2.18.04.2
+libpam-runtime1.1.8-3.6ubuntu2.18.04.2
 libpcre32:8.39-9
 libperl5.265.26.1-6ubuntu0.3
 libpixman-1-00.34.0-2
