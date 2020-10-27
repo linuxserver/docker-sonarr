@@ -73,7 +73,7 @@ libext2fs21.44.1-1ubuntu1.3
 libfdisk12.31.1-0.4ubuntu3.7
 libffi63.2.1-8
 libfontconfig12.12.6-0ubuntu2
-libfreetype62.8.1-2ubuntu2
+libfreetype62.8.1-2ubuntu2.1
 libgcc11:8.4.0-1ubuntu1~18.04
 libgcrypt201.8.1-4ubuntu1.2
 libgdbm51.14.1-6
@@ -276,8 +276,8 @@ libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
 libprocps62:3.3.12-3ubuntu1.2
 libpsl50.19.1-5build1
-libpython2.7-minimal2.7.17-1~18.04ubuntu1.1
-libpython2.7-stdlib2.7.17-1~18.04ubuntu1.1
+libpython2.7-minimal2.7.17-1~18.04ubuntu1.2
+libpython2.7-stdlib2.7.17-1~18.04ubuntu1.2
 libpython-stdlib2.7.15~rc1-1
 libreadline77.0-3
 libroken18-heimdal7.5.0+dfsg-1
@@ -346,8 +346,8 @@ pkg-config0.29.1-0ubuntu2
 procps2:3.3.12-3ubuntu1.2
 publicsuffix20180223.1310-1
 python2.7.15~rc1-1
-python2.72.7.17-1~18.04ubuntu1.1
-python2.7-minimal2.7.17-1~18.04ubuntu1.1
+python2.72.7.17-1~18.04ubuntu1.2
+python2.7-minimal2.7.17-1~18.04ubuntu1.2
 python-minimal2.7.15~rc1-1
 readline-common7.0-3
 repo-mediaarea1.0-12
