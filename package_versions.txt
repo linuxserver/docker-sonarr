@@ -356,7 +356,7 @@ sensible-utils0.0.12
 sqlite33.22.0-1ubuntu0.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.1
-tzdata2020a-0ubuntu0.18.04
+tzdata2020d-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
 unzip6.0-21ubuntu1
