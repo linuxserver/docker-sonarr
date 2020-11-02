@@ -1,4 +1,4 @@
-FROM lsiobase/mono:arm32v7-LTS
+FROM ghcr.io/linuxserver/baseimage-mono:arm32v7-LTS
 
 # set version label
 ARG BUILD_DATE
