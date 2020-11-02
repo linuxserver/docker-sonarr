@@ -1,4 +1,4 @@
-FROM lsiobase/mono:bionic-5.14
+FROM ghcr.io/linuxserver/baseimage-mono:bionic-5.14
 
 # set version label
 ARG BUILD_DATE

@@ -1,4 +1,4 @@
-FROM lsiobase/mono:arm32v7-bionic-5.14
+FROM ghcr.io/linuxserver/baseimage-mono:arm32v7-bionic-5.14
 
 # set version label
 ARG BUILD_DATE
