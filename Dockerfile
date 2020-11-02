@@ -1,4 +1,4 @@
-FROM lsiobase/mono:LTS
+FROM ghcr.io/linuxserver/baseimage-mono:LTS
 
 # set version label
 ARG BUILD_DATE
