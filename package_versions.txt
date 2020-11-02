@@ -10,7 +10,7 @@ binutils-common2.30-21ubuntu1~18.04.4
 binutils-x86-64-linux-gnu2.30-21ubuntu1~18.04.4
 bsdutils1:2.31.1-0.4ubuntu3.7
 bzip21.0.6-8.1ubuntu0.2
-ca-certificates20190110~18.04.1
+ca-certificates20201027ubuntu0.18.04.1
 ca-certificates-mono5.20.1.34-0xamarin4+ubuntu1804b1
 cli-common0.9+xamarin8+ubuntu1804b1
 coreutils8.28-1ubuntu1
@@ -271,7 +271,7 @@ libpam-modules1.1.8-3.6ubuntu2.18.04.2
 libpam-modules-bin1.1.8-3.6ubuntu2.18.04.2
 libpam-runtime1.1.8-3.6ubuntu2.18.04.2
 libpcre32:8.39-9
-libperl5.265.26.1-6ubuntu0.3
+libperl5.265.26.1-6ubuntu0.5
 libpixman-1-00.34.0-2
 libpng16-161.6.34-1ubuntu0.18.04.2
 libprocps62:3.3.12-3ubuntu1.2
@@ -338,9 +338,9 @@ ncurses-bin6.1-1ubuntu1.18.04
 openssl1.1.1-1ubuntu2.1~18.04.6
 passwd1:4.5-1ubuntu2
 patch2.7.6-2ubuntu1.1
-perl5.26.1-6ubuntu0.3
-perl-base5.26.1-6ubuntu0.3
-perl-modules-5.265.26.1-6ubuntu0.3
+perl5.26.1-6ubuntu0.5
+perl-base5.26.1-6ubuntu0.5
+perl-modules-5.265.26.1-6ubuntu0.5
 pinentry-curses1.1.0-1
 pkg-config0.29.1-0ubuntu2
 procps2:3.3.12-3ubuntu1.2
@@ -356,7 +356,7 @@ sensible-utils0.0.12
 sqlite33.22.0-1ubuntu0.4
 sysvinit-utils2.88dsf-59.10ubuntu1
 tar1.29b-2ubuntu0.1
-tzdata2020a-0ubuntu0.18.04
+tzdata2020d-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.0
 ucf3.0038
 unzip6.0-21ubuntu1
