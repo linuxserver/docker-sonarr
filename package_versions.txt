@@ -332,7 +332,7 @@ mono-runtime-sgen5.14.0.177-0xamarin3+ubuntu1804b1
 mono-vbnc4.7-0xamarin1+ubuntu1804b1
 mono-xbuild5.14.0.177-0xamarin3+ubuntu1804b1
 mount2.31.1-0.4ubuntu3.7
-multiarch-support2.27-3ubuntu1.2
+multiarch-support2.27-3ubuntu1.3
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 openssl1.1.1-1ubuntu2.1~18.04.6
