@@ -56,10 +56,10 @@ libbinutils2.30-21ubuntu1~18.04.4
 libblkid12.31.1-0.4ubuntu3.7
 libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
-libc62.27-3ubuntu1.2
+libc62.27-3ubuntu1.3
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
-libc-bin2.27-3ubuntu1.2
+libc-bin2.27-3ubuntu1.3
 libcom-err21.44.1-1ubuntu1.3
 libcurl3-gnutls7.58.0-2ubuntu3.10
 libcurl47.58.0-2ubuntu3.10
@@ -295,11 +295,11 @@ libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
 libssl1.11.1.1-1ubuntu2.1~18.04.6
 libstdc++68.4.0-1ubuntu1~18.04
-libsystemd0237-3ubuntu10.42
+libsystemd0237-3ubuntu10.43
 libtasn1-64.13-2
 libtiff54.0.9-5ubuntu0.3
 libtinfo56.1-1ubuntu1.18.04
-libudev1237-3ubuntu10.42
+libudev1237-3ubuntu10.43
 libunistring20.9.9-0ubuntu2
 libuuid12.31.1-0.4ubuntu3.7
 libwind0-heimdal7.5.0+dfsg-1
@@ -314,7 +314,7 @@ libxext62:1.3.3-1
 libxrender11:0.9.10-1
 libzen0v50.4.38-1
 libzstd11.3.3+dfsg-2ubuntu1.1
-locales2.27-3ubuntu1.2
+locales2.27-3ubuntu1.3
 login1:4.5-1ubuntu2
 lsb-base9.20170808ubuntu1
 make4.1-9.1ubuntu1
@@ -332,7 +332,7 @@ mono-runtime-sgen5.20.1.34-0xamarin4+ubuntu1804b1
 mono-vbnc4.7-0xamarin1+ubuntu1804b1
 mono-xbuild5.20.1.34-0xamarin4+ubuntu1804b1
 mount2.31.1-0.4ubuntu3.7
-multiarch-support2.27-3ubuntu1.2
+multiarch-support2.27-3ubuntu1.3
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
 openssl1.1.1-1ubuntu2.1~18.04.6
