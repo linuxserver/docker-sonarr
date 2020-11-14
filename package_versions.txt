@@ -67,7 +67,7 @@ libcurl4-openssl-dev7.58.0-2ubuntu3.10
 libdb5.35.3.28-13.1ubuntu1.1
 libdebconfclient00.213ubuntu1
 libdpkg-perl1.19.0.5ubuntu2.3
-libexif120.6.21-4ubuntu0.5
+libexif120.6.21-4ubuntu0.6
 libexpat12.2.5-3ubuntu0.2
 libext2fs21.44.1-1ubuntu1.3
 libfdisk12.31.1-0.4ubuntu3.7
@@ -102,8 +102,8 @@ libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.1
 libkrb5support01.16-2ubuntu0.1
 libksba81.3.5-2
-libldap-2.4-22.4.45+dfsg-1ubuntu1.6
-libldap-common2.4.45+dfsg-1ubuntu1.6
+libldap-2.4-22.4.45+dfsg-1ubuntu1.7
+libldap-common2.4.45+dfsg-1ubuntu1.7
 liblz4-10.0~r131-2ubuntu3
 liblzma55.2.2-1.3
 libmediainfo0v520.09-1
