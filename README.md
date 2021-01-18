@@ -87,7 +87,6 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - UMASK_SET=022 #optional
     volumes:
       - /path/to/data:/config
       - /path/to/tvseries:/tv
@@ -105,7 +104,6 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Europe/London \
-  -e UMASK_SET=022 `#optional` \
   -p 8989:8989 \
   -v /path/to/data:/config \
   -v /path/to/tvseries:/tv \
@@ -125,7 +123,6 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London, this is required for Sonarr |
-| `-e UMASK_SET=022` | control permissions of files and directories created by Sonarr |
 | `-v /config` | Database and sonarr configs |
 | `-v /tv` | Location of TV library on disk (See note in Application setup) |
 | `-v /downloads` | Location of download managers output directory (See note in Application setup) |
@@ -242,6 +239,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **18.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **05.04.20:** - Move app to /app.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
 * **13.06.19:** - Add env variable for setting umask.
