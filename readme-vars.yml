@@ -37,9 +37,7 @@ param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Sonarr"}
 # optional env variables
-opt_param_usage_include_env: true
-opt_param_env_vars:
-  - { env_var: "UMASK_SET", env_value: "022", desc: "control permissions of files and directories created by Sonarr"}
+opt_param_usage_include_env: false
 
 # application setup block
 app_setup_block_enabled: true
@@ -48,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "18.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "05.04.20:", desc: "Move app to /app." }
   - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
   - { date: "13.06.19:", desc: "Add env variable for setting umask." }
