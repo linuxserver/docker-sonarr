@@ -17,10 +17,10 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable releases from Sonarr (currently v2)" }
-  - { tag: "develop", desc: "Development releases from Sonarr (currently v2)" }
-  - { tag: "preview", desc: "Preview releases from Sonarr (currently v3)" }
-  - { tag: "5.14", desc: "Stable Sonarr releases, but run on Mono 5.14" }
+  - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
+  - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
+  - { tag: "preview", desc: "DEPRECATED - Preview releases from Sonarr (currently v3)" }
+  - { tag: "5.14", desc: "DEPRECATED - Stable Sonarr releases, but run on Mono 5.14" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "10.02.21:", desc: "Rebase to mono focal baseimage. Switch to v3 nightlies." }
   - { date: "18.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "05.04.20:", desc: "Move app to /app." }
   - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
