@@ -64,7 +64,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | Tag | Description |
 | :----: | --- |
 | latest | Stable releases from Sonarr (currently v3) |
-| develop | Development (nightly branch) releases from Sonarr (currently v3) |
+| develop | Development releases from Sonarr (currently v3) |
 | preview | DEPRECATED - Preview releases from Sonarr (currently v3) |
 | 5.14 | DEPRECATED - Stable Sonarr releases, but run on Mono 5.14 |
 
