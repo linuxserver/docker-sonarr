@@ -8,5 +8,5 @@ fi
 cd /app/sonarr/bin || exit
 
 exec \
-	s6-setuidgid abc mono --debug NzbDrone.exe \
-	-nobrowser -data=/config
+  s6-setuidgid abc mono --debug Sonarr.exe \
+  -nobrowser -data=/config
