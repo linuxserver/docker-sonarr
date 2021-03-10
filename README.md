@@ -63,10 +63,10 @@ This image provides various versions that are available via tags. `latest` tag u
 
 | Tag | Description |
 | :----: | --- |
-| latest | Stable releases from Sonarr (currently v2) |
-| develop | Development releases from Sonarr (currently v2) |
-| preview | Preview releases from Sonarr (currently v3) |
-| 5.14 | Stable Sonarr releases, but run on Mono 5.14 |
+| latest | Stable releases from Sonarr (currently v3) |
+| develop | Development releases from Sonarr (currently v3) |
+| preview | DEPRECATED - Preview releases from Sonarr (currently v3) |
+| 5.14 | DEPRECATED - Stable Sonarr releases, but run on Mono 5.14 |
 
 ## Usage
 
@@ -235,6 +235,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.03.21:** - Deprecate the `preview` tag since v3 is pushed to `latest`.
 * **18.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **05.04.20:** - Move app to /app.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
@@ -249,7 +250,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 * **14.04.17:** - Change to mount /etc/localtime in README, thanks cbgj.
 * **13.04.17:** - Switch to official mono repository.
 * **30.09.16:** - Fix umask
-* **23.09.16:** - Add cd to /opt fixes redirects with althub (issue #25) , make XDG config environment variable
+* **23.09.16:** - Add cd to /opt fixes redirects with althub (issue #25), make XDG config environment variable
 * **15.09.16:** - Add libcurl3 package.
 * **09.09.16:** - Add layer badges to README.
 * **27.08.16:** - Add badges to README.

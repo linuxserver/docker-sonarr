@@ -1,0 +1,21 @@
+#!/usr/bin/with-contenv bash
+
+echo '
+******************************************************
+******************************************************
+*                                                    *
+*                                                    *
+*          This tag has been deprecated              *
+*                                                    *
+*              Use the tag latest at                 *
+*                                                    *
+*            linuxserver/sonarr:latest               *
+*                                                    *
+*    https://hub.docker.com/r/linuxserver/sonarr     *
+*                                                    *
+*   https://github.com/linuxserver/docker-sonarr     *
+*                                                    *
+*                                                    *
+*                                                    *
+******************************************************
+******************************************************'
