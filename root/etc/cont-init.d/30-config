@@ -1,8 +1,8 @@
 #!/usr/bin/with-contenv bash
 
 # cleanup pid if it exists
-[[ -e /config/nzbdrone.pid ]] && \
-	rm -rf /config/nzbdrone.pid
+[[ -e /config/sonarr.pid ]] && \
+	rm -rf /config/sonarr.pid
 
 # permissions
 chown -R abc:abc \

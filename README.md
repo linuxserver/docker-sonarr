@@ -63,10 +63,10 @@ This image provides various versions that are available via tags. `latest` tag u
 
 | Tag | Description |
 | :----: | --- |
-| latest | Stable releases from Sonarr (currently v2) |
-| develop | Development releases from Sonarr (currently v2) |
-| preview | Preview releases from Sonarr (currently v3) |
-| 5.14 | Stable Sonarr releases, but run on Mono 5.14 |
+| latest | Stable releases from Sonarr (currently v3) |
+| develop | Development releases from Sonarr (currently v3) |
+| preview | DEPRECATED - Preview releases from Sonarr (currently v3) |
+| 5.14 | DEPRECATED - Stable Sonarr releases, but run on Mono 5.14 |
 
 ## Usage
 
@@ -239,6 +239,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **10.03.21:** - Upgrade to Sonarr v3. Existing users are highly recommended to make a backup prior to update.
 * **18.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **05.04.20:** - Move app to /app.
 * **01.08.19:** - Rebase to Linuxserver LTS mono version.
