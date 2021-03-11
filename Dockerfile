@@ -29,7 +29,7 @@ RUN \
  tar xf \
 	/tmp/sonarr.tar.gz -C \
 	/app/sonarr/bin --strip-components=1 && \
- echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=linuxserver.io\nPackageGlobalMessage=Error: You are running an oudated tag, please refer to the readme for valid tags" > /app/sonarr/package_info && \
+ echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=linuxserver.io\nPackageGlobalMessage=Error: You are running an outdated tag, please refer to the linuxserver/sonarr readme for valid tags" > /app/sonarr/package_info && \
  rm -rf /app/sonarr/bin/Sonarr.Update && \
  echo "**** cleanup ****" && \
  apt-get clean && \
