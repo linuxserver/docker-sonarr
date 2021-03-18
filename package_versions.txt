@@ -81,7 +81,7 @@ libgdbm61.18.1-5
 libgdbm-compat41.18.1-5
 libgdiplus6.0.5-0xamarin1+ubuntu2004b1
 libgif75.1.9-1
-libglib2.0-02.64.6-1~ubuntu20.04.2
+libglib2.0-02.64.6-1~ubuntu20.04.3
 libgmp102:6.2.0+dfsg-4
 libgnutls303.6.13-2ubuntu1.3
 libgpg-error01.37-1
