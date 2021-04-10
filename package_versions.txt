@@ -13,7 +13,7 @@ bzip21.0.8-2
 ca-certificates20210119~20.04.1
 ca-certificates-mono6.12.0.122-0xamarin1+ubuntu2004b1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.4
+curl7.68.0-1ubuntu2.5
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -63,8 +63,8 @@ libcrypt11:4.4.10-10ubuntu4
 libctf02.34-6ubuntu1.1
 libctf-nobfd02.34-6ubuntu1.1
 libcurl3-gnutls7.68.0-1ubuntu2.5
-libcurl47.68.0-1ubuntu2.4
-libcurl4-openssl-dev7.68.0-1ubuntu2.4
+libcurl47.68.0-1ubuntu2.5
+libcurl4-openssl-dev7.68.0-1ubuntu2.5
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libdpkg-perl1.19.7ubuntu3
@@ -342,7 +342,7 @@ sensible-utils0.0.12+nmu1
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.1
 tzdata2021a-0ubuntu0.20.04
-ubuntu-keyring2020.02.11.2
+ubuntu-keyring2020.02.11.4
 ucf3.0038+nmu1
 util-linux2.34-0.1ubuntu9.1
 zlib1g1:1.2.11.dfsg-2ubuntu1.2
