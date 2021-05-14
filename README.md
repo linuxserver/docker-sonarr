@@ -72,9 +72,13 @@ This image provides various versions that are available via tags. `latest` tag u
 
 Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
 
-Special Note: Following our current folder structure will result in an inability to hardlink from your downloads to your TV folder because they are on seperate volumes. To support hardlinking, simply ensure that the TV and downloads data are on a single volume. For example, if you have /mnt/storage/TV and /mnt/storage/downloads/completed/TV, you would want something like /mnt/storage:/media for your volume. Then you can hardlink from /media/downloads/completed to /media/TV.
+### Media folders
 
-Another item to keep in mind, is that within sonarr itself, you should then map your torrent client folder to your sonarr folder: Settings -> Download Client -> advanced -> remote path mappings. I input the host of my download client (matches the download client defined) remote path is /downloads/TV (relative to the internal container path) and local path is /media/downloads/completed/TV, assuming you have folders to seperate your downloaded data types.
+We have set `/tv` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
+
+Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
+
+The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
 
 ## Usage
 
@@ -97,8 +101,8 @@ services:
       - TZ=Europe/London
     volumes:
       - /path/to/data:/config
-      - /path/to/tvseries:/tv
-      - /path/to/downloadclient-downloads:/downloads
+      - /path/to/tvseries:/tv #optional
+      - /path/to/downloadclient-downloads:/downloads #optional
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -114,8 +118,8 @@ docker run -d \
   -e TZ=Europe/London \
   -p 8989:8989 \
   -v /path/to/data:/config \
-  -v /path/to/tvseries:/tv \
-  -v /path/to/downloadclient-downloads:/downloads \
+  -v /path/to/tvseries:/tv `#optional` \
+  -v /path/to/downloadclient-downloads:/downloads `#optional` \
   --restart unless-stopped \
   ghcr.io/linuxserver/sonarr
 ```
@@ -243,6 +247,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **11.05.21:** - Make the paths clearer to the user.
 * **10.03.21:** - Upgrade to Sonarr v3. Existing users are highly recommended to make a backup prior to update.
 * **18.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **05.04.20:** - Move app to /app.

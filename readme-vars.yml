@@ -27,6 +27,9 @@ param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Database and sonarr configs" }
+  
+opt_param_usage_include_vols: true
+opt_param_volumes:
   - { vol_path: "/tv", vol_host_path: "/path/to/tvseries", desc: "Location of TV library on disk (See note in Application setup)" }
   - { vol_path: "/downloads", vol_host_path: "/path/to/downloadclient-downloads", desc: "Location of download managers output directory (See note in Application setup)" }
 
@@ -44,12 +47,18 @@ app_setup_block_enabled: true
 app_setup_block: |
   Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
 
-  Special Note: Following our current folder structure will result in an inability to hardlink from your downloads to your TV folder because they are on seperate volumes. To support hardlinking, simply ensure that the TV and downloads data are on a single volume. For example, if you have /mnt/storage/TV and /mnt/storage/downloads/completed/TV, you would want something like /mnt/storage:/media for your volume. Then you can hardlink from /media/downloads/completed to /media/TV.
+  ### Media folders
 
-  Another item to keep in mind, is that within sonarr itself, you should then map your torrent client folder to your sonarr folder: Settings -> Download Client -> advanced -> remote path mappings. I input the host of my download client (matches the download client defined) remote path is /downloads/TV (relative to the internal container path) and local path is /media/downloads/completed/TV, assuming you have folders to seperate your downloaded data types.
+  We have set `/tv` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
+
+  Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
+
+  The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
+
 
 # changelog
 changelogs:
+  - { date: "11.05.21:", desc: "Make the paths clearer to the user." }
   - { date: "10.03.21:", desc: "Upgrade to Sonarr v3. Existing users are highly recommended to make a backup prior to update." }
   - { date: "18.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
   - { date: "05.04.20:", desc: "Move app to /app." }
