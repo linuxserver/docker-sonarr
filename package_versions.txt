@@ -296,10 +296,10 @@ libtinyxml2-6a7.0.0+dfsg-1build1
 libudev1245.4-4ubuntu3.6
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.1
-libwebp60.6.1-2
+libwebp60.6.1-2ubuntu0.20.04.1
 libwind0-heimdal7.7.0+dfsg-1ubuntu1
-libx11-62:1.6.9-2ubuntu1.1
-libx11-data2:1.6.9-2ubuntu1.1
+libx11-62:1.6.9-2ubuntu1.2
+libx11-data2:1.6.9-2ubuntu1.2
 libxau61:1.0.9-0ubuntu1
 libxcb11.14-2
 libxcb-render01.14-2
