@@ -39,7 +39,7 @@ gpgv2.2.4-1ubuntu1.4
 gpg-wks-client2.2.4-1ubuntu1.4
 gpg-wks-server2.2.4-1ubuntu1.4
 grep3.1-2build1
-gzip1.6-5ubuntu1
+gzip1.6-5ubuntu1.1
 hostname3.20
 init-system-helpers1.51
 jq1.5+dfsg-2
