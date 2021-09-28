@@ -10,7 +10,7 @@ binutils-common2.34-6ubuntu1.1
 binutils-x86-64-linux-gnu2.34-6ubuntu1.1
 bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
-ca-certificates20210119~20.04.1
+ca-certificates20210119~20.04.2
 ca-certificates-mono6.12.0.122-0xamarin1+ubuntu2004b1
 coreutils8.30-3ubuntu2
 curl7.68.0-1ubuntu2.7
@@ -269,7 +269,7 @@ libpcre32:8.39-12build1
 libperl5.305.30.0-9ubuntu0.2
 libpixman-1-00.38.4-0ubuntu1
 libpng16-161.6.37-2
-libprocps82:3.3.16-1ubuntu2.2
+libprocps82:3.3.16-1ubuntu2.3
 libpsl50.21.0-1ubuntu1
 libreadline88.0-4
 libroken18-heimdal7.7.0+dfsg-1ubuntu1
@@ -334,7 +334,7 @@ perl-base5.30.0-9ubuntu0.2
 perl-modules-5.305.30.0-9ubuntu0.2
 pinentry-curses1.1.0-3build1
 pkg-config0.29.1-0ubuntu4
-procps2:3.3.16-1ubuntu2.2
+procps2:3.3.16-1ubuntu2.3
 publicsuffix20200303.0012-1
 readline-common8.0-4
 sed4.7-1
