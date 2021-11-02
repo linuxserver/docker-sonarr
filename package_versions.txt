@@ -5,9 +5,9 @@ apt-utils2.0.6
 base-files11ubuntu5.4
 base-passwd3.5.47
 bash5.0-6ubuntu1.1
-binutils2.34-6ubuntu1.1
-binutils-common2.34-6ubuntu1.1
-binutils-x86-64-linux-gnu2.34-6ubuntu1.1
+binutils2.34-6ubuntu1.3
+binutils-common2.34-6ubuntu1.3
+binutils-x86-64-linux-gnu2.34-6ubuntu1.3
 bsdutils1:2.34-0.1ubuntu9.1
 bzip21.0.8-2
 ca-certificates20210119~20.04.2
@@ -49,7 +49,7 @@ libassuan02.5.3-7ubuntu2
 libattr11:2.4.48-5
 libaudit11:2.8.5-2ubuntu6
 libaudit-common1:2.8.5-2ubuntu6
-libbinutils2.34-6ubuntu1.1
+libbinutils2.34-6ubuntu1.3
 libblkid12.34-0.1ubuntu9.1
 libbrotli11.0.7-6ubuntu0.1
 libbsd00.10.0-1
@@ -60,8 +60,8 @@ libcap-ng00.7.9-2.1build1
 libc-bin2.31-0ubuntu9.2
 libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
-libctf02.34-6ubuntu1.1
-libctf-nobfd02.34-6ubuntu1.1
+libctf02.34-6ubuntu1.3
+libctf-nobfd02.34-6ubuntu1.3
 libcurl3-gnutls7.68.0-1ubuntu2.7
 libcurl47.68.0-1ubuntu2.7
 libcurl4-openssl-dev7.68.0-1ubuntu2.7
