@@ -237,6 +237,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **13.12.21:** - Switch strategy for mediainfo
 * **10.02.21:** - Rebase to mono focal baseimage. Switch to v3 nightlies.
 * **18.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
 * **05.04.20:** - Move app to /app.
