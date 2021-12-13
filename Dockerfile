@@ -13,6 +13,12 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 ENV SONARR_BRANCH="develop"
 
 RUN \
+  echo "**** add mediaarea repository ****" && \
+  curl -L \
+    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-12_all.deb" \
+    -o /tmp/key.deb && \
+  dpkg -i /tmp/key.deb && \
+  echo "deb https://mediaarea.net/repo/deb/ubuntu focal main" | tee /etc/apt/sources.list.d/mediaarea.list && \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y \
