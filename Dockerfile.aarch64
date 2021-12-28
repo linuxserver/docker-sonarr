@@ -29,7 +29,7 @@ RUN \
   curl -o \
     /tmp/sonarr.tar.gz -L \
     "https://download.sonarr.tv/v3/${SONARR_BRANCH}/${SONARR_VERSION}/Sonarr.${SONARR_BRANCH}.${SONARR_VERSION}.linux.tar.gz" && \
-  tar xf \
+  tar xzf \
     /tmp/sonarr.tar.gz -C \
     /app/sonarr/bin --strip-components=1 && \
   echo -e "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/sonarr/package_info && \
