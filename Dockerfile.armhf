@@ -1,29 +1,25 @@
-FROM ghcr.io/linuxserver/baseimage-mono:arm32v7-focal
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.15
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
 ARG SONARR_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="aptalca"
+LABEL maintainer="thespad"
 
 # set environment variables
-ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_CONFIG_HOME="/config/xdg"
 ENV SONARR_BRANCH="develop"
 
 RUN \
-  echo "**** add mediaarea repository ****" && \
-  curl -L \
-    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-12_all.deb" \
-    -o /tmp/key.deb && \
-  dpkg -i /tmp/key.deb && \
-  echo "deb https://mediaarea.net/repo/deb/ubuntu focal main" | tee /etc/apt/sources.list.d/mediaarea.list && \
   echo "**** install packages ****" && \
-  apt-get update && \
-  apt-get install -y \
+  apk add -U --upgrade --no-cache \
+    curl \
     jq \
-    libmediainfo0v5 && \
+    libmediainfo \
+    sqlite-libs && \
+  apk add -U --upgrade --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+    mono && \
   echo "**** install sonarr ****" && \
   mkdir -p /app/sonarr/bin && \
   if [ -z ${SONARR_VERSION+x} ]; then \
@@ -36,10 +32,9 @@ RUN \
   tar xf \
     /tmp/sonarr.tar.gz -C \
     /app/sonarr/bin --strip-components=1 && \
-  echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/sonarr/package_info && \
+  echo -e "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/sonarr/package_info && \
   rm -rf /app/sonarr/bin/Sonarr.Update && \
   echo "**** cleanup ****" && \
-  apt-get clean && \
   rm -rf \
     /tmp/* \
     /var/tmp/*
