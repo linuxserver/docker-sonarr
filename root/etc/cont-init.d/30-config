@@ -6,7 +6,8 @@
 
 # update certs for mono
 if [[ ! -f "/app/sonarr/donecerts" ]]; then
-    cert-sync /etc/ssl/certs/ca-certificates.crt
+    echo "*** Running mono cert sync ***"
+    cert-sync --quiet /etc/ssl/certs/ca-certificates.crt
     touch "/app/sonarr/donecerts"
 fi
 
