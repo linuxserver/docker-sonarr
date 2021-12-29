@@ -19,6 +19,7 @@ development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
   - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
+  - { tag: "develop-alpine", desc: "Development releases from Sonarr (currently v3) using our Alpine baseimage" }  
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -56,6 +57,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "28.12.21:", desc: "Add develop-alpine branch." }
   - { date: "11.05.21:", desc: "Make the paths clearer to the user." }
   - { date: "10.03.21:", desc: "Upgrade to Sonarr v3. Existing users are highly recommended to make a backup prior to update." }
   - { date: "18.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
@@ -71,8 +73,7 @@ changelogs:
   - { date: "14.04.17:", desc: "Change to mount /etc/localtime in README, thanks cbgj." }
   - { date: "13.04.17:", desc: "Switch to official mono repository." }
   - { date: "30.09.16:", desc: "Fix umask" }
-  - { date: "23.09.16:", desc: "Add cd to /opt fixes redirects with althub (issue #25)
-, make XDG config environment variable" }
+  - { date: "23.09.16:", desc: "Add cd to /opt fixes redirects with althub (issue #25), make XDG config environment variable" }
   - { date: "15.09.16:", desc: "Add libcurl3 package." }
   - { date: "09.09.16:", desc: "Add layer badges to README." }
   - { date: "27.08.16:", desc: "Add badges to README." }
