@@ -66,6 +66,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | :----: | --- |
 | latest | Stable releases from Sonarr (currently v3) |
 | develop | Development releases from Sonarr (currently v3) |
+| develop-alpine | Development releases from Sonarr (currently v3) using our Alpine baseimage |
 
 ## Application Setup
 
@@ -244,6 +245,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **28.12.21:** - Add develop-alpine branch.
 * **11.05.21:** - Make the paths clearer to the user.
 * **10.03.21:** - Upgrade to Sonarr v3. Existing users are highly recommended to make a backup prior to update.
 * **18.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
@@ -259,7 +261,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 * **14.04.17:** - Change to mount /etc/localtime in README, thanks cbgj.
 * **13.04.17:** - Switch to official mono repository.
 * **30.09.16:** - Fix umask
-* **23.09.16:** - Add cd to /opt fixes redirects with althub (issue #25) , make XDG config environment variable
+* **23.09.16:** - Add cd to /opt fixes redirects with althub (issue #25), make XDG config environment variable
 * **15.09.16:** - Add libcurl3 package.
 * **09.09.16:** - Add layer badges to README.
 * **27.08.16:** - Add badges to README.
