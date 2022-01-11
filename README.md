@@ -102,7 +102,7 @@ services:
       - /path/to/tvseries:/tv #optional
       - /path/to/downloadclient-downloads:/downloads #optional
     ports:
-      - 8989:8989
+      - 8989:7878
     restart: unless-stopped
 ```
 
