@@ -8,7 +8,7 @@ bash5.0-6ubuntu1.1
 binutils2.34-6ubuntu1.3
 binutils-common2.34-6ubuntu1.3
 binutils-x86-64-linux-gnu2.34-6ubuntu1.3
-bsdutils1:2.34-0.1ubuntu9.1
+bsdutils1:2.34-0.1ubuntu9.3
 bzip21.0.8-2
 ca-certificates20210119~20.04.2
 ca-certificates-mono6.12.0.122-0xamarin1+ubuntu2004b1
@@ -21,7 +21,7 @@ diffutils1:3.7-3
 dirmngr2.2.19-3ubuntu2.1
 dpkg1.19.7ubuntu3
 e2fsprogs1.45.5-2ubuntu1
-fdisk2.34-0.1ubuntu9.1
+fdisk2.34-0.1ubuntu9.3
 findutils4.7.0-1ubuntu1
 fontconfig-config2.13.1-2ubuntu3
 fonts-dejavu-core2.37-1
@@ -50,7 +50,7 @@ libattr11:2.4.48-5
 libaudit11:2.8.5-2ubuntu6
 libaudit-common1:2.8.5-2ubuntu6
 libbinutils2.34-6ubuntu1.3
-libblkid12.34-0.1ubuntu9.1
+libblkid12.34-0.1ubuntu9.3
 libbrotli11.0.7-6ubuntu0.1
 libbsd00.10.0-1
 libbz2-1.01.0.8-2
@@ -71,7 +71,7 @@ libdpkg-perl1.19.7ubuntu3
 libexif120.6.21-6ubuntu0.4
 libexpat12.2.9-1build1
 libext2fs21.45.5-2ubuntu1
-libfdisk12.34-0.1ubuntu9.1
+libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
 libfontconfig12.13.1-2ubuntu3
 libfreetype62.10.1-2ubuntu0.1
@@ -252,7 +252,7 @@ libmono-webbrowser4.0-cil6.12.0.122-0xamarin1+ubuntu2004b1
 libmono-webmatrix-data4.0-cil6.12.0.122-0xamarin1+ubuntu2004b1
 libmono-windowsbase4.0-cil6.12.0.122-0xamarin1+ubuntu2004b1
 libmono-xbuild-tasks4.0-cil6.12.0.122-0xamarin1+ubuntu2004b1
-libmount12.34-0.1ubuntu9.1
+libmount12.34-0.1ubuntu9.3
 libncurses66.2-0ubuntu2
 libncursesw66.2-0ubuntu2
 libnettle73.5.1+really3.5.1-2ubuntu0.2
@@ -282,7 +282,7 @@ libselinux13.0-1build2
 libsemanage13.0-1build2
 libsemanage-common3.0-1build2
 libsepol13.0-1
-libsmartcols12.34-0.1ubuntu9.1
+libsmartcols12.34-0.1ubuntu9.3
 libsqlite3-03.31.1-4ubuntu0.2
 libss21.45.5-2ubuntu1
 libssh-40.9.3-2ubuntu2.2
@@ -294,7 +294,7 @@ libtiff54.1.0+git191117-2ubuntu0.20.04.2
 libtinfo66.2-0ubuntu2
 libudev1245.4-4ubuntu3.15
 libunistring20.9.10-2
-libuuid12.34-0.1ubuntu9.1
+libuuid12.34-0.1ubuntu9.3
 libwebp60.6.1-2ubuntu0.20.04.1
 libwind0-heimdal7.7.0+dfsg-1ubuntu1
 libx11-62:1.6.9-2ubuntu1.2
@@ -323,7 +323,7 @@ mono-runtime-common6.12.0.122-0xamarin1+ubuntu2004b1
 mono-runtime-sgen6.12.0.122-0xamarin1+ubuntu2004b1
 mono-vbnc4.7-0xamarin3+ubuntu2004b1
 mono-xbuild6.12.0.122-0xamarin1+ubuntu2004b1
-mount2.34-0.1ubuntu9.1
+mount2.34-0.1ubuntu9.3
 ncurses-base6.2-0ubuntu2
 ncurses-bin6.2-0ubuntu2
 openssl1.1.1f-1ubuntu2.10
@@ -344,5 +344,5 @@ tar1.30+dfsg-7ubuntu0.20.04.1
 tzdata2021e-0ubuntu0.20.04
 ubuntu-keyring2020.02.11.4
 ucf3.0038+nmu1
-util-linux2.34-0.1ubuntu9.1
+util-linux2.34-0.1ubuntu9.3
 zlib1g1:1.2.11.dfsg-2ubuntu1.2
