@@ -238,6 +238,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.02.22:** - Rebase develop branch to Alpine.
 * **13.12.21:** - Switch strategy for mediainfo
 * **10.02.21:** - Rebase to mono focal baseimage. Switch to v3 nightlies.
 * **18.01.21:** - Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information.
@@ -253,7 +254,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 * **14.04.17:** - Change to mount /etc/localtime in README, thanks cbgj.
 * **13.04.17:** - Switch to official mono repository.
 * **30.09.16:** - Fix umask
-* **23.09.16:** - Add cd to /opt fixes redirects with althub (issue #25) , make XDG config environment variable
+* **23.09.16:** - Add cd to /opt fixes redirects with althub (issue #25), make XDG config environment variable
 * **15.09.16:** - Add libcurl3 package.
 * **09.09.16:** - Add layer badges to README.
 * **27.08.16:** - Add badges to README.

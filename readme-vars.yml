@@ -46,6 +46,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }  
   - { date: "13.12.21:", desc: "Switch strategy for mediainfo" }
   - { date: "10.02.21:", desc: "Rebase to mono focal baseimage. Switch to v3 nightlies." }
   - { date: "18.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
@@ -61,8 +62,7 @@ changelogs:
   - { date: "14.04.17:", desc: "Change to mount /etc/localtime in README, thanks cbgj." }
   - { date: "13.04.17:", desc: "Switch to official mono repository." }
   - { date: "30.09.16:", desc: "Fix umask" }
-  - { date: "23.09.16:", desc: "Add cd to /opt fixes redirects with althub (issue #25)
-, make XDG config environment variable" }
+  - { date: "23.09.16:", desc: "Add cd to /opt fixes redirects with althub (issue #25), make XDG config environment variable" }
   - { date: "15.09.16:", desc: "Add libcurl3 package." }
   - { date: "09.09.16:", desc: "Add layer badges to README." }
   - { date: "27.08.16:", desc: "Add badges to README." }
