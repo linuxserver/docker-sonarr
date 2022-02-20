@@ -3,6 +3,12 @@ name: Feature request
 about: Suggest an idea for this project
 
 ---
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+Our standard develop tag is now Alpine based:
+https://github.com/linuxserver/docker-sonarr
+
 [linuxserverurl]: https://linuxserver.io
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 

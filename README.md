@@ -27,6 +27,12 @@ Find us at:
 * [GitHub](https://github.com/linuxserver) - view the source for all of our repositories.
 * [Open Collective](https://opencollective.com/linuxserver) - please consider helping us by either donating or contributing to our budget
 
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+Our standard develop tag is now Alpine based:
+https://github.com/linuxserver/docker-sonarr
+
 # [linuxserver/sonarr](https://github.com/linuxserver/docker-sonarr)
 
 [![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fsonarr?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh/gateway/linuxserver-ci/docker/linuxserver%2Fsonarr)
@@ -66,9 +72,6 @@ This image provides various versions that are available via tags. `latest` tag u
 | :----: | --- |
 | latest | Stable releases from Sonarr (currently v3) |
 | develop | Development releases from Sonarr (currently v3) |
-| develop-alpine | Development releases from Sonarr (currently v3) using our Alpine baseimage |
-| preview | DEPRECATED - Preview releases from Sonarr (currently v3) |
-| 5.14 | DEPRECATED - Stable Sonarr releases, but run on Mono 5.14 |
 
 ## Application Setup
 
@@ -239,6 +242,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.02.22:** - Rebase develop branch to Alpine, deprecate develop-alpine branch
 * **28.12.21:** - Add develop-alpine branch
 * **13.12.21:** - Switch strategy for mediainfo
 * **10.02.21:** - Rebase to mono focal baseimage. Switch to v3 nightlies.

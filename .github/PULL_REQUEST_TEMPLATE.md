@@ -1,3 +1,9 @@
+# DEPRECATION NOTICE
+
+This image is deprecated. We will not offer support for this image and it will not be updated.
+Our standard develop tag is now Alpine based:
+https://github.com/linuxserver/docker-sonarr
+
 <!--- Provide a general summary of your changes in the Title above -->
 
 [linuxserverurl]: https://linuxserver.io
