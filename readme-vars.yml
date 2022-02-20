@@ -19,8 +19,6 @@ development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
   - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
-  - { tag: "preview", desc: "DEPRECATED - Preview releases from Sonarr (currently v3)" }
-  - { tag: "5.14", desc: "DEPRECATED - Stable Sonarr releases, but run on Mono 5.14" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
