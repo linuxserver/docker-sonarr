@@ -19,9 +19,6 @@ development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
   - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
-  - { tag: "develop-alpine", desc: "Development releases from Sonarr (currently v3) using our Alpine baseimage" }  
-  - { tag: "preview", desc: "DEPRECATED - Preview releases from Sonarr (currently v3)" }
-  - { tag: "5.14", desc: "DEPRECATED - Stable Sonarr releases, but run on Mono 5.14" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -47,6 +44,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "20.02.22:", desc: "Rebase develop branch to Alpine, deprecate develop-alpine branch" }
   - { date: "28.12.21:", desc: "Add develop-alpine branch" }
   - { date: "13.12.21:", desc: "Switch strategy for mediainfo" }
   - { date: "10.02.21:", desc: "Rebase to mono focal baseimage. Switch to v3 nightlies." }
