@@ -66,9 +66,6 @@ This image provides various versions that are available via tags. `latest` tag u
 | :----: | --- |
 | latest | Stable releases from Sonarr (currently v3) |
 | develop | Development releases from Sonarr (currently v3) |
-| develop-alpine | Development releases from Sonarr (currently v3) using our Alpine baseimage |
-| preview | DEPRECATED - Preview releases from Sonarr (currently v3) |
-| 5.14 | DEPRECATED - Stable Sonarr releases, but run on Mono 5.14 |
 
 ## Application Setup
 
@@ -239,6 +236,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.02.22:** - Rebase develop branch to Alpine, deprecate develop-alpine branch
 * **28.12.21:** - Add develop-alpine branch
 * **13.12.21:** - Switch strategy for mediainfo
 * **10.02.21:** - Rebase to mono focal baseimage. Switch to v3 nightlies.
