@@ -66,7 +66,6 @@ This image provides various versions that are available via tags. `latest` tag u
 | :----: | --- |
 | latest | Stable releases from Sonarr (currently v3) |
 | develop | Development releases from Sonarr (currently v3) |
-| develop-alpine | Development releases from Sonarr (currently v3) using our Alpine baseimage |
 
 ## Application Setup
 
@@ -245,6 +244,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.02.22:** - Rebase develop branch to Alpine, deprecate develop-alpine branch.
 * **28.12.21:** - Add develop-alpine branch.
 * **11.05.21:** - Make the paths clearer to the user.
 * **10.03.21:** - Upgrade to Sonarr v3. Existing users are highly recommended to make a backup prior to update.
