@@ -8,7 +8,7 @@ ca-certificates-20211220-r0
 ca-certificates-bundle-20211220-r0
 coreutils-9.0-r2
 curl-7.80.0-r0
-expat-2.4.4-r0
+expat-2.4.5-r0
 gdbm-1.22-r0
 jq-1.6-r1
 libacl-2.2.53-r0
