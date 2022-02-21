@@ -19,7 +19,6 @@ development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
   - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
-  - { tag: "develop-alpine", desc: "Development releases from Sonarr (currently v3) using our Alpine baseimage" }  
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -57,6 +56,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "20.02.22:", desc: "Rebase develop branch to Alpine, deprecate develop-alpine branch." }
   - { date: "28.12.21:", desc: "Add develop-alpine branch." }
   - { date: "11.05.21:", desc: "Make the paths clearer to the user." }
   - { date: "10.03.21:", desc: "Upgrade to Sonarr v3. Existing users are highly recommended to make a backup prior to update." }
