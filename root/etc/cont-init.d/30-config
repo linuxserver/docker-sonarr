@@ -4,6 +4,13 @@
 [[ -e /config/sonarr.pid ]] && \
     rm -rf /config/sonarr.pid
 
+# update certs for mono
+if [[ ! -f "/app/sonarr/donecerts" ]]; then
+    echo "*** Running mono cert sync ***"
+    cert-sync --quiet /etc/ssl/certs/ca-certificates.crt
+    touch "/app/sonarr/donecerts"
+fi
+
 # permissions
 chown -R abc:abc \
     /app/sonarr/bin
