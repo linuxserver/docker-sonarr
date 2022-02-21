@@ -24,7 +24,7 @@ pipeline {
     DOCKERHUB_IMAGE = 'linuxserver/sonarr'
     DEV_DOCKERHUB_IMAGE = 'lsiodev/sonarr'
     PR_DOCKERHUB_IMAGE = 'lspipepr/sonarr'
-    DIST_IMAGE = 'ubuntu'
+    DIST_IMAGE = 'alpine'
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
