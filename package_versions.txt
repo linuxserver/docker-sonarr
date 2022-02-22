@@ -1,7 +1,7 @@
 alpine-baselayout-3.2.0-r18
 alpine-keys-2.4-r1
 apk-tools-2.12.7-r3
-bash-5.1.8-r0
+bash-5.1.16-r0
 brotli-libs-1.0.9-r5
 busybox-1.34.1-r4
 ca-certificates-20211220-r0
