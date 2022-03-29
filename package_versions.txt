@@ -56,10 +56,10 @@ libbinutils2.30-21ubuntu1~18.04.7
 libblkid12.31.1-0.4ubuntu3.7
 libbsd00.8.7-1ubuntu0.1
 libbz2-1.01.0.6-8.1ubuntu0.2
-libc62.27-3ubuntu1.4
+libc62.27-3ubuntu1.5
 libcairo21.15.10-2ubuntu0.1
 libcap-ng00.7.7-3.1
-libc-bin2.27-3ubuntu1.4
+libc-bin2.27-3ubuntu1.5
 libcom-err21.44.1-1ubuntu1.3
 libcurl3-gnutls7.58.0-2ubuntu3.16
 libcurl47.58.0-2ubuntu3.16
@@ -293,7 +293,7 @@ libsepol12.7-1
 libsmartcols12.31.1-0.4ubuntu3.7
 libsqlite3-03.22.0-1ubuntu0.4
 libss21.44.1-1ubuntu1.3
-libssl1.11.1.1-1ubuntu2.1~18.04.14
+libssl1.11.1.1-1ubuntu2.1~18.04.15
 libstdc++68.4.0-1ubuntu1~18.04
 libsystemd0237-3ubuntu10.53
 libtasn1-64.13-2
@@ -335,7 +335,7 @@ mount2.31.1-0.4ubuntu3.7
 multiarch-support2.27-3ubuntu1.5
 ncurses-base6.1-1ubuntu1.18.04
 ncurses-bin6.1-1ubuntu1.18.04
-openssl1.1.1-1ubuntu2.1~18.04.14
+openssl1.1.1-1ubuntu2.1~18.04.15
 passwd1:4.5-1ubuntu2.2
 patch2.7.6-2ubuntu1.1
 perl5.26.1-6ubuntu0.5
@@ -355,7 +355,7 @@ sed4.4-2
 sensible-utils0.0.12
 sqlite33.22.0-1ubuntu0.4
 sysvinit-utils2.88dsf-59.10ubuntu1
-tar1.29b-2ubuntu0.2
+tar1.29b-2ubuntu0.3
 tzdata2021e-0ubuntu0.18.04
 ubuntu-keyring2018.09.18.1~18.04.2
 ucf3.0038
