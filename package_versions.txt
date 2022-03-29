@@ -49,4 +49,4 @@ tzdata-2022a-r0
 utmps-0.1.0.3-r0
 xz-5.2.5-r0
 xz-libs-5.2.5-r0
-zlib-1.2.11-r3
+zlib-1.2.12-r0
