@@ -97,7 +97,7 @@ libjpeg88c-2ubuntu8
 libjpeg-turbo81.5.2-0ubuntu5.18.04.4
 libjq11.5+dfsg-2
 libk5crypto31.16-2ubuntu0.2
-libkeyutils11.5.9-9.2ubuntu2
+libkeyutils11.5.9-9.2ubuntu2.1
 libkrb5-26-heimdal7.5.0+dfsg-1
 libkrb5-31.16-2ubuntu0.2
 libkrb5support01.16-2ubuntu0.2
