@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-mono:arm64v8-LTS
+FROM ghcr.io/linuxserver/baseimage-mono:arm64v8-focal
 
 # set version label
 ARG BUILD_DATE
@@ -13,10 +13,17 @@ ENV XDG_CONFIG_HOME="/config/xdg"
 ENV SONARR_BRANCH="main"
 
 RUN \
+ echo "**** add mediaarea repository ****" && \
+  curl -L \
+    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-12_all.deb" \
+    -o /tmp/key.deb && \
+  dpkg -i /tmp/key.deb && \
+  echo "deb https://mediaarea.net/repo/deb/ubuntu focal main" | tee /etc/apt/sources.list.d/mediaarea.list && \
   echo "**** install packages ****" && \
   apt-get update && \
   apt-get install -y \
-    jq && \
+    jq \
+    mediainfo && \
   echo "**** install sonarr ****" && \
   mkdir -p /app/sonarr/bin && \
   if [ -z ${SONARR_VERSION+x} ]; then \
