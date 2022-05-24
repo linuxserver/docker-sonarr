@@ -1,6 +1,6 @@
 adduser3.118ubuntu2
 apt2.0.6
-apt-transport-https2.0.6
+apt-transport-https2.0.8
 apt-utils2.0.6
 base-files11ubuntu5.5
 base-passwd3.5.47
@@ -13,7 +13,7 @@ bzip21.0.8-2
 ca-certificates20210119~20.04.2
 ca-certificates-mono6.12.0.122-0xamarin1+ubuntu2004b1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.10
+curl7.68.0-1ubuntu2.11
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -63,8 +63,8 @@ libcrypt11:4.4.10-10ubuntu4
 libctf02.34-6ubuntu1.3
 libctf-nobfd02.34-6ubuntu1.3
 libcurl3-gnutls7.68.0-1ubuntu2.11
-libcurl47.68.0-1ubuntu2.10
-libcurl4-openssl-dev7.68.0-1ubuntu2.10
+libcurl47.68.0-1ubuntu2.11
+libcurl4-openssl-dev7.68.0-1ubuntu2.11
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libdpkg-perl1.19.7ubuntu3
@@ -290,7 +290,7 @@ libssl1.11.1.1f-1ubuntu2.13
 libstdc++610.3.0-1ubuntu1~20.04
 libsystemd0245.4-4ubuntu3.15
 libtasn1-64.16.0-2
-libtiff54.1.0+git191117-2ubuntu0.20.04.2
+libtiff54.1.0+git191117-2ubuntu0.20.04.3
 libtinfo66.2-0ubuntu2
 libudev1245.4-4ubuntu3.15
 libunistring20.9.10-2
@@ -308,7 +308,7 @@ libxext62:1.3.4-0ubuntu1
 libxrender11:0.9.10-1
 libzen0v50.4.39-1
 libzstd11.4.4+dfsg-3ubuntu0.1
-locales2.31-0ubuntu9.7
+locales2.31-0ubuntu9.9
 login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
