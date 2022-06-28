@@ -62,7 +62,7 @@ libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libctf02.34-6ubuntu1.3
 libctf-nobfd02.34-6ubuntu1.3
-libcurl3-gnutls7.68.0-1ubuntu2.11
+libcurl3-gnutls7.68.0-1ubuntu2.12
 libcurl47.68.0-1ubuntu2.11
 libcurl4-openssl-dev7.68.0-1ubuntu2.11
 libdb5.35.3.28+dfsg1-0.6ubuntu2
@@ -107,7 +107,7 @@ libldap-2.4-22.4.49+dfsg-2ubuntu1.8
 libldap-common2.4.49+dfsg-2ubuntu1.8
 liblz4-11.9.2-2ubuntu0.20.04.1
 liblzma55.2.4-1ubuntu1
-libmediainfo0v522.03-1
+libmediainfo0v522.06-1
 libmms00.6.4-3
 libmono-2.0-dev6.12.0.122-0xamarin1+ubuntu2004b1
 libmono-accessibility4.0-cil6.12.0.122-0xamarin1+ubuntu2004b1
@@ -313,7 +313,7 @@ login1:4.8.1-1ubuntu5.20.04.1
 logsave1.45.5-2ubuntu1
 lsb-base11.1.0ubuntu2
 mawk1.3.4.20200120-2
-mediainfo22.03-1
+mediainfo22.06-1
 mono-4.0-gac6.12.0.122-0xamarin1+ubuntu2004b1
 mono-devel6.12.0.122-0xamarin1+ubuntu2004b1
 mono-gac6.12.0.122-0xamarin1+ubuntu2004b1
