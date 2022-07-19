@@ -31,8 +31,8 @@ mono-6.12.0.122-r1
 mpdecimal-2.5.1-r1
 musl-1.2.2-r7
 musl-utils-1.2.2-r7
-ncurses-libs-6.3_p20211120-r0
-ncurses-terminfo-base-6.3_p20211120-r0
+ncurses-libs-6.3_p20211120-r1
+ncurses-terminfo-base-6.3_p20211120-r1
 nghttp2-libs-1.46.0-r0
 oniguruma-6.9.7.1-r0
 procps-3.3.17-r0
