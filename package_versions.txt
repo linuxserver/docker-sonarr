@@ -3,7 +3,7 @@ alpine-keys-2.4-r1
 apk-tools-2.12.7-r3
 bash-5.1.16-r0
 brotli-libs-1.0.9-r5
-busybox-1.34.1-r6
+busybox-1.34.1-r7
 ca-certificates-20211220-r0
 ca-certificates-bundle-20211220-r0
 coreutils-9.0-r2
@@ -36,14 +36,14 @@ ncurses-terminfo-base-6.3_p20211120-r1
 nghttp2-libs-1.46.0-r0
 oniguruma-6.9.7.1-r0
 procps-3.3.17-r0
-python3-3.9.7-r4
+python3-3.9.13-r1
 readline-8.1.1-r0
 s6-ipcserver-2.11.0.0-r0
 scanelf-1.3.3-r0
 shadow-4.8.1-r1
 skalibs-2.11.0.0-r0
 sqlite-libs-3.36.0-r0
-ssl_client-1.34.1-r6
+ssl_client-1.34.1-r7
 tinyxml2-9.0.0-r0
 tzdata-2022a-r0
 utmps-0.1.0.3-r0
