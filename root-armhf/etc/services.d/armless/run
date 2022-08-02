@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bash
 
-if [[ -z $ISCI ]]; then
+if [[ -n $ISCI ]]; then
   sleep 180
 fi
 
