@@ -56,7 +56,7 @@ The architectures supported by this image are:
 | :----: | :----: | ---- |
 | x86-64 | ✅ | amd64-\<version tag\> |
 | arm64 | ✅ | arm64v8-\<version tag\> |
-| armhf| ✅ | arm32v7-\<version tag\> |
+| armhf| ❌ | |
 
 ## Version Tags
 
@@ -236,6 +236,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.08.22:** - Deprecate armhf.
 * **02.08.22:** - Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine.
 * **20.02.22:** - Rebase develop branch to Alpine.
 * **13.12.21:** - Switch strategy for mediainfo
