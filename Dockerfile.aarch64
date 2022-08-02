@@ -8,18 +8,23 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thespad"
 
 # set environment variables
+ARG DEBIAN_FRONTEND="noninteractive"
 ENV XDG_CONFIG_HOME="/config/xdg"
 ENV SONARR_BRANCH="develop"
 
 RUN \
+ echo "**** add mediaarea repository ****" && \
+  curl -L \
+    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-12_all.deb" \
+    -o /tmp/key.deb && \
+  dpkg -i /tmp/key.deb && \
+  echo "deb https://mediaarea.net/repo/deb/ubuntu focal main" | tee /etc/apt/sources.list.d/mediaarea.list && \
   echo "**** install packages ****" && \
-  apk add -U --upgrade --no-cache \
+  apt-get update && \
+  apt-get install -y --no-install-recommends \
     curl \
     jq \
-    libmediainfo \
-    sqlite-libs && \
-  apk add -U --upgrade --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
-    mono && \
+    mediainfo && \
   echo "**** install sonarr ****" && \
   mkdir -p /app/sonarr/bin && \
   if [ -z ${SONARR_VERSION+x} ]; then \
@@ -32,10 +37,12 @@ RUN \
   tar xzf \
     /tmp/sonarr.tar.gz -C \
     /app/sonarr/bin --strip-components=1 && \
-  echo -e "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)" > /app/sonarr/package_info && \  
+  echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)" > /app/sonarr/package_info && \
   rm -rf /app/sonarr/bin/Sonarr.Update && \
   echo "**** cleanup ****" && \
+  apt-get clean && \ 
   rm -rf \
+    /var/lib/apt/lists/* \
     /tmp/* \
     /var/tmp/*
 
