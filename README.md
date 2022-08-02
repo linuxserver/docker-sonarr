@@ -236,6 +236,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.08.22:** - Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine.
 * **20.02.22:** - Rebase develop branch to Alpine.
 * **13.12.21:** - Switch strategy for mediainfo
 * **10.02.21:** - Rebase to mono focal baseimage. Switch to v3 nightlies.
