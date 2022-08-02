@@ -1,4 +1,8 @@
 #!/usr/bin/with-contenv bash
 
+if [[ -z $ISCI ]]; then
+  sleep 180
+fi
+
 exec \
     s6-svscanctl -t /run/service/
