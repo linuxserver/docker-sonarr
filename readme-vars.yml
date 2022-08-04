@@ -12,7 +12,6 @@ project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
 # development version
 development_versions: true
@@ -44,6 +43,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "02.08.22:", desc: "Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
   - { date: "13.12.21:", desc: "Switch strategy for mediainfo" }
