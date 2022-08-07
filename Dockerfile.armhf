@@ -34,7 +34,7 @@ RUN \
   tar xzf \
     /tmp/sonarr.tar.gz -C \
     /app/sonarr/bin --strip-components=1 && \
-  echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)\nPackageGlobalMessage=Warn: Due to issues with Mono packages this container is not longer supported for 32-bit arm (armhf) platforms. See https://info.linuxserver.io for more info." > /app/sonarr/package_info && \  
+  echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)\nPackageGlobalMessage=Warn: Due to issues with Mono packages this container is no longer supported for 32-bit arm (armhf) platforms. See https://info.linuxserver.io for more info." > /app/sonarr/package_info && \  
   rm -rf /app/sonarr/bin/Sonarr.Update && \
   echo "**** cleanup ****" && \
   apt-get clean && \  
