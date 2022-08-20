@@ -104,7 +104,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sL 'https://services.sonarr.tv/v1/update/develop/changes?version=4&os=linuxmusl' | jq -r '.[0].version' ''',
+            script: ''' curl -sL 'https://services.sonarr.tv/v1/update/develop?version=4&os=linuxmusl' | jq -r '.[0].version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
