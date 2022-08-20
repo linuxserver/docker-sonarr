@@ -18,7 +18,7 @@ jobs:
           fi
           echo "**** External trigger running off of develop branch. To disable this trigger, set a Github secret named \"PAUSE_EXTERNAL_TRIGGER_SONARR_DEVELOP\". ****"
           echo "**** Retrieving external version ****"
-          EXT_RELEASE=$(curl -sL 'https://services.sonarr.tv/v1/update/develop?version=4&os=linuxmusl' | jq -r '.[0].version')
+          EXT_RELEASE=$(curl -sL 'https://services.sonarr.tv/v1/update/develop/changes?version=4&os=linuxmusl' | jq -r '.[0].version')
           if [ -z "${EXT_RELEASE}" ] || [ "${EXT_RELEASE}" == "null" ]; then
             echo "**** Can't retrieve external version, exiting ****"
             FAILURE_REASON="Can't retrieve external version for sonarr branch develop"

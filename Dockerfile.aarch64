@@ -21,7 +21,7 @@ RUN \
   echo "**** install sonarr ****" && \
   mkdir -p /app/sonarr/bin && \
   if [ -z ${SONARR_VERSION+x} ]; then \
-    SONARR_VERSION=$(curl -sL "https://services.sonarr.tv/v1/update/${SONARR_BRANCH}?version=4&os=linuxmusl" \
+    SONARR_VERSION=$(curl -sL "https://services.sonarr.tv/v1/update/${SONARR_BRANCH}/changes?version=4&os=linuxmusl" \
     | jq -r '.[0].version'); \
   fi && \
   curl -o \
