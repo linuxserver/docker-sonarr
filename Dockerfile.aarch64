@@ -37,7 +37,7 @@ RUN \
   echo -e "UpdateMethod=docker\nBranch=${sonarr_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/sonarr/package_info && \
   echo "**** cleanup ****" && \
   rm -rf \
-    /app/sonarr/bin/sonarr.Update \
+    /app/sonarr/bin/Sonarr.Update \
     /tmp/*
 
 # copy local files
