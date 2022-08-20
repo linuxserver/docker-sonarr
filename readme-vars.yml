@@ -55,7 +55,8 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "03.08.22:", desc: "Deprecate armhf." }  
+  - { date: "20.08.22:", desc: "Rebase develop to Alpine and bump to v4." }
+  - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "02.08.22:", desc: "Add armhf deprecation warning." }
   - { date: "28.04.22:", desc: "Rebase master branch to mono 6.12 base (focal)." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine, deprecate develop-alpine branch." }
