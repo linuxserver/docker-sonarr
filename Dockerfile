@@ -30,10 +30,6 @@ RUN \
   tar xzf \
     /tmp/sonarr.tar.gz -C \
     /app/sonarr/bin --strip-components=1 && \
-  chmod +x \
-    /app/sonarr/bin/Sonarr \
-    /app/sonarr/bin/ffprobe \
-    /app/sonarr/bin/createdump && \
   echo -e "UpdateMethod=docker\nBranch=${sonarr_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/sonarr/package_info && \
   echo "**** cleanup ****" && \
   rm -rf \
