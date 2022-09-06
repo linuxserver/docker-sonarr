@@ -13,7 +13,7 @@ bzip21.0.8-2
 ca-certificates20211016~20.04.1
 ca-certificates-mono6.12.0.182-0xamarin1+ubuntu2004b1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.12
+curl7.68.0-1ubuntu2.13
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -62,9 +62,9 @@ libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libctf02.34-6ubuntu1.3
 libctf-nobfd02.34-6ubuntu1.3
-libcurl3-gnutls7.68.0-1ubuntu2.12
-libcurl47.68.0-1ubuntu2.12
-libcurl4-openssl-dev7.68.0-1ubuntu2.12
+libcurl3-gnutls7.68.0-1ubuntu2.13
+libcurl47.68.0-1ubuntu2.13
+libcurl4-openssl-dev7.68.0-1ubuntu2.13
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libexif120.6.21-6ubuntu0.4
