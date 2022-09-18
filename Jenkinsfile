@@ -33,7 +33,7 @@ pipeline {
     CI_DELAY='120'
     CI_DOCKERENV='TZ=US/Pacific|ISCI=true'
     CI_AUTH='user:password'
-    CI_WEBPATH=''
+    CI_WEBPATH='/system/status'
   }
   stages {
     // Setup all the basic environment variables needed for the build
@@ -710,7 +710,7 @@ pipeline {
                 -e DO_REGION="ams3" \
                 -e DO_BUCKET="lsio-ci" \
                 -t ghcr.io/linuxserver/ci:latest \
-                python /ci/ci.py'''
+                python3 test_build.py'''
         }
       }
     }

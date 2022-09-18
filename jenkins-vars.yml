@@ -24,6 +24,6 @@ repo_vars:
   - CI_DELAY='120'
   - CI_DOCKERENV='TZ=US/Pacific|ISCI=true'
   - CI_AUTH='user:password'
-  - CI_WEBPATH=''
+  - CI_WEBPATH='/system/status'
 sponsor_links:
   - { name: "Sonarr", url: "https://sonarr.tv/donate" }
