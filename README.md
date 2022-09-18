@@ -244,6 +244,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.09.22:** - Rebase develop to Alpine and bump to v4.
 * **03.08.22:** - Deprecate armhf.
 * **02.08.22:** - Add armhf deprecation warning.
 * **28.04.22:** - Rebase master branch to mono 6.12 base (focal).
