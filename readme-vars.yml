@@ -17,7 +17,7 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
-  - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
+  - { tag: "develop", desc: "Development releases from Sonarr (currently v4)" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
