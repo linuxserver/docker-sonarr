@@ -17,15 +17,16 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
-  - { tag: "develop", desc: "Development releases from Sonarr (currently v4)" }
+  - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
+  - { tag: "develop", desc: "V4 releases from Sonarr" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "<path to data>", desc: "Database and sonarr configs" }
-  - { vol_path: "/tv", vol_host_path: "<path/to/tvseries>", desc: "Location of TV library on disk" }
-  - { vol_path: "/downloads", vol_host_path: "<path/to/downloadclient-downloads>", desc: "Location of download managers output directory" }
+  - { vol_path: "/config", vol_host_path: "/path to data/", desc: "Database and sonarr configs" }
+  - { vol_path: "/tv", vol_host_path: "/path/to/tvseries/", desc: "Location of TV library on disk" }
+  - { vol_path: "/downloads", vol_host_path: "/path/to/downloadclient-downloads/", desc: "Location of download managers output directory" }
 
 param_usage_include_ports: true
 param_ports:
@@ -43,7 +44,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "20.08.22:", desc: "Rebase develop to Alpine and bump to v4." }
+  - { date: "18.09.22:", desc: "Rebase develop to Alpine and bump to v4." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "02.08.22:", desc: "Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
