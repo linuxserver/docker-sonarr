@@ -66,7 +66,7 @@ This image provides various versions that are available via tags. Please read th
 | :----: | :----: |--- |
 | latest | ✅ | Stable releases from Sonarr (currently v3) |
 | develop | ✅ | Development releases from Sonarr (currently v3) |
-| develop | ✅ | V4 releases from Sonarr |
+| v4 | ✅ | V4 releases from Sonarr |
 
 ## Application Setup
 
