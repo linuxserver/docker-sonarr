@@ -44,7 +44,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "18.09.22:", desc: "Rebase develop to Alpine and bump to v4." }
+  - { date: "27.10.22:", desc: "Rebase v4 to Alpine 3.16, migrate to s6v3." }
   - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "02.08.22:", desc: "Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
