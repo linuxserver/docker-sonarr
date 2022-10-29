@@ -1,7 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-cd /app/sonarr/bin || exit
-
-exec \
-    s6-setuidgid abc /app/sonarr/bin/Sonarr \
-    -nobrowser -data=/config
