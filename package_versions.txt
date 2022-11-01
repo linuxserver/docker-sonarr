@@ -8,7 +8,7 @@ busybox-1.35.0-r17
 ca-certificates-20220614-r0
 ca-certificates-bundle-20220614-r0
 coreutils-9.1-r0
-curl-7.83.1-r3
+curl-7.83.1-r4
 gmp-6.2.1-r2
 icu-data-en-71.1-r2
 icu-libs-71.1-r2
@@ -17,7 +17,7 @@ libacl-2.3.1-r0
 libattr-2.5.1-r1
 libc-utils-0.7.2-r3
 libcrypto1.1-1.1.1q-r0
-libcurl-7.83.1-r3
+libcurl-7.83.1-r4
 libgcc-11.2.1_git20220219-r2
 libintl-0.21-r2
 libproc-3.3.17-r1
