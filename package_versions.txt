@@ -165,7 +165,7 @@ libpam-modules-bin1.3.1-5ubuntu4.3
 libpam-runtime1.3.1-5ubuntu4.3
 libpcre2-8-010.34-7
 libpcre32:8.39-12build1
-libpixman-1-00.38.4-0ubuntu1
+libpixman-1-00.38.4-0ubuntu2.1
 libpng16-161.6.37-2
 libprocps82:3.3.16-1ubuntu2.3
 libpsl50.21.0-1ubuntu1
