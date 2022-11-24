@@ -236,7 +236,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **24.11.22:** - Bump develop branch to v4.
+* **24.11.22:** - Bump develop branch to v4, rebase to Alpine.
 * **03.08.22:** - Deprecate armhf.
 * **02.08.22:** - Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine.
 * **20.02.22:** - Rebase develop branch to Alpine.
