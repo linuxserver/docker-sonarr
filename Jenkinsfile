@@ -24,16 +24,16 @@ pipeline {
     DOCKERHUB_IMAGE = 'linuxserver/sonarr'
     DEV_DOCKERHUB_IMAGE = 'lsiodev/sonarr'
     PR_DOCKERHUB_IMAGE = 'lspipepr/sonarr'
-    DIST_IMAGE = 'ubuntu'
+    DIST_IMAGE = 'alpine'
     MULTIARCH='true'
     CI='true'
     CI_WEB='true'
     CI_PORT='8989'
     CI_SSL='false'
     CI_DELAY='120'
-    CI_DOCKERENV='TZ=US/Pacific|ISCI=true'
+    CI_DOCKERENV='TZ=US/Pacific'
     CI_AUTH='user:password'
-    CI_WEBPATH=''
+    CI_WEBPATH='/system/status'
   }
   stages {
     // Setup all the basic environment variables needed for the build
@@ -104,7 +104,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://services.sonarr.tv/v1/releases | jq -r '.[] | select(.branch=="develop") | .version' ''',
+            script: ''' curl -sX GET http://services.sonarr.tv/v1/releases | jq -r 'first(.[] | select(.branch=="develop") | .version') ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
