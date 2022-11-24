@@ -65,8 +65,8 @@ This image provides various versions that are available via tags. Please read th
 | Tag | Available | Description |
 | :----: | :----: |--- |
 | latest | ✅ | Stable releases from Sonarr (currently v3) |
-| develop | ✅ | Development releases from Sonarr (currently v3) |
-| v4 | ✅ | V4 releases from Sonarr |
+| develop | ✅ | Development releases from Sonarr (currently v4) |
+| v4 | ✅ | v4 Alpha releases from Sonarr (deprecated) |
 
 ## Application Setup
 
@@ -237,6 +237,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.11.22:** - Add deprecation warning.
 * **27.10.22:** - Rebase v4 to Alpine 3.16, migrate to s6v3.
 * **03.08.22:** - Deprecate armhf.
 * **02.08.22:** - Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine.
