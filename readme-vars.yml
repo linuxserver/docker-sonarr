@@ -17,7 +17,7 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
-  - { tag: "develop", desc: "Development releases from Sonarr (currently v3)" }
+  - { tag: "develop", desc: "Development releases from Sonarr (currently v4)" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -55,7 +55,8 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "03.08.22:", desc: "Deprecate armhf." }  
+  - { date: "24.11.22:", desc: "Bump develop branch to v4, rebase to Alpine 3.16." }  
+  - { date: "03.08.22:", desc: "Deprecate armhf." }
   - { date: "02.08.22:", desc: "Add armhf deprecation warning." }
   - { date: "28.04.22:", desc: "Rebase master branch to mono 6.12 base (focal)." }
   - { date: "20.02.22:", desc: "Rebase develop branch to Alpine, deprecate develop-alpine branch." }
