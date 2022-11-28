@@ -5,8 +5,8 @@ cat <<-EOF
     ********************************************************
     *                                                      *
     *                         !!!!                         *
-    *            This image no longers supports            *
-    *    32 bit ARM due to a lack of upstream packages     *
+    *          This Sonarr image does not support          *
+    *   32 bit ARM due to lack of available OS packages    *
     *                                                      *
     *                                                      *
     ********************************************************

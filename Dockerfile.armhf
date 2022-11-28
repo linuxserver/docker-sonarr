@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-mono:arm32v7-focal-3d8375bc-ls75
+FROM ghcr.io/linuxserver/baseimage-alpine:arm32v7-3.16
 
 # set version label
 ARG BUILD_DATE
@@ -7,45 +7,10 @@ ARG SONARR_VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thespad"
 
-# set environment variables
-ARG DEBIAN_FRONTEND="noninteractive"
-ENV XDG_CONFIG_HOME="/config/xdg"
-ENV SONARR_BRANCH="develop"
-
-RUN \
- echo "**** add mediaarea repository ****" && \
-  curl -L \
-    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-12_all.deb" \
-    -o /tmp/key.deb && \
-  dpkg -i /tmp/key.deb && \
-  echo "deb https://mediaarea.net/repo/deb/ubuntu focal main" | tee /etc/apt/sources.list.d/mediaarea.list && \
-  echo "**** install packages ****" && \
-  apt-get update && \
-  apt-get install -y --no-install-recommends \
-    curl \
-    jq \
-    mediainfo && \
-  echo "**** install sonarr ****" && \
-  mkdir -p /app/sonarr/bin && \
-  SONARR_VERSION="3.0.8.1548" && \
-  curl -o \
-    /tmp/sonarr.tar.gz -L \
-    "https://download.sonarr.tv/v3/${SONARR_BRANCH}/${SONARR_VERSION}/Sonarr.${SONARR_BRANCH}.${SONARR_VERSION}.linux.tar.gz" && \
-  tar xzf \
-    /tmp/sonarr.tar.gz -C \
-    /app/sonarr/bin --strip-components=1 && \
-  echo "UpdateMethod=docker\nBranch=${SONARR_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://www.linuxserver.io/)\nPackageGlobalMessage=Warn: Due to issues with Mono packages this container is no longer supported for 32-bit arm (armhf) platforms. See https://info.linuxserver.io for more info." > /app/sonarr/package_info && \  
-  rm -rf /app/sonarr/bin/Sonarr.Update && \
-  echo "**** cleanup ****" && \
-  apt-get clean && \  
-  rm -rf \
-    /var/lib/apt/lists/* \  
-    /tmp/* \
-    /var/tmp/*
-
 # add local files
-COPY root/ /
+COPY root-armhf/ /
 
 # ports and volumes
 EXPOSE 8989
+
 VOLUME /config
