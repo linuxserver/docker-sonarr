@@ -68,7 +68,7 @@ libcurl4-openssl-dev7.68.0-1ubuntu2.14
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libexif120.6.21-6ubuntu0.4
-libexpat12.2.9-1ubuntu0.4
+libexpat12.2.9-1ubuntu0.5
 libext2fs21.45.5-2ubuntu1
 libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
@@ -233,7 +233,7 @@ sed4.7-1
 sensible-utils0.0.12+nmu1
 sysvinit-utils2.96-2.1ubuntu1
 tar1.30+dfsg-7ubuntu0.20.04.2
-tzdata2022f-0ubuntu0.20.04.0
+tzdata2022f-0ubuntu0.20.04.1
 ubuntu-keyring2020.02.11.4
 ucf3.0038+nmu1
 util-linux2.34-0.1ubuntu9.3
