@@ -68,7 +68,7 @@ libcurl4-openssl-dev7.68.0-1ubuntu2.14
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libexif120.6.21-6ubuntu0.4
-libexpat12.2.9-1ubuntu0.5
+libexpat12.2.9-1ubuntu0.6
 libext2fs21.45.5-2ubuntu1
 libfdisk12.34-0.1ubuntu9.3
 libffi73.3-4
@@ -90,7 +90,7 @@ libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1.1
 libhogweed53.5.1+really3.5.1-2ubuntu0.2
 libhx509-5-heimdal7.7.0+dfsg-1ubuntu1.1
 libidn2-02.2.0-2
-libjbig02.1-3.1build1
+libjbig02.1-3.1ubuntu0.20.04.1
 libjpeg88c-2ubuntu8
 libjpeg-turbo82.0.3-0ubuntu1.20.04.3
 libjq11.6-1ubuntu0.20.04.1
