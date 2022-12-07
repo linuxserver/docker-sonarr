@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 FROM ghcr.io/linuxserver/baseimage-alpine:3.16
 
 # set version label
@@ -28,7 +30,7 @@ RUN \
   tar xzf \
     /tmp/sonarr.tar.gz -C \
     /app/sonarr/bin --strip-components=1 && \
-  echo -e "UpdateMethod=docker\nBranch=${sonarr_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)\nPackageGlobalMessage=Warn: This image is now based on Alpine. Custom scripts using apt-get will need to be updated to use apk" > /app/sonarr/package_info && \
+  echo -e "UpdateMethod=docker\nBranch=${sonarr_BRANCH}\nPackageVersion=${VERSION}\nPackageAuthor=[linuxserver.io](https://linuxserver.io)" > /app/sonarr/package_info && \
   echo "**** cleanup ****" && \
   rm -rf \
     /app/sonarr/bin/Sonarr.Update \
