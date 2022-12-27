@@ -10,7 +10,7 @@ busybox-binsh-1.35.0-r29
 ca-certificates-20220614-r3
 ca-certificates-bundle-20220614-r3
 coreutils-9.1-r0
-curl-7.86.0-r1
+curl-7.87.0-r0
 icu-data-en-72.1-r1
 icu-libs-72.1-r1
 jq-1.6-r2
@@ -18,7 +18,7 @@ libacl-2.3.1-r1
 libattr-2.5.1-r2
 libc-utils-0.7.2-r3
 libcrypto3-3.0.7-r0
-libcurl-7.86.0-r1
+libcurl-7.87.0-r0
 libgcc-12.2.1_git20220924-r4
 libintl-0.21.1-r1
 libproc-3.3.17-r2
