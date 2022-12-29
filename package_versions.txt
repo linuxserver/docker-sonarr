@@ -36,7 +36,7 @@ readline-8.2.0-r0
 scanelf-1.3.5-r1
 shadow-4.13-r0
 skalibs-2.12.0.1-r0
-sqlite-libs-3.40.0-r0
+sqlite-libs-3.40.1-r0
 ssl_client-1.35.0-r29
 tzdata-2022f-r1
 utmps-libs-0.1.2.0-r1
