@@ -62,7 +62,7 @@ libcom-err21.45.5-2ubuntu1
 libcrypt11:4.4.10-10ubuntu4
 libctf02.34-6ubuntu1.4
 libctf-nobfd02.34-6ubuntu1.4
-libcurl3-gnutls7.68.0-1ubuntu2.14
+libcurl3-gnutls7.68.0-1ubuntu2.15
 libcurl47.68.0-1ubuntu2.14
 libcurl4-openssl-dev7.68.0-1ubuntu2.14
 libdb5.35.3.28+dfsg1-0.6ubuntu2
