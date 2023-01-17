@@ -13,7 +13,7 @@ bzip21.0.8-2
 ca-certificates20211016ubuntu0.20.04.1
 ca-certificates-mono6.12.0.182-0xamarin1+ubuntu2004b1
 coreutils8.30-3ubuntu2
-curl7.68.0-1ubuntu2.14
+curl7.68.0-1ubuntu2.15
 dash0.5.10.2-6
 debconf1.5.73
 debianutils4.9.1
@@ -63,8 +63,8 @@ libcrypt11:4.4.10-10ubuntu4
 libctf02.34-6ubuntu1.4
 libctf-nobfd02.34-6ubuntu1.4
 libcurl3-gnutls7.68.0-1ubuntu2.15
-libcurl47.68.0-1ubuntu2.14
-libcurl4-openssl-dev7.68.0-1ubuntu2.14
+libcurl47.68.0-1ubuntu2.15
+libcurl4-openssl-dev7.68.0-1ubuntu2.15
 libdb5.35.3.28+dfsg1-0.6ubuntu2
 libdebconfclient00.251ubuntu1
 libexif120.6.21-6ubuntu0.4
@@ -99,7 +99,7 @@ libkeyutils11.6-6ubuntu1.1
 libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1.2
 libkrb5-31.17-6ubuntu4.1
 libkrb5support01.17-6ubuntu4.1
-libksba81.3.5-2ubuntu0.20.04.1
+libksba81.3.5-2ubuntu0.20.04.2
 libldap-2.4-22.4.49+dfsg-2ubuntu1.9
 libldap-common2.4.49+dfsg-2ubuntu1.9
 liblz4-11.9.2-2ubuntu0.20.04.1
