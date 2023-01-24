@@ -44,7 +44,7 @@ jq1.6-1ubuntu0.20.04.1
 krb5-locales1.17-6ubuntu4.1
 libacl12.2.53-6
 libapt-pkg6.02.0.9
-libasn1-8-heimdal7.7.0+dfsg-1ubuntu1.2
+libasn1-8-heimdal7.7.0+dfsg-1ubuntu1.3
 libassuan02.5.3-7ubuntu2
 libattr11:2.4.48-5
 libaudit11:2.8.5-2ubuntu6
@@ -82,13 +82,13 @@ libglib2.0-02.64.6-1~ubuntu20.04.4
 libgmp102:6.2.0+dfsg-4
 libgnutls303.6.13-2ubuntu1.6
 libgpg-error01.37-1
-libgssapi3-heimdal7.7.0+dfsg-1ubuntu1.2
+libgssapi3-heimdal7.7.0+dfsg-1ubuntu1.3
 libgssapi-krb5-21.17-6ubuntu4.1
-libhcrypto4-heimdal7.7.0+dfsg-1ubuntu1.2
-libheimbase1-heimdal7.7.0+dfsg-1ubuntu1.2
-libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1.2
+libhcrypto4-heimdal7.7.0+dfsg-1ubuntu1.3
+libheimbase1-heimdal7.7.0+dfsg-1ubuntu1.3
+libheimntlm0-heimdal7.7.0+dfsg-1ubuntu1.3
 libhogweed53.5.1+really3.5.1-2ubuntu0.2
-libhx509-5-heimdal7.7.0+dfsg-1ubuntu1.2
+libhx509-5-heimdal7.7.0+dfsg-1ubuntu1.3
 libidn2-02.2.0-2
 libjbig02.1-3.1ubuntu0.20.04.1
 libjpeg88c-2ubuntu8
@@ -96,7 +96,7 @@ libjpeg-turbo82.0.3-0ubuntu1.20.04.3
 libjq11.6-1ubuntu0.20.04.1
 libk5crypto31.17-6ubuntu4.1
 libkeyutils11.6-6ubuntu1.1
-libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1.2
+libkrb5-26-heimdal7.7.0+dfsg-1ubuntu1.3
 libkrb5-31.17-6ubuntu4.1
 libkrb5support01.17-6ubuntu4.1
 libksba81.3.5-2ubuntu0.20.04.2
@@ -170,7 +170,7 @@ libpng16-161.6.37-2
 libprocps82:3.3.16-1ubuntu2.3
 libpsl50.21.0-1ubuntu1
 libreadline88.0-4
-libroken18-heimdal7.7.0+dfsg-1ubuntu1.2
+libroken18-heimdal7.7.0+dfsg-1ubuntu1.3
 librtmp12.4+20151223.gitfa8646d.1-2build1
 libsasl2-22.1.27+dfsg-2ubuntu0.1
 libsasl2-modules2.1.27+dfsg-2ubuntu0.1
@@ -194,7 +194,7 @@ libudev1245.4-4ubuntu3.15
 libunistring20.9.10-2
 libuuid12.34-0.1ubuntu9.3
 libwebp60.6.1-2ubuntu0.20.04.1
-libwind0-heimdal7.7.0+dfsg-1ubuntu1.2
+libwind0-heimdal7.7.0+dfsg-1ubuntu1.3
 libx11-62:1.6.9-2ubuntu1.2
 libx11-data2:1.6.9-2ubuntu1.2
 libxau61:1.0.9-0ubuntu1
