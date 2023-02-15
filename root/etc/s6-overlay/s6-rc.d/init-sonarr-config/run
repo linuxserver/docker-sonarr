@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+# cleanup pid if it exists
+if [[ -e /config/sonarr.pid ]]; then
+    rm -rf /config/sonarr.pid
+fi
+
+# permissions
+lsiown -R abc:abc \
+    /app/sonarr/bin \
+    /config
