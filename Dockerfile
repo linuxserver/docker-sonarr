@@ -17,7 +17,7 @@ ENV SONARR_BRANCH="main"
 RUN \
  echo "**** add mediaarea repository ****" && \
   curl -L \
-    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-12_all.deb" \
+    "https://mediaarea.net/repo/deb/repo-mediaarea_1.0-21_all.deb" \
     -o /tmp/key.deb && \
   dpkg -i /tmp/key.deb && \
   echo "deb https://mediaarea.net/repo/deb/ubuntu jammy main" | tee /etc/apt/sources.list.d/mediaarea.list && \
@@ -28,7 +28,6 @@ RUN \
   apt-get update && \
   apt-get install -y --no-install-recommends \
     ca-certificates-mono \
-    libcurl4-openssl-dev \
     libmono-system-net-http4.0-cil \
     libmono-corlib4.5-cil \
     libmono-microsoft-csharp4.0-cil \
