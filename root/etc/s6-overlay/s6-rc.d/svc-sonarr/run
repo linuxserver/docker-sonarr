@@ -2,6 +2,6 @@
 # shellcheck shell=bash
 
 exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8989" \
+    s6-notifyoncheck -d -n 300 -w 1000 \
         cd /app/sonarr/bin s6-setuidgid abc /app/sonarr/bin/Sonarr \
         -nobrowser -data=/config
