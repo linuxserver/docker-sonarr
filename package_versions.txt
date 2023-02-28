@@ -11,7 +11,7 @@ bsdutils1:2.37.2-4ubuntu3
 ca-certificates20211016ubuntu0.22.04.1
 ca-certificates-mono6.12.0.182-0xamarin1+ubuntu2004b1
 coreutils8.32-4.1ubuntu1
-curl7.81.0-1ubuntu1.7
+curl7.81.0-1ubuntu1.8
 dash0.5.11+git20210903+057cd650a4ed-3build1
 debconf1.5.79ubuntu1
 debianutils5.5-1ubuntu2
@@ -58,8 +58,8 @@ libcom-err21.46.5-2ubuntu1.1
 libcrypt11:4.4.27-1
 libctf02.38-4ubuntu2.1
 libctf-nobfd02.38-4ubuntu2.1
-libcurl3-gnutls7.81.0-1ubuntu1.7
-libcurl47.81.0-1ubuntu1.7
+libcurl3-gnutls7.81.0-1ubuntu1.8
+libcurl47.81.0-1ubuntu1.8
 libdb5.35.3.28+dfsg1-0.8ubuntu3
 libdebconfclient00.261ubuntu1
 libdeflate01.10-2
