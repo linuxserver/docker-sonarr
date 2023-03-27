@@ -1,0 +1,17 @@
+---
+version: "2.1"
+services:
+  sonarr:
+    image: lscr.io/linuxserver/sonarr:latest
+    container_name: sonarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=US/Arizona
+    volumes:
+      - /share/ZFS20_DATA/Container/Sonarr:/config
+      - /share/ZFS3_DATA/Multimedia/TV Shows:/TV-Shows #optional
+      - /share/ZFS4_DATA/Download/Transmission/complete:/Downloads #optional
+    ports:
+      - 8989:8989
+    restart: unless-stopped
