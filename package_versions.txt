@@ -197,7 +197,7 @@ libxdmcp6                                                    1:1.1.3-0ubuntu5   
 libxext6                                                     2:1.3.4-1build1                          deb   
 libxrender1                                                  1:0.9.10-1build4                         deb   
 libxxhash0                                                   0.8.1-1                                  deb   
-libzen0v5                                                    0.4.40-1                                 deb   
+libzen0v5                                                    0.4.41-1                                 deb   
 libzstd1                                                     1.4.8+dfsg-3build1                       deb   
 locales                                                      2.35-0ubuntu3.1                          deb   
 login                                                        1:4.8.1-2ubuntu2.1                       deb   
