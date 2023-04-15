@@ -22,7 +22,7 @@ FluentMigrator.Runner.SQLite                                                   3
 FluentMigrator.Runner.SqlAnywhere                                              3.3.2                    dotnet  
 FluentMigrator.Runner.SqlServer                                                3.3.2                    dotnet  
 FluentMigrator.Runner.SqlServerCe                                              3.3.2                    dotnet  
-FluentValidation                                                               8.6.2                    dotnet  
+FluentValidation                                                               9.5.4                    dotnet  
 Ical.Net                                                                       4.2.0                    dotnet  
 ImpromptuInterface                                                             7.0.1                    dotnet  
 Instances                                                                      1.6.1                    dotnet  
