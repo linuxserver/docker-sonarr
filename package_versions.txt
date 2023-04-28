@@ -1,7 +1,7 @@
 NAME                                                         VERSION                                  TYPE 
 adduser                                                      3.118ubuntu5                             deb   
-apt                                                          2.4.8                                    deb   
-apt-utils                                                    2.4.8                                    deb   
+apt                                                          2.4.9                                    deb   
+apt-utils                                                    2.4.9                                    deb   
 base-files                                                   12ubuntu4.3                              deb   
 base-passwd                                                  3.5.52build1                             deb   
 bash                                                         5.1-6ubuntu1                             deb   
@@ -40,7 +40,7 @@ hostname                                                     3.23ubuntu2        
 init-system-helpers                                          1.62                                     deb   
 jq                                                           1.6-2.1ubuntu3                           deb   
 libacl1                                                      2.3.1-1                                  deb   
-libapt-pkg6.0                                                2.4.8                                    deb   
+libapt-pkg6.0                                                2.4.9                                    deb   
 libassuan0                                                   2.5.5-1build1                            deb   
 libattr1                                                     1:2.5.1-1build1                          deb   
 libaudit-common                                              1:3.0.7-1build1                          deb   
@@ -74,7 +74,7 @@ libgcc-s1                                                    12.1.0-2ubuntu1~22.
 libgcrypt20                                                  1.9.4-3ubuntu3                           deb   
 libgdiplus                                                   6.0.5-0xamarin1+ubuntu2004b1             deb   
 libgif7                                                      5.1.9-2build2                            deb   
-libglib2.0-0                                                 2.72.4-0ubuntu1                          deb   
+libglib2.0-0                                                 2.72.4-0ubuntu2                          deb   
 libgmp10                                                     2:6.2.1+dfsg-3ubuntu1                    deb   
 libgnutls30                                                  3.7.3-4ubuntu1.2                         deb   
 libgpg-error0                                                1.43-3                                   deb   
@@ -95,7 +95,7 @@ libldap-common                                               2.5.14+dfsg-0ubuntu
 liblz4-1                                                     1.9.3-2build2                            deb   
 liblzma5                                                     5.2.5-2ubuntu1                           deb   
 libmd0                                                       1.0.4-1build1                            deb   
-libmediainfo0v5                                              23.03-1                                  deb   
+libmediainfo0v5                                              23.04-1                                  deb   
 libmms0                                                      0.6.4-3                                  deb   
 libmono-accessibility4.0-cil                                 6.12.0.182-0xamarin1+ubuntu2004b1        deb   
 libmono-cecil-vb0.9-cil                                      4.7-0xamarin3+ubuntu2004b1               deb   
@@ -204,7 +204,7 @@ login                                                        1:4.8.1-2ubuntu2.1 
 logsave                                                      1.46.5-2ubuntu1.1                        deb   
 lsb-base                                                     11.1.0ubuntu4                            deb   
 mawk                                                         1.3.4.20200120-3                         deb   
-mediainfo                                                    23.03-1                                  deb   
+mediainfo                                                    23.04-1                                  deb   
 mono-4.0-gac                                                 6.12.0.182-0xamarin1+ubuntu2004b1        deb   
 mono-gac                                                     6.12.0.182-0xamarin1+ubuntu2004b1        deb   
 mono-runtime                                                 6.12.0.182-0xamarin1+ubuntu2004b1        deb   
@@ -216,7 +216,7 @@ ncurses-base                                                 6.3-2              
 ncurses-bin                                                  6.3-2                                    deb   
 netcat                                                       1.218-4ubuntu1                           deb   
 netcat-openbsd                                               1.218-4ubuntu1                           deb   
-openssl                                                      3.0.2-0ubuntu1.8                         deb   
+openssl                                                      3.0.2-0ubuntu1.9                         deb   
 passwd                                                       1:4.8.1-2ubuntu2.1                       deb   
 perl-base                                                    5.34.0-3ubuntu1.1                        deb   
 pinentry-curses                                              1.1.1-1build2                            deb   
