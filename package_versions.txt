@@ -69,7 +69,7 @@ libexpat1                                                    2.4.7-1ubuntu0.2   
 libext2fs2                                                   1.46.5-2ubuntu1.1                        deb   
 libffi8                                                      3.4.2-4                                  deb   
 libfontconfig1                                               2.13.1-4.2ubuntu5                        deb   
-libfreetype6                                                 2.11.1+dfsg-1ubuntu0.1                   deb   
+libfreetype6                                                 2.11.1+dfsg-1ubuntu0.2                   deb   
 libgcc-s1                                                    12.1.0-2ubuntu1~22.04                    deb   
 libgcrypt20                                                  1.9.4-3ubuntu3                           deb   
 libgdiplus                                                   6.0.5-0xamarin1+ubuntu2004b1             deb   
