@@ -212,7 +212,7 @@ libproc                                                                        3
 libssl3                                                                        3.0.8-r4                 apk     
 libstdc++                                                                      12.2.1_git20220924-r4    apk     
 linux-pam                                                                      1.5.2-r1                 apk     
-musl                                                                           1.2.3-r4                 apk     
+musl                                                                           1.2.3-r5                 apk     
 musl-utils                                                                     1.2.3-r4                 apk     
 ncurses-libs                                                                   6.3_p20221119-r0         apk     
 ncurses-terminfo-base                                                          6.3_p20221119-r0         apk     
