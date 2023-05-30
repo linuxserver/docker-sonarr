@@ -70,6 +70,14 @@ This image provides various versions that are available via tags. Please read th
 
 Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
 
+### Media folders
+
+We have set `/tv` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
+
+Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
+
+The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
+
 ## Usage
 
 Here are some example snippets to help you get started creating a container.
@@ -236,7 +244,8 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **19.12.22:** - Rebase develop branch Alpine 3.17.
+* **30.05.23:** - Rebase to Alpine 3.18.
+* **19.12.22:** - Rebase develop branch to Alpine 3.17.
 * **24.11.22:** - Bump develop branch to v4, rebase to Alpine.
 * **03.08.22:** - Deprecate armhf.
 * **02.08.22:** - Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine.
