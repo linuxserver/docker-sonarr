@@ -9,7 +9,7 @@ binutils                                                     2.38-4ubuntu2.2    
 binutils-common                                              2.38-4ubuntu2.2                          deb   
 binutils-x86-64-linux-gnu                                    2.38-4ubuntu2.2                          deb   
 bsdutils                                                     1:2.37.2-4ubuntu3                        deb   
-ca-certificates                                              20211016ubuntu0.22.04.1                  deb   
+ca-certificates                                              20230311ubuntu0.22.04.1                  deb   
 ca-certificates-mono                                         6.12.0.182-0xamarin1+ubuntu2004b1        deb   
 coreutils                                                    8.32-4.1ubuntu1                          deb   
 curl                                                         7.81.0-1ubuntu1.10                       deb   
@@ -216,7 +216,7 @@ ncurses-base                                                 6.3-2              
 ncurses-bin                                                  6.3-2                                    deb   
 netcat                                                       1.218-4ubuntu1                           deb   
 netcat-openbsd                                               1.218-4ubuntu1                           deb   
-openssl                                                      3.0.2-0ubuntu1.9                         deb   
+openssl                                                      3.0.2-0ubuntu1.10                        deb   
 passwd                                                       1:4.8.1-2ubuntu2.1                       deb   
 perl-base                                                    5.34.0-3ubuntu1.1                        deb   
 pinentry-curses                                              1.1.1-1build2                            deb   
