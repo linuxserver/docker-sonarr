@@ -52,7 +52,8 @@ RUN \
     libmono-system4.0-cil \
     mono-runtime \
     mono-vbnc \
-    mediainfo && \    
+    mediainfo \
+    xmlstarlet && \    
   echo "**** install sonarr ****" && \
   mkdir -p /app/sonarr/bin && \
   if [ -z ${SONARR_VERSION+x} ]; then \
