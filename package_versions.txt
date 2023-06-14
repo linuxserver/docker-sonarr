@@ -206,6 +206,8 @@ libc-utils                                                                     0
 libcrypto3                                                                     3.1.1-r1                 apk     
 libcurl                                                                        8.1.2-r0                 apk     
 libgcc                                                                         12.2.1_git20220924-r10   apk     
+libgcrypt                                                                      1.10.2-r1                apk     
+libgpg-error                                                                   1.47-r1                  apk     
 libidn2                                                                        2.3.4-r1                 apk     
 libintl                                                                        0.21.1-r7                apk     
 libmd                                                                          1.0.4-r2                 apk     
@@ -214,6 +216,8 @@ libproc2                                                                       4
 libssl3                                                                        3.1.1-r1                 apk     
 libstdc++                                                                      12.2.1_git20220924-r10   apk     
 libunistring                                                                   1.1-r1                   apk     
+libxml2                                                                        2.11.4-r0                apk     
+libxslt                                                                        1.1.38-r0                apk     
 linux-pam                                                                      1.5.2-r10                apk     
 musl                                                                           1.2.4-r0                 apk     
 musl-utils                                                                     1.2.4-r0                 apk     
@@ -271,4 +275,6 @@ sqlite-libs                                                                    3
 ssl_client                                                                     1.36.1-r0                apk     
 tzdata                                                                         2023c-r1                 apk     
 utmps-libs                                                                     0.1.2.1-r1               apk     
+xmlstarlet                                                                     1.6.1-r2                 apk     
+xz-libs                                                                        5.4.3-r0                 apk     
 zlib                                                                           1.2.13-r1                apk     
