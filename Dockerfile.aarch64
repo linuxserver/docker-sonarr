@@ -17,7 +17,8 @@ RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
     icu-libs \
-    sqlite-libs && \
+    sqlite-libs \
+    xmlstarlet && \
   echo "**** install sonarr ****" && \
   mkdir -p /app/sonarr/bin && \
   if [ -z ${SONARR_VERSION+x} ]; then \
