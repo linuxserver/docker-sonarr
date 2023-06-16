@@ -196,8 +196,8 @@ ca-certificates                                                                2
 ca-certificates-bundle                                                         20230506-r0              apk     
 coreutils                                                                      9.3-r1                   apk     
 curl                                                                           8.1.2-r0                 apk     
-icu-data-en                                                                    73.1-r1                  apk     
-icu-libs                                                                       73.1-r1                  apk     
+icu-data-en                                                                    73.2-r0                  apk     
+icu-libs                                                                       73.2-r0                  apk     
 jq                                                                             1.6-r3                   apk     
 libacl                                                                         2.3.1-r3                 apk     
 libattr                                                                        2.5.1-r4                 apk     
