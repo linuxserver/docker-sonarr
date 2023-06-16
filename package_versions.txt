@@ -74,7 +74,7 @@ libgcc-s1                                                    12.1.0-2ubuntu1~22.
 libgcrypt20                                                  1.9.4-3ubuntu3                           deb   
 libgdiplus                                                   6.0.5-0xamarin1+ubuntu2004b1             deb   
 libgif7                                                      5.1.9-2build2                            deb   
-libglib2.0-0                                                 2.72.4-0ubuntu2                          deb   
+libglib2.0-0                                                 2.72.4-0ubuntu2.2                        deb   
 libgmp10                                                     2:6.2.1+dfsg-3ubuntu1                    deb   
 libgnutls30                                                  3.7.3-4ubuntu1.2                         deb   
 libgpg-error0                                                1.43-3                                   deb   
@@ -187,8 +187,8 @@ libudev1                                                     249.11-0ubuntu3.9  
 libunistring2                                                1.0-1                                    deb   
 libuuid1                                                     2.37.2-4ubuntu3                          deb   
 libwebp7                                                     1.2.2-2ubuntu0.22.04.1                   deb   
-libx11-6                                                     2:1.7.5-1                                deb   
-libx11-data                                                  2:1.7.5-1                                deb   
+libx11-6                                                     2:1.7.5-1ubuntu0.2                       deb   
+libx11-data                                                  2:1.7.5-1ubuntu0.2                       deb   
 libxau6                                                      1:1.0.9-1build5                          deb   
 libxcb-render0                                               1.14-3ubuntu3                            deb   
 libxcb-shm0                                                  1.14-3ubuntu3                            deb   
