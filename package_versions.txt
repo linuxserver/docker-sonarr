@@ -195,7 +195,7 @@ busybox-binsh                                                                  1
 ca-certificates                                                                20230506-r0              apk     
 ca-certificates-bundle                                                         20230506-r0              apk     
 coreutils                                                                      9.3-r1                   apk     
-curl                                                                           8.1.2-r0                 apk     
+curl                                                                           8.2.0-r1                 apk     
 icu-data-en                                                                    73.2-r2                  apk     
 icu-libs                                                                       73.2-r2                  apk     
 jq                                                                             1.6-r3                   apk     
@@ -203,8 +203,8 @@ libacl                                                                         2
 libattr                                                                        2.5.1-r4                 apk     
 libbsd                                                                         0.11.7-r1                apk     
 libc-utils                                                                     0.7.2-r5                 apk     
-libcrypto3                                                                     3.1.1-r2                 apk     
-libcurl                                                                        8.1.2-r0                 apk     
+libcrypto3                                                                     3.1.1-r3                 apk     
+libcurl                                                                        8.2.0-r1                 apk     
 libgcc                                                                         12.2.1_git20220924-r10   apk     
 libgcrypt                                                                      1.10.2-r1                apk     
 libgpg-error                                                                   1.47-r1                  apk     
@@ -213,7 +213,7 @@ libintl                                                                        0
 libmd                                                                          1.0.4-r2                 apk     
 libncursesw                                                                    6.4_p20230506-r0         apk     
 libproc2                                                                       4.0.3-r1                 apk     
-libssl3                                                                        3.1.1-r2                 apk     
+libssl3                                                                        3.1.1-r3                 apk     
 libstdc++                                                                      12.2.1_git20220924-r10   apk     
 libunistring                                                                   1.1-r1                   apk     
 libxml2                                                                        2.11.4-r0                apk     
@@ -223,7 +223,7 @@ musl                                                                           1
 musl-utils                                                                     1.2.4-r0                 apk     
 ncurses-terminfo-base                                                          6.4_p20230506-r0         apk     
 netcat-openbsd                                                                 1.219-r1                 apk     
-nghttp2-libs                                                                   1.53.0-r0                apk     
+nghttp2-libs                                                                   1.55.1-r0                apk     
 oniguruma                                                                      6.9.8-r1                 apk     
 procps-ng                                                                      4.0.3-r1                 apk     
 readline                                                                       8.2.1-r1                 apk     
