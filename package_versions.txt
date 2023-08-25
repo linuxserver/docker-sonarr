@@ -207,6 +207,7 @@ apt-utils                                                                    2.4
 base-files                                                                   12ubuntu4.3                              deb     
 base-passwd                                                                  3.5.52build1                             deb     
 bash                                                                         5.1-6ubuntu1                             deb     
+bash                                                                         5.1.16                                   binary  
 binutils                                                                     2.38-4ubuntu2.3                          deb     
 binutils-common                                                              2.38-4ubuntu2.3                          deb     
 binutils-x86-64-linux-gnu                                                    2.38-4ubuntu2.3                          deb     
