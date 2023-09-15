@@ -299,7 +299,7 @@ libldap-common                                                               2.5
 liblz4-1                                                                     1.9.3-2build2                            deb     
 liblzma5                                                                     5.2.5-2ubuntu1                           deb     
 libmd0                                                                       1.0.4-1build1                            deb     
-libmediainfo0v5                                                              23.07-1                                  deb     
+libmediainfo0v5                                                              23.09-1                                  deb     
 libmms0                                                                      0.6.4-3                                  deb     
 libmono-accessibility4.0-cil                                                 6.12.0.200-0xamarin2+ubuntu2004b1        deb     
 libmono-cecil-vb0.9-cil                                                      4.7-0xamarin3+ubuntu2004b1               deb     
@@ -390,7 +390,7 @@ libtirpc3                                                                    1.3
 libudev1                                                                     249.11-0ubuntu3.9                        deb     
 libunistring2                                                                1.0-1                                    deb     
 libuuid1                                                                     2.37.2-4ubuntu3                          deb     
-libwebp7                                                                     1.2.2-2ubuntu0.22.04.1                   deb     
+libwebp7                                                                     1.2.2-2ubuntu0.22.04.2                   deb     
 libx11-6                                                                     2:1.7.5-1ubuntu0.2                       deb     
 libx11-data                                                                  2:1.7.5-1ubuntu0.2                       deb     
 libxau6                                                                      1:1.0.9-1build5                          deb     
@@ -405,12 +405,12 @@ libxslt1.1                                                                   1.1
 libxxhash0                                                                   0.8.1-1                                  deb     
 libzen0v5                                                                    0.4.41-1                                 deb     
 libzstd1                                                                     1.4.8+dfsg-3build1                       deb     
-locales                                                                      2.35-0ubuntu3.1                          deb     
+locales                                                                      2.35-0ubuntu3.3                          deb     
 login                                                                        1:4.8.1-2ubuntu2.1                       deb     
 logsave                                                                      1.46.5-2ubuntu1.1                        deb     
 lsb-base                                                                     11.1.0ubuntu4                            deb     
 mawk                                                                         1.3.4.20200120-3                         deb     
-mediainfo                                                                    23.07-1                                  deb     
+mediainfo                                                                    23.09-1                                  deb     
 mono-4.0-gac                                                                 6.12.0.200-0xamarin2+ubuntu2004b1        deb     
 mono-gac                                                                     6.12.0.200-0xamarin2+ubuntu2004b1        deb     
 mono-runtime                                                                 6.12.0.200-0xamarin2+ubuntu2004b1        deb     
