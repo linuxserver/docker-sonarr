@@ -829,11 +829,11 @@ pipeline {
       steps {
         echo "Setting up protection for release branch develop"
         sh '''#! /bin/bash
-          curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST https://api.github.com/repos/${LS_USER}/${LS_REPO}/branches/develop/protection \
+          curl -H "Authorization: token ${GITHUB_TOKEN}" -X PUT https://api.github.com/repos/${LS_USER}/${LS_REPO}/branches/develop/protection \
           -d $(jq -c .  << EOF
             {
               "required_status_checks": null,
-              "enforce_admins": true,
+              "enforce_admins": false,
               "required_pull_request_reviews": {
                 "dismiss_stale_reviews": false,
                 "require_code_owner_reviews": false,
