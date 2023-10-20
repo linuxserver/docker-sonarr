@@ -215,7 +215,7 @@ bsdutils                                                                     1:2
 ca-certificates                                                              20230311ubuntu0.22.04.1                  deb     
 ca-certificates-mono                                                         6.12.0.200-0xamarin2+ubuntu2004b1        deb     
 coreutils                                                                    8.32-4.1ubuntu1                          deb     
-curl                                                                         7.81.0-1ubuntu1.13                       deb     
+curl                                                                         7.81.0-1ubuntu1.14                       deb     
 dash                                                                         0.5.11+git20210903+057cd650a4ed-3build1  deb     
 debconf                                                                      1.5.79ubuntu1                            deb     
 debianutils                                                                  5.5-1ubuntu2                             deb     
@@ -263,7 +263,7 @@ libcrypt1                                                                    1:4
 libctf-nobfd0                                                                2.38-4ubuntu2.3                          deb     
 libctf0                                                                      2.38-4ubuntu2.3                          deb     
 libcurl3-gnutls                                                              7.81.0-1ubuntu1.14                       deb     
-libcurl4                                                                     7.81.0-1ubuntu1.13                       deb     
+libcurl4                                                                     7.81.0-1ubuntu1.14                       deb     
 libdb5.3                                                                     5.3.28+dfsg1-0.8ubuntu3                  deb     
 libdebconfclient0                                                            0.261ubuntu1                             deb     
 libdeflate0                                                                  1.10-2                                   deb     
