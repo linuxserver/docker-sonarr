@@ -3,8 +3,8 @@ NAME                                                        VERSION             
 BouncyCastle.Crypto                                         1.9.0.1                 dotnet  
 Dapper                                                      2.0.123.33578           dotnet  
 Diacritical                                                 1.0.4.0                 dotnet  
-DryIoc net6.0                                               5.4.1.0                 dotnet  
-DryIoc.Microsoft.DependencyInjection net6.0                 6.2.0.0                 dotnet  
+DryIoc.Microsoft.DependencyInjectionnet6.0                  6.2.0.0                 dotnet  
+DryIocnet6.0                                                5.4.1.0                 dotnet  
 Dynamitey                                                   2.0.9.136               dotnet  
 FFMpegCore                                                  4.0.0.0                 dotnet  
 FluentMigrator                                              3.3.2.9                 dotnet  
@@ -31,7 +31,7 @@ ICSharpCode.SharpZipLib                                     1.4.2.13            
 Ical.Net                                                    1.0.0.0                 dotnet  
 ImpromptuInterface                                          7.0.1.0                 dotnet  
 Instances                                                   1.0.0.0                 dotnet  
-Json.NET .NET 6.0                                           13.0.3.27908            dotnet  
+Json.NET.NET6.0                                             13.0.3.27908            dotnet  
 MailKit                                                     3.6.0.0                 dotnet  
 Microsoft.AspNetCore                                        6.0.1322.58013          dotnet  
 Microsoft.AspNetCore.Antiforgery                            6.0.1322.58013          dotnet  
@@ -184,23 +184,23 @@ Mono.Nat                                                    3.0.1               
 Mono.Posix.NETStandard.dll                                  1.0.0.0                 dotnet  
 MonoMod.Common                                              20.5.7.1                dotnet  
 MonoTorrent                                                 2.0.7                   dotnet  
-NLog Syslog target                                          6.0.3.0                 dotnet  
-NLog for NetStandard 2.0                                    4.7.14.740              dotnet  
-NLog.Extensions.Logging for .NET 5.0                        1.7.4.1610              dotnet  
-Noda Time                                                   3.0.0.0                 dotnet  
+NLog.Extensions.Loggingfor.NET5.0                           1.7.4.1610              dotnet  
+NLogSyslogtarget                                            6.0.3.0                 dotnet  
+NLogforNetStandard2.0                                       4.7.14.740              dotnet  
+NodaTime                                                    3.0.0.0                 dotnet  
 Npgsql                                                      7.0.4.0                 dotnet  
 ReusableTasks                                               2.0.0                   dotnet  
 Sentry                                                      3.23.1.0                dotnet  
 SixLabors.ImageSharp                                        3.0.1.0                 dotnet  
-Sonarr                                                      4.0.0.710               dotnet  
-Sonarr.Api.V3                                               4.0.0.710               dotnet  
-Sonarr.Common                                               4.0.0.710               dotnet  
-Sonarr.Core                                                 4.0.0.710               dotnet  
-Sonarr.Host                                                 4.0.0.710               dotnet  
-Sonarr.Http                                                 4.0.0.710               dotnet  
-Sonarr.Mono                                                 4.0.0.710               dotnet  
-Sonarr.RuntimePatches                                       4.0.0.710               dotnet  
-Sonarr.SignalR                                              4.0.0.710               dotnet  
+Sonarr                                                      4.0.0.717               dotnet  
+Sonarr.Api.V3                                               4.0.0.717               dotnet  
+Sonarr.Common                                               4.0.0.717               dotnet  
+Sonarr.Core                                                 4.0.0.717               dotnet  
+Sonarr.Host                                                 4.0.0.717               dotnet  
+Sonarr.Http                                                 4.0.0.717               dotnet  
+Sonarr.Mono                                                 4.0.0.717               dotnet  
+Sonarr.RuntimePatches                                       4.0.0.717               dotnet  
+Sonarr.SignalR                                              4.0.0.717               dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                 dotnet  
 Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                 dotnet  
 System                                                      6.0.1322.58009          dotnet  
@@ -224,7 +224,7 @@ System.Core                                                 6.0.1322.58009      
 System.Data                                                 6.0.1322.58009          dotnet  
 System.Data.Common                                          6.0.1322.58009          dotnet  
 System.Data.DataSetExtensions                               6.0.1322.58009          dotnet  
-System.Data.SQLite Core                                     1.0.115.5               dotnet  
+System.Data.SQLiteCore                                      1.0.115.5               dotnet  
 System.Data.SqlServerCe                                     4.0.8876.1              dotnet  
 System.Diagnostics.Contracts                                6.0.1322.58009          dotnet  
 System.Diagnostics.Debug                                    6.0.1322.58009          dotnet  
