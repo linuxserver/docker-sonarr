@@ -377,7 +377,7 @@ WindowsBase                                                 6.0.1322.58009      
 alpine-baselayout                                           3.4.3-r1                apk     
 alpine-baselayout-data                                      3.4.3-r1                apk     
 alpine-keys                                                 2.4-r1                  apk     
-alpine-release                                              3.18.4-r0               apk     
+alpine-release                                              3.18.5-r0               apk     
 apk-tools                                                   2.14.0-r2               apk     
 bash                                                        5.2.15-r5               apk     
 brotli-libs                                                 1.0.9-r14               apk     
@@ -386,7 +386,7 @@ busybox-binsh                                               1.36.1-r5           
 ca-certificates                                             20230506-r0             apk     
 ca-certificates-bundle                                      20230506-r0             apk     
 coreutils                                                   9.3-r1                  apk     
-curl                                                        8.4.0-r0                apk     
+curl                                                        8.5.0-r0                apk     
 icu-data-en                                                 73.2-r2                 apk     
 icu-libs                                                    73.2-r2                 apk     
 jq                                                          1.6-r3                  apk     
@@ -395,7 +395,7 @@ libattr                                                     2.5.1-r4            
 libbsd                                                      0.11.7-r1               apk     
 libc-utils                                                  0.7.2-r5                apk     
 libcrypto3                                                  3.1.4-r1                apk     
-libcurl                                                     8.4.0-r0                apk     
+libcurl                                                     8.5.0-r0                apk     
 libgcc                                                      12.2.1_git20220924-r10  apk     
 libgcrypt                                                   1.10.2-r1               apk     
 libgpg-error                                                1.47-r1                 apk     
