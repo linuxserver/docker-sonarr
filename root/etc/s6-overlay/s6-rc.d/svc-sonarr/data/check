@@ -1,6 +1,8 @@
 #!/bin/bash
 
-PORT=$(xmlstarlet sel -T -t -v /Config/Port /config/config.xml)
+if [[ -f /config/config.xml ]]; then
+    PORT=$(xmlstarlet sel -T -t -v /Config/Port /config/config.xml)
+fi
 
 if [[ $(curl -sL "http://localhost:${PORT:-8989}/ping" | jq -r '.status' 2>/dev/null) = "OK" ]]; then
     exit 0
