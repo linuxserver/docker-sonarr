@@ -16,8 +16,8 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
-  - { tag: "develop", desc: "Development releases from Sonarr (currently v4)" }
+  - { tag: "latest", desc: "Stable releases from Sonarr" }
+  - { tag: "develop", desc: "Development releases from Sonarr" }
 
 # container parameters
 param_container_name: "{{ project_name }}"
@@ -33,7 +33,7 @@ opt_param_volumes:
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr webinterface" }
-param_usage_include_env: true
+param_usage_include_env: false
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Sonarr"}
 # optional env variables
@@ -55,6 +55,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.12.23:", desc: "Rebase master branch to Alpine 3.19." }
   - { date: "15.02.23:", desc: "Rebase master branch to Jammy." }
   - { date: "19.12.22:", desc: "Rebase develop branch Alpine 3.17." }
   - { date: "24.11.22:", desc: "Bump develop branch to v4, rebase to Alpine 3.16." }
