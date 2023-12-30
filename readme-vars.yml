@@ -49,6 +49,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.12.23:", desc: "Rebase to Alpine 3.19." }
   - { date: "30.05.23:", desc: "Rebase to Alpine 3.18." }
   - { date: "19.12.22:", desc: "Rebase develop branch to Alpine 3.17." }
   - { date: "24.11.22:", desc: "Bump develop branch to v4, rebase to Alpine." }
