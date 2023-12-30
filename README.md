@@ -63,8 +63,8 @@ This image provides various versions that are available via tags. Please read th
 
 | Tag | Available | Description |
 | :----: | :----: |--- |
-| latest | ✅ | Stable releases from Sonarr (currently v3) |
-| develop | ✅ | Development releases from Sonarr (currently v4) |
+| latest | ✅ | Stable releases from Sonarr |
+| develop | ✅ | Development releases from Sonarr |
 
 ## Application Setup
 
@@ -310,6 +310,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **30.12.23:** - Rebase master branch to Alpine 3.19.
 * **15.02.23:** - Rebase master branch to Jammy.
 * **19.12.22:** - Rebase develop branch Alpine 3.17.
 * **24.11.22:** - Bump develop branch to v4, rebase to Alpine 3.16.

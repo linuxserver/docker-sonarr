@@ -3,7 +3,7 @@
 # jenkins variables
 project_name: docker-sonarr
 external_type: na
-custom_version_command: "curl -sX GET http://services.sonarr.tv/v1/releases | jq -r '.[] | select(.branch==\"main\") | .version'"
+custom_version_command: "curl -sX GET http://services.sonarr.tv/v1/releases | jq -r '.[] | select(.releaseChannel==\"v4-stable\") | .version'"
 release_type: stable
 release_tag: latest
 ls_branch: master

@@ -109,7 +109,7 @@ pipeline {
       steps{
         script{
           env.EXT_RELEASE = sh(
-            script: ''' curl -sX GET http://services.sonarr.tv/v1/releases | jq -r '.[] | select(.branch=="main") | .version' ''',
+            script: ''' curl -sX GET http://services.sonarr.tv/v1/releases | jq -r '.[] | select(.releaseChannel=="v4-stable") | .version' ''',
             returnStdout: true).trim()
             env.RELEASE_LINK = 'custom_command'
         }
