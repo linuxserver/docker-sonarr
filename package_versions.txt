@@ -96,6 +96,8 @@ Microsoft.AspNetCore.SignalR.Protocols.Json                 6.0.1322.58013      
 Microsoft.AspNetCore.StaticFiles                            6.0.1322.58013                                                     dotnet  
 Microsoft.AspNetCore.WebSockets                             6.0.1322.58013                                                     dotnet  
 Microsoft.AspNetCore.WebUtilities                           6.0.1322.58013                                                     dotnet  
+Microsoft.Bcl.AsyncInterfaces                               6.0.21.52210                                                       dotnet  
+Microsoft.Bcl.TimeProvider                                  8.0.23.53103                                                       dotnet  
 Microsoft.CSharp                                            6.0.1322.58009                                                     dotnet  
 Microsoft.Data.SqlClient                                    2.0.20168.4                                                        dotnet  
 Microsoft.Extensions.Caching.Abstractions                   6.0.21.52210                                                       dotnet  
@@ -168,10 +170,12 @@ NLog.Extensions.Logging v1.7.4                              1.7.4.1610          
 NLog.Targets.Syslog                                         6.0.3.0                                                            dotnet  
 NodaTime                                                    3.0.0.0                                                            dotnet  
 Npgsql                                                      7.0.4.0                                                            dotnet  
+Polly                                                       8.2.0.2702                                                         dotnet  
+Polly.Core                                                  8.2.0.2702                                                         dotnet  
 ReusableTasks                                               2.0.0-master+2aa9a10                                               dotnet  
 Sentry                                                      3.23.1.0                                                           dotnet  
 SixLabors.ImageSharp                                        3.0.1.0                                                            dotnet  
-Sonarr                                                      4.0.0.742                                                          dotnet  
+Sonarr                                                      4.0.0.746                                                          dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                            dotnet  
 Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                            dotnet  
 System                                                      6.0.1322.58009                                                     dotnet  
