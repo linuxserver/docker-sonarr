@@ -24,7 +24,7 @@ param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Database and sonarr configs" }
-  
+
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/tv", vol_host_path: "/path/to/tvseries", desc: "Location of TV library on disk (See note in Application setup)" }
@@ -55,6 +55,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "12.01.24:", desc: "Update download url." }
   - { date: "30.12.23:", desc: "Rebase master branch to Alpine 3.19." }
   - { date: "15.02.23:", desc: "Rebase master branch to Jammy." }
   - { date: "19.12.22:", desc: "Rebase develop branch Alpine 3.17." }
