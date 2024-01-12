@@ -354,7 +354,7 @@ bash                                                        5.2.21-r0           
 brotli-libs                                                 1.1.0-r1                                                           apk     
 busybox                                                     1.36.1-r15                                                         apk     
 busybox-binsh                                               1.36.1-r15                                                         apk     
-c-ares                                                      1.22.1-r0                                                          apk     
+c-ares                                                      1.24.0-r0                                                          apk     
 ca-certificates                                             20230506-r0                                                        apk     
 ca-certificates-bundle                                      20230506-r0                                                        apk     
 coreutils                                                   9.4-r1                                                             apk     
@@ -369,7 +369,7 @@ libacl                                                      2.3.1-r4            
 libattr                                                     2.5.1-r5                                                           apk     
 libbsd                                                      0.11.7-r3                                                          apk     
 libc-utils                                                  0.7.2-r5                                                           apk     
-libcrypto3                                                  3.1.4-r2                                                           apk     
+libcrypto3                                                  3.1.4-r3                                                           apk     
 libcurl                                                     8.5.0-r0                                                           apk     
 libgcc                                                      13.2.1_git20231014-r0                                              apk     
 libgcrypt                                                   1.10.3-r0                                                          apk     
@@ -379,7 +379,7 @@ libintl                                                     0.22.3-r0           
 libmd                                                       1.1.0-r0                                                           apk     
 libncursesw                                                 6.4_p20231125-r0                                                   apk     
 libproc2                                                    4.0.4-r0                                                           apk     
-libssl3                                                     3.1.4-r2                                                           apk     
+libssl3                                                     3.1.4-r3                                                           apk     
 libstdc++                                                   13.2.1_git20231014-r0                                              apk     
 libunistring                                                1.1-r2                                                             apk     
 libxml2                                                     2.11.6-r0                                                          apk     
