@@ -16,7 +16,7 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable releases from Sonarr (currently v3)" }
+  - { tag: "latest", desc: "Stable releases from Sonarr (currently v4)" }
   - { tag: "develop", desc: "Development releases from Sonarr (currently v4)" }
 
 # container parameters
@@ -49,6 +49,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "12.01.24:", desc: "Update download url." }
   - { date: "30.12.23:", desc: "Rebase to Alpine 3.19." }
   - { date: "30.05.23:", desc: "Rebase to Alpine 3.18." }
   - { date: "19.12.22:", desc: "Rebase develop branch to Alpine 3.17." }
