@@ -175,7 +175,7 @@ Polly.Core                                                  8.2.0.2702          
 ReusableTasks                                               2.0.0-master+2aa9a10                                               dotnet  
 Sentry                                                      3.23.1.0                                                           dotnet  
 SixLabors.ImageSharp                                        3.0.1.0                                                            dotnet  
-Sonarr                                                      4.0.1.1047                                                         dotnet  
+Sonarr                                                      4.0.1.1096                                                         dotnet  
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                            dotnet  
 Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                            dotnet  
 System                                                      6.0.1322.58009                                                     dotnet  
@@ -404,7 +404,7 @@ shadow                                                      4.14.2-r0           
 skalibs                                                     2.14.0.1-r0                                                        apk     
 sqlite-libs                                                 3.44.2-r0                                                          apk     
 ssl_client                                                  1.36.1-r15                                                         apk     
-tzdata                                                      2023d-r0                                                           apk     
+tzdata                                                      2024a-r0                                                           apk     
 utmps-libs                                                  0.1.2.2-r0                                                         apk     
 xmlstarlet                                                  1.6.1-r2                                                           apk     
 xz-libs                                                     5.4.5-r0                                                           apk     
