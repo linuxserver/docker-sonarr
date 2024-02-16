@@ -386,7 +386,7 @@ libproc2                                                    4.0.4-r0            
 libssl3                                                     3.1.4-r5                                                    apk     
 libstdc++                                                   13.2.1_git20231014-r0                                       apk     
 libunistring                                                1.1-r2                                                      apk     
-libxml2                                                     2.11.6-r0                                                   apk     
+libxml2                                                     2.11.7-r0                                                   apk     
 libxslt                                                     1.1.39-r0                                                   apk     
 linux-pam                                                   1.5.3-r7                                                    apk     
 mscorlib                                                    6.0.1322.58009                                              dotnet  
