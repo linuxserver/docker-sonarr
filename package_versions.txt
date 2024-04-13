@@ -175,7 +175,7 @@ Polly.Core                                                  8.3.1.3207          
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.3.0                                                     dotnet                    
-Sonarr                                                      4.0.3.1413                                                  dotnet  (+8 duplicates)   
+Sonarr                                                      4.0.4.1491                                                  dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                     dotnet                    
 System                                                      6.0.1322.58009                                              dotnet                    
@@ -373,7 +373,7 @@ libacl                                                      2.3.1-r4            
 libattr                                                     2.5.1-r5                                                    apk                       
 libbsd                                                      0.11.7-r3                                                   apk                       
 libc-utils                                                  0.7.2-r5                                                    apk                       
-libcrypto3                                                  3.1.4-r5                                                    apk                       
+libcrypto3                                                  3.1.4-r6                                                    apk                       
 libcurl                                                     8.5.0-r0                                                    apk                       
 libgcc                                                      13.2.1_git20231014-r0                                       apk                       
 libgcrypt                                                   1.10.3-r0                                                   apk                       
@@ -383,7 +383,7 @@ libintl                                                     0.22.3-r0           
 libmd                                                       1.1.0-r0                                                    apk                       
 libncursesw                                                 6.4_p20231125-r0                                            apk                       
 libproc2                                                    4.0.4-r0                                                    apk                       
-libssl3                                                     3.1.4-r5                                                    apk                       
+libssl3                                                     3.1.4-r6                                                    apk                       
 libstdc++                                                   13.2.1_git20231014-r0                                       apk                       
 libunistring                                                1.1-r2                                                      apk                       
 libxml2                                                     2.11.7-r0                                                   apk                       
