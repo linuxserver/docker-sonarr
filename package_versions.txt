@@ -175,7 +175,7 @@ Polly.Core                                                  8.3.1.3207          
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.4.0                                                     dotnet                    
-Sonarr                                                      4.0.4.1616                                                  dotnet  (+8 duplicates)   
+Sonarr                                                      4.0.4.1650                                                  dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                     dotnet                    
 System                                                      6.0.1322.58009                                              dotnet                    
@@ -361,6 +361,7 @@ busybox-binsh                                               1.36.1-r15          
 c-ares                                                      1.27.0-r0                                                   apk                       
 ca-certificates                                             20240226-r0                                                 apk                       
 ca-certificates-bundle                                      20240226-r0                                                 apk                       
+catatonit                                                   0.2.0-r0                                                    apk                       
 coreutils                                                   9.4-r2                                                      apk                       
 coreutils-env                                               9.4-r2                                                      apk                       
 coreutils-fmt                                               9.4-r2                                                      apk                       
