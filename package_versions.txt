@@ -361,6 +361,7 @@ busybox-binsh                                               1.36.1-r15          
 c-ares                                                      1.27.0-r0                                                   apk                       
 ca-certificates                                             20240226-r0                                                 apk                       
 ca-certificates-bundle                                      20240226-r0                                                 apk                       
+catatonit                                                   0.2.0-r0                                                    apk                       
 coreutils                                                   9.4-r2                                                      apk                       
 coreutils-env                                               9.4-r2                                                      apk                       
 coreutils-fmt                                               9.4-r2                                                      apk                       
