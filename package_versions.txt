@@ -5,6 +5,7 @@ Diacritical                                                 1.0.4.0             
 DryIoc                                                      5.4.3.0                                                     dotnet                    
 DryIoc.Microsoft.DependencyInjection net6.0                 6.2.0.0                                                     dotnet                    
 Dynamitey                                                   2.0.9.136                                                   dotnet                    
+Equ                                                         2.3.0                                                       dotnet                    
 FFMpegCore                                                  4.0.0.0                                                     dotnet                    
 FluentMigrator                                              3.3.2.9                                                     dotnet  (+19 duplicates)  
 FluentValidation                                            9.5.4.0                                                     dotnet                    
@@ -169,13 +170,13 @@ NLog v4.7.14                                                4.7.14.740          
 NLog.Extensions.Logging v1.7.4                              1.7.4.1610                                                  dotnet                    
 NLog.Targets.Syslog                                         6.0.3.0                                                     dotnet                    
 NodaTime                                                    3.0.0.0                                                     dotnet                    
-Npgsql                                                      7.0.4.0                                                     dotnet                    
+Npgsql                                                      7.0.7.0                                                     dotnet                    
 Polly                                                       8.3.1.3207                                                  dotnet                    
 Polly.Core                                                  8.3.1.3207                                                  dotnet                    
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.4.0                                                     dotnet                    
-Sonarr                                                      4.0.4.1668                                                  dotnet  (+8 duplicates)   
+Sonarr                                                      4.0.4.1692                                                  dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                     dotnet                    
 System                                                      6.0.1322.58009                                              dotnet                    
@@ -388,7 +389,7 @@ libproc2                                                    4.0.4-r0            
 libssl3                                                     3.1.4-r6                                                    apk                       
 libstdc++                                                   13.2.1_git20231014-r0                                       apk                       
 libunistring                                                1.1-r2                                                      apk                       
-libxml2                                                     2.11.7-r0                                                   apk                       
+libxml2                                                     2.11.8-r0                                                   apk                       
 libxslt                                                     1.1.39-r0                                                   apk                       
 linux-pam                                                   1.5.3-r7                                                    apk                       
 mscorlib                                                    6.0.1322.58009                                              dotnet                    
