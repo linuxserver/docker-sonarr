@@ -74,7 +74,7 @@ Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](ht
 
 We have set `/tv` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
 
-Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
+Use the optional paths if you don't understand, or don't want hardlinks/atomic moves.
 
 The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
 
@@ -95,9 +95,9 @@ services:
       - PGID=1000
       - TZ=Etc/UTC
     volumes:
-      - <path to data>:/config
-      - <path/to/tvseries>:/tv
-      - <path/to/downloadclient-downloads>:/downloads
+      - /path/to/sonarr/data:/config
+      - /path/to/tv:/tv
+      - /path/to/download-client-downloads:/downloads
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -112,9 +112,9 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
   -p 8989:8989 \
-  -v <path to data>:/config \
-  -v <path/to/tvseries>:/tv \
-  -v <path/to/downloadclient-downloads>:/downloads \
+  -v /path/to/sonarr/data:/config \
+  -v /path/to/tv:/tv \
+  -v /path/to/download-client-downloads:/downloads \
   --restart unless-stopped \
   lscr.io/linuxserver/sonarr:develop
 ```
@@ -125,11 +125,11 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 8989` | The port for the Sonarr webinterface |
+| `-p 8989` | The port for the Sonarr web interface |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
-| `-v /config` | Database and sonarr configs |
+| `-v /config` | Database and Sonarr configs |
 | `-v /tv` | Location of TV library on disk |
 | `-v /downloads` | Location of download managers output directory |
 
@@ -294,6 +294,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.05.24:** - Rebase to Alpine 3.20.
 * **12.01.24:** - Update download url.
 * **30.12.23:** - Rebase to Alpine 3.19.
 * **30.05.23:** - Rebase to Alpine 3.18.
