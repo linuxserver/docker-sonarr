@@ -7,7 +7,6 @@ custom_version_command: "curl -sX GET http://services.sonarr.tv/v1/releases | jq
 release_type: stable
 release_tag: latest
 ls_branch: master
-build_armhf: false
 repo_vars:
   - BUILD_VERSION_ARG = 'SONARR_VERSION'
   - LS_USER = 'linuxserver'
@@ -23,8 +22,8 @@ repo_vars:
   - CI_PORT='8989'
   - CI_SSL='false'
   - CI_DELAY='120'
-  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_DOCKERENV=''
   - CI_AUTH=''
-  - CI_WEBPATH=''
+  - CI_WEBPATH='/system/status'
 sponsor_links:
   - { name: "Sonarr", url: "https://sonarr.tv/donate" }

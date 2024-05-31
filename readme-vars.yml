@@ -23,7 +23,7 @@ development_versions_items:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/data", desc: "Database and sonarr configs" }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Database and sonarr configs" }
 
 opt_param_usage_include_vols: true
 opt_param_volumes:
@@ -32,12 +32,7 @@ opt_param_volumes:
 
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr webinterface" }
-param_usage_include_env: false
-param_env_vars:
-  - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London, this is required for Sonarr"}
-# optional env variables
-opt_param_usage_include_env: false
+  - { external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr web interface" }
 
 # application setup block
 app_setup_block_enabled: true
@@ -48,13 +43,14 @@ app_setup_block: |
 
   We have set `/tv` and `/downloads` as ***optional paths***, this is because it is the easiest way to get started. While easy to use, it has some drawbacks. Mainly losing the ability to hardlink (TL;DR a way for a file to exist in multiple places on the same file system while only consuming one file worth of space), or atomic move (TL;DR instant file moves, rather than copy+delete) files while processing content.
 
-  Use the optional paths if you dont understand, or dont want hardlinks/atomic moves.
+  Use the optional paths if you don't understand, or don't want hardlinks/atomic moves.
 
   The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
 
 
 # changelog
 changelogs:
+  - { date: "31.05.24:", desc: "Rebase Alpine 3.20." }
   - { date: "12.01.24:", desc: "Update download url." }
   - { date: "30.12.23:", desc: "Rebase master branch to Alpine 3.19." }
   - { date: "15.02.23:", desc: "Rebase master branch to Jammy." }
