@@ -154,7 +154,7 @@ Microsoft.IdentityModel.Protocols.OpenIdConnect             6.8.0.11012235604.82
 Microsoft.IdentityModel.Tokens                              6.8.0.11012235604.824068adaeb7b158df2b36d8787f689646e715e0  dotnet                    
 Microsoft.JSInterop                                         6.0.1322.58013                                              dotnet                    
 Microsoft.Net.Http.Headers                                  6.0.1322.58013                                              dotnet                    
-Microsoft.OpenApi                                           1.2.3.0                                                     dotnet                    
+Microsoft.OpenApi                                           1.6.14.0                                                    dotnet                    
 Microsoft.VisualBasic                                       6.0.1322.58009                                              dotnet                    
 Microsoft.VisualBasic.Core                                  11.100.1322.58009                                           dotnet                    
 Microsoft.Win32.Primitives                                  6.0.1322.58009                                              dotnet                    
@@ -176,9 +176,10 @@ Polly.Core                                                  8.3.1.3207          
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.4.0                                                     dotnet                    
-Sonarr                                                      4.0.5.1710                                                  dotnet  (+8 duplicates)   
-Swashbuckle.AspNetCore.Swagger                              6.5.0.0                                                     dotnet                    
-Swashbuckle.AspNetCore.SwaggerGen                           6.5.0.0                                                     dotnet                    
+Sonarr                                                      4.0.6.1805                                                  dotnet  (+8 duplicates)   
+Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
+Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
+Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
 System                                                      6.0.1322.58009                                              dotnet                    
 System.AppContext                                           6.0.1322.58009                                              dotnet                    
 System.Buffers                                              6.0.1322.58009                                              dotnet                    
@@ -367,7 +368,7 @@ coreutils                                                   9.5-r1              
 coreutils-env                                               9.5-r1                                                      apk                       
 coreutils-fmt                                               9.5-r1                                                      apk                       
 coreutils-sha512sum                                         9.5-r1                                                      apk                       
-curl                                                        8.7.1-r0                                                    apk                       
+curl                                                        8.8.0-r0                                                    apk                       
 findutils                                                   4.9.0-r5                                                    apk                       
 icu-data-en                                                 74.2-r0                                                     apk                       
 icu-libs                                                    74.2-r0                                                     apk                       
@@ -375,8 +376,8 @@ jq                                                          1.7.1-r0            
 libacl                                                      2.3.2-r0                                                    apk                       
 libattr                                                     2.5.2-r0                                                    apk                       
 libbsd                                                      0.12.2-r0                                                   apk                       
-libcrypto3                                                  3.3.1-r0                                                    apk                       
-libcurl                                                     8.7.1-r0                                                    apk                       
+libcrypto3                                                  3.3.1-r1                                                    apk                       
+libcurl                                                     8.8.0-r0                                                    apk                       
 libgcc                                                      13.2.1_git20240309-r0                                       apk                       
 libgcrypt                                                   1.10.3-r0                                                   apk                       
 libgpg-error                                                1.49-r0                                                     apk                       
@@ -386,7 +387,7 @@ libmd                                                       1.1.0-r0            
 libncursesw                                                 6.4_p20240420-r0                                            apk                       
 libproc2                                                    4.0.4-r0                                                    apk                       
 libpsl                                                      0.21.5-r1                                                   apk                       
-libssl3                                                     3.3.1-r0                                                    apk                       
+libssl3                                                     3.3.1-r1                                                    apk                       
 libstdc++                                                   13.2.1_git20240309-r0                                       apk                       
 libunistring                                                1.2-r0                                                      apk                       
 libxml2                                                     2.12.7-r0                                                   apk                       
@@ -398,7 +399,7 @@ musl-utils                                                  1.2.5-r0            
 ncurses-terminfo-base                                       6.4_p20240420-r0                                            apk                       
 netcat-openbsd                                              1.226-r0                                                    apk                       
 netstandard                                                 6.0.1322.58009                                              dotnet                    
-nghttp2-libs                                                1.62.0-r0                                                   apk                       
+nghttp2-libs                                                1.62.1-r0                                                   apk                       
 oniguruma                                                   6.9.9-r0                                                    apk                       
 procps-ng                                                   4.0.4-r0                                                    apk                       
 readline                                                    8.2.10-r0                                                   apk                       
