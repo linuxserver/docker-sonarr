@@ -1,6 +1,9 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
-# permissions
+mkdir -p /run/sonarr-temp
+
+# permissions
 lsiown -R abc:abc \
-    /config
+    /config \
+    /run/sonarr-temp
