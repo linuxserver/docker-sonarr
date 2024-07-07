@@ -10,9 +10,11 @@ LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DA
 LABEL maintainer="thespad"
 
 # set environment variables
-ENV XDG_CONFIG_HOME="/config/xdg"
-ENV SONARR_BRANCH="develop"
-ENV SONARR_CHANNEL="v4-nightly"
+ENV XDG_CONFIG_HOME="/config/xdg" \
+  SONARR_BRANCH="develop" \
+  SONARR_CHANNEL="v4-nightly" \
+  COMPlus_EnableDiagnostics=0 \
+  TMPDIR=/run/sonarr-temp
 
 RUN \
   echo "**** install packages ****" && \

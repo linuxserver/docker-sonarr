@@ -24,12 +24,17 @@ param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Database and Sonarr configs" }
+
+opt_param_usage_include_vols: true
+opt_param_volumes:
   - { vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of TV library on disk" }
   - { vol_path: "/downloads", vol_host_path: "/path/to/download-client-downloads", desc: "Location of download managers output directory" }
 
 param_usage_include_ports: true
 param_ports:
   - { external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr web interface" }
+
+readonly_supported: true
 
 # application setup block
 app_setup_block_enabled: true
