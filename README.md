@@ -96,8 +96,8 @@ services:
       - TZ=Etc/UTC
     volumes:
       - /path/to/sonarr/data:/config
-      - /path/to/tv:/tv
-      - /path/to/download-client-downloads:/downloads
+      - /path/to/tv:/tv #optional
+      - /path/to/download-client-downloads:/downloads #optional
     ports:
       - 8989:8989
     restart: unless-stopped
@@ -113,8 +113,8 @@ docker run -d \
   -e TZ=Etc/UTC \
   -p 8989:8989 \
   -v /path/to/sonarr/data:/config \
-  -v /path/to/tv:/tv \
-  -v /path/to/download-client-downloads:/downloads \
+  -v /path/to/tv:/tv `#optional` \
+  -v /path/to/download-client-downloads:/downloads `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/sonarr:develop
 ```
