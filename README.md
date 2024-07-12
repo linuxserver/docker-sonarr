@@ -78,6 +78,11 @@ Use the optional paths if you don't understand, or don't want hardlinks/atomic m
 
 The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
 
+## Read-Only Operation
+
+This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+
+
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -132,6 +137,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-v /config` | Database and sonarr configs |
 | `-v /tv` | Location of TV library on disk (See note in Application setup) |
 | `-v /downloads` | Location of download managers output directory (See note in Application setup) |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
 
 ## Environment variables from files (Docker secrets)
 
