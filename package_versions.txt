@@ -176,7 +176,7 @@ Polly.Core                                                  8.3.1.3207          
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.4.0                                                     dotnet                    
-Sonarr                                                      4.0.6.1847                                                  dotnet  (+8 duplicates)   
+Sonarr                                                      4.0.7.1868                                                  dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
@@ -361,8 +361,8 @@ brotli-libs                                                 1.1.0-r2            
 busybox                                                     1.36.1-r29                                                  apk                       
 busybox-binsh                                               1.36.1-r29                                                  apk                       
 c-ares                                                      1.28.1-r0                                                   apk                       
-ca-certificates                                             20240226-r0                                                 apk                       
-ca-certificates-bundle                                      20240226-r0                                                 apk                       
+ca-certificates                                             20240705-r0                                                 apk                       
+ca-certificates-bundle                                      20240705-r0                                                 apk                       
 catatonit                                                   0.2.0-r0                                                    apk                       
 coreutils                                                   9.5-r1                                                      apk                       
 coreutils-env                                               9.5-r1                                                      apk                       
@@ -376,7 +376,7 @@ jq                                                          1.7.1-r0            
 libacl                                                      2.3.2-r0                                                    apk                       
 libattr                                                     2.5.2-r0                                                    apk                       
 libbsd                                                      0.12.2-r0                                                   apk                       
-libcrypto3                                                  3.3.1-r1                                                    apk                       
+libcrypto3                                                  3.3.1-r3                                                    apk                       
 libcurl                                                     8.8.0-r0                                                    apk                       
 libgcc                                                      13.2.1_git20240309-r0                                       apk                       
 libgcrypt                                                   1.10.3-r0                                                   apk                       
@@ -387,7 +387,7 @@ libmd                                                       1.1.0-r0            
 libncursesw                                                 6.4_p20240420-r0                                            apk                       
 libproc2                                                    4.0.4-r0                                                    apk                       
 libpsl                                                      0.21.5-r1                                                   apk                       
-libssl3                                                     3.3.1-r1                                                    apk                       
+libssl3                                                     3.3.1-r3                                                    apk                       
 libstdc++                                                   13.2.1_git20240309-r0                                       apk                       
 libunistring                                                1.2-r0                                                      apk                       
 libxml2                                                     2.12.7-r0                                                   apk                       
