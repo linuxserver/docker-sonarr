@@ -179,7 +179,7 @@ Polly.Core                                                  8.3.1.3207          
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.5.0                                                     dotnet                    
-Sonarr                                                      4.0.9.2300                                                  dotnet  (+8 duplicates)   
+Sonarr                                                      4.0.9.2332                                                  dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
@@ -371,7 +371,7 @@ coreutils                                                   9.5-r1              
 coreutils-env                                               9.5-r1                                                      apk                       
 coreutils-fmt                                               9.5-r1                                                      apk                       
 coreutils-sha512sum                                         9.5-r1                                                      apk                       
-curl                                                        8.9.0-r0                                                    apk                       
+curl                                                        8.9.1-r1                                                    apk                       
 findutils                                                   4.9.0-r5                                                    apk                       
 icu-data-en                                                 74.2-r0                                                     apk                       
 icu-libs                                                    74.2-r0                                                     apk                       
@@ -380,7 +380,7 @@ libacl                                                      2.3.2-r0            
 libattr                                                     2.5.2-r0                                                    apk                       
 libbsd                                                      0.12.2-r0                                                   apk                       
 libcrypto3                                                  3.3.1-r3                                                    apk                       
-libcurl                                                     8.9.0-r0                                                    apk                       
+libcurl                                                     8.9.1-r1                                                    apk                       
 libgcc                                                      13.2.1_git20240309-r0                                       apk                       
 libgcrypt                                                   1.10.3-r0                                                   apk                       
 libgpg-error                                                1.49-r0                                                     apk                       
