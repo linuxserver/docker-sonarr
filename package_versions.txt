@@ -357,7 +357,7 @@ WindowsBase                                                 6.0.1322.58009      
 alpine-baselayout                                           3.6.5-r0                                                    apk                       
 alpine-baselayout-data                                      3.6.5-r0                                                    apk                       
 alpine-keys                                                 2.4-r1                                                      apk                       
-alpine-release                                              3.20.2-r0                                                   apk                       
+alpine-release                                              3.20.3-r0                                                   apk                       
 apk-tools                                                   2.14.4-r0                                                   apk                       
 bash                                                        5.2.26-r0                                                   apk                       
 brotli-libs                                                 1.1.0-r2                                                    apk                       
@@ -379,7 +379,7 @@ jq                                                          1.7.1-r0            
 libacl                                                      2.3.2-r0                                                    apk                       
 libattr                                                     2.5.2-r0                                                    apk                       
 libbsd                                                      0.12.2-r0                                                   apk                       
-libcrypto3                                                  3.3.1-r3                                                    apk                       
+libcrypto3                                                  3.3.2-r0                                                    apk                       
 libcurl                                                     8.9.1-r1                                                    apk                       
 libgcc                                                      13.2.1_git20240309-r0                                       apk                       
 libgcrypt                                                   1.10.3-r0                                                   apk                       
@@ -390,7 +390,7 @@ libmd                                                       1.1.0-r0            
 libncursesw                                                 6.4_p20240420-r0                                            apk                       
 libproc2                                                    4.0.4-r0                                                    apk                       
 libpsl                                                      0.21.5-r1                                                   apk                       
-libssl3                                                     3.3.1-r3                                                    apk                       
+libssl3                                                     3.3.2-r0                                                    apk                       
 libstdc++                                                   13.2.1_git20240309-r0                                       apk                       
 libunistring                                                1.2-r0                                                      apk                       
 libxml2                                                     2.12.7-r0                                                   apk                       
@@ -411,7 +411,7 @@ shadow                                                      4.15.1-r0           
 skalibs                                                     2.14.1.1-r0                                                 apk                       
 sqlite-libs                                                 3.45.3-r1                                                   apk                       
 ssl_client                                                  1.36.1-r29                                                  apk                       
-tzdata                                                      2024a-r1                                                    apk                       
+tzdata                                                      2024b-r0                                                    apk                       
 utmps-libs                                                  0.1.2.2-r1                                                  apk                       
 xmlstarlet                                                  1.6.1-r2                                                    apk                       
 xz-libs                                                     5.6.2-r0                                                    apk                       
