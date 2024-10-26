@@ -179,7 +179,7 @@ Polly.Core                                                  8.3.1.3207          
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.5.0                                                     dotnet                    
-Sonarr                                                      4.0.9.2513                                                  dotnet  (+8 duplicates)   
+Sonarr                                                      4.0.10.2579                                                 dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
@@ -325,7 +325,7 @@ System.Text.Encoding                                        6.0.1322.58009      
 System.Text.Encoding.CodePages                              6.0.1322.58009                                              dotnet                    
 System.Text.Encoding.Extensions                             6.0.1322.58009                                              dotnet                    
 System.Text.Encodings.Web                                   6.0.1322.58009                                              dotnet                    
-System.Text.Json                                            6.0.2523.51912                                              dotnet                    
+System.Text.Json                                            6.0.3524.45918                                              dotnet                    
 System.Text.RegularExpressions                              6.0.1322.58009                                              dotnet                    
 System.Threading                                            6.0.1322.58009                                              dotnet                    
 System.Threading.Channels                                   6.0.1322.58009                                              dotnet                    
