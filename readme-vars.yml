@@ -7,35 +7,28 @@ project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/ma
 project_blurb: |
   [{{ project_name|capitalize }}]({{ project_url }}) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable releases from Sonarr (currently v4)" }
-  - { tag: "develop", desc: "Development releases from Sonarr (currently v4)" }
-
+  - {tag: "latest", desc: "Stable releases from Sonarr (currently v4)"}
+  - {tag: "develop", desc: "Development releases from Sonarr (currently v4)"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Database and Sonarr configs" }
-
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/data", desc: "Database and Sonarr configs"}
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of TV library on disk" }
-  - { vol_path: "/downloads", vol_host_path: "/path/to/download-client-downloads", desc: "Location of download managers output directory" }
-
+  - {vol_path: "/tv", vol_host_path: "/path/to/tv", desc: "Location of TV library on disk"}
+  - {vol_path: "/downloads", vol_host_path: "/path/to/download-client-downloads", desc: "Location of download managers output directory"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr web interface" }
-
+  - {external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr web interface"}
 readonly_supported: true
-
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -48,36 +41,78 @@ app_setup_block: |
   Use the optional paths if you don't understand, or don't want hardlinks/atomic moves.
 
   The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/Docker_Guide#Consistent_and_well_planned_paths) on how to get started with this.
-
+# init diagram
+init_diagram: |
+  "sonarr:develop": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-sonarr-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-config -> init-sonarr-config
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-sonarr
+    svc-sonarr -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine:3.20"
+  }
+  "sonarr:develop" <- Base Images
 # changelog
 changelogs:
-  - { date: "25.05.24:", desc: "Rebase to Alpine 3.20." }
-  - { date: "12.01.24:", desc: "Update download url." }
-  - { date: "30.12.23:", desc: "Rebase to Alpine 3.19." }
-  - { date: "30.05.23:", desc: "Rebase to Alpine 3.18." }
-  - { date: "19.12.22:", desc: "Rebase develop branch to Alpine 3.17." }
-  - { date: "24.11.22:", desc: "Bump develop branch to v4, rebase to Alpine." }
-  - { date: "03.08.22:", desc: "Deprecate armhf." }
-  - { date: "02.08.22:", desc: "Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine." }
-  - { date: "20.02.22:", desc: "Rebase develop branch to Alpine." }
-  - { date: "13.12.21:", desc: "Switch strategy for mediainfo" }
-  - { date: "10.02.21:", desc: "Rebase to mono focal baseimage. Switch to v3 nightlies." }
-  - { date: "18.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information." }
-  - { date: "05.04.20:", desc: "Move app to /app." }
-  - { date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version." }
-  - { date: "13.06.19:", desc: "Add env variable for setting umask." }
-  - { date: "10.05.19:", desc: "Rebase to Bionic." }
-  - { date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag." }
-  - { date: "01.02.19:", desc: "Multi arch images and pipeline build logic" }
-  - { date: "15.12.17:", desc: "Fix continuation lines." }
-  - { date: "12.07.17:", desc: "Add inspect commands to README, move to jenkins build and push." }
-  - { date: "17.04.17:", desc: "Switch to using inhouse mono baseimage, adds python also." }
-  - { date: "14.04.17:", desc: "Change to mount /etc/localtime in README, thanks cbgj." }
-  - { date: "13.04.17:", desc: "Switch to official mono repository." }
-  - { date: "30.09.16:", desc: "Fix umask" }
-  - { date: "23.09.16:", desc: "Add cd to /opt fixes redirects with althub (issue #25), make XDG config environment variable" }
-  - { date: "15.09.16:", desc: "Add libcurl3 package." }
-  - { date: "09.09.16:", desc: "Add layer badges to README." }
-  - { date: "27.08.16:", desc: "Add badges to README." }
-  - { date: "20.07.16:", desc: "Rebase to xenial." }
-  - { date: "31.08.15:", desc: "Cleanup, changed sources to fetch binarys from. also a new baseimage." }
+  - {date: "25.05.24:", desc: "Rebase to Alpine 3.20."}
+  - {date: "12.01.24:", desc: "Update download url."}
+  - {date: "30.12.23:", desc: "Rebase to Alpine 3.19."}
+  - {date: "30.05.23:", desc: "Rebase to Alpine 3.18."}
+  - {date: "19.12.22:", desc: "Rebase develop branch to Alpine 3.17."}
+  - {date: "24.11.22:", desc: "Bump develop branch to v4, rebase to Alpine."}
+  - {date: "03.08.22:", desc: "Deprecate armhf."}
+  - {date: "02.08.22:", desc: "Rebase develop branch to Ubuntu Focal due to dropping of mono support on Alpine."}
+  - {date: "20.02.22:", desc: "Rebase develop branch to Alpine."}
+  - {date: "13.12.21:", desc: "Switch strategy for mediainfo"}
+  - {date: "10.02.21:", desc: "Rebase to mono focal baseimage. Switch to v3 nightlies."}
+  - {date: "18.01.21:", desc: "Deprecate `UMASK_SET` in favor of UMASK in baseimage, see above for more information."}
+  - {date: "05.04.20:", desc: "Move app to /app."}
+  - {date: "01.08.19:", desc: "Rebase to Linuxserver LTS mono version."}
+  - {date: "13.06.19:", desc: "Add env variable for setting umask."}
+  - {date: "10.05.19:", desc: "Rebase to Bionic."}
+  - {date: "23.03.19:", desc: "Switching to new Base images, shift to arm32v7 tag."}
+  - {date: "01.02.19:", desc: "Multi arch images and pipeline build logic"}
+  - {date: "15.12.17:", desc: "Fix continuation lines."}
+  - {date: "12.07.17:", desc: "Add inspect commands to README, move to jenkins build and push."}
+  - {date: "17.04.17:", desc: "Switch to using inhouse mono baseimage, adds python also."}
+  - {date: "14.04.17:", desc: "Change to mount /etc/localtime in README, thanks cbgj."}
+  - {date: "13.04.17:", desc: "Switch to official mono repository."}
+  - {date: "30.09.16:", desc: "Fix umask"}
+  - {date: "23.09.16:", desc: "Add cd to /opt fixes redirects with althub (issue #25), make XDG config environment variable"}
+  - {date: "15.09.16:", desc: "Add libcurl3 package."}
+  - {date: "09.09.16:", desc: "Add layer badges to README."}
+  - {date: "27.08.16:", desc: "Add badges to README."}
+  - {date: "20.07.16:", desc: "Rebase to xenial."}
+  - {date: "31.08.15:", desc: "Cleanup, changed sources to fetch binarys from. also a new baseimage."}
