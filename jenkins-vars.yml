@@ -7,6 +7,8 @@ custom_version_command: "curl -sX GET http://services.sonarr.tv/v1/releases | jq
 release_type: stable
 release_tag: latest
 ls_branch: master
+image_sbom: true
+image_provenance: true
 repo_vars:
   - BUILD_VERSION_ARG = 'SONARR_VERSION'
   - LS_USER = 'linuxserver'

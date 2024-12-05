@@ -36,6 +36,8 @@ param_ports:
 
 readonly_supported: true
 
+nonroot_supported: true
+
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
