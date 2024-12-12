@@ -63,8 +63,8 @@ This image provides various versions that are available via tags. Please read th
 
 | Tag | Available | Description |
 | :----: | :----: |--- |
-| latest | ✅ | Stable releases from Sonarr (currently v4) |
-| develop | ✅ | Development releases from Sonarr (currently v4) |
+| latest | ✅ | Stable releases from Sonarr |
+| develop | ✅ | Development releases from Sonarr |
 
 ## Application Setup
 
@@ -81,6 +81,10 @@ The folks over at servarr.com wrote a good [write-up](https://wiki.servarr.com/D
 ## Read-Only Operation
 
 This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+
+## Non-Root Operation
+
+This image can be run with a non-root user. For details please [read the docs](https://docs.linuxserver.io/misc/non-root/).
 
 ## Usage
 
@@ -140,6 +144,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-v /tv` | Location of TV library on disk |
 | `-v /downloads` | Location of download managers output directory |
 | `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
+| `--user=1000:1000` | Run container with a non-root user. Please [read the docs](https://docs.linuxserver.io/misc/non-root/). |
 
 ## Environment variables from files (Docker secrets)
 
@@ -303,6 +308,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **12.12.24:** - Rebase to Alpine 3.21.
 * **25.05.24:** - Rebase to Alpine 3.20.
 * **12.01.24:** - Update download url.
 * **30.12.23:** - Rebase to Alpine 3.19.

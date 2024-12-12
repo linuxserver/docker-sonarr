@@ -14,8 +14,8 @@ available_architectures:
 # development version
 development_versions: true
 development_versions_items:
-  - {tag: "latest", desc: "Stable releases from Sonarr (currently v4)"}
-  - {tag: "develop", desc: "Development releases from Sonarr (currently v4)"}
+  - {tag: "latest", desc: "Stable releases from Sonarr"}
+  - {tag: "develop", desc: "Development releases from Sonarr"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
@@ -29,6 +29,7 @@ param_usage_include_ports: true
 param_ports:
   - {external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr web interface"}
 readonly_supported: true
+nonroot_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -86,6 +87,7 @@ init_diagram: |
   "sonarr:develop" <- Base Images
 # changelog
 changelogs:
+  - {date: "12.12.24:", desc: "Rebase to Alpine 3.21."}
   - {date: "25.05.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "12.01.24:", desc: "Update download url."}
   - {date: "30.12.23:", desc: "Rebase to Alpine 3.19."}
