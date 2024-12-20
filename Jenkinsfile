@@ -575,7 +575,7 @@ pipeline {
           --label \"org.opencontainers.image.title=Sonarr\" \
           --label \"org.opencontainers.image.description=[Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.  \" \
           --no-cache --pull -t ${IMAGE}:${META_TAG} --platform=linux/amd64 \
-          --provenance=false --sbom=false --builder=container --load \
+          --provenance=true --sbom=true --builder=container --load \
           --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
         sh '''#! /bin/bash
               set -e
@@ -604,7 +604,9 @@ pipeline {
                       for i in "${CACHE[@]}"; do
                         docker push ${i}:amd64-${COMMIT_SHA}-${BUILD_NUMBER} &
                       done
-                      wait
+                      for p in $(jobs -p); do
+                        wait "$p" || { echo "job $p failed" >&2; exit 1; }
+                      done
                     fi
                 '''
           }
@@ -639,7 +641,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Sonarr\" \
               --label \"org.opencontainers.image.description=[Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.  \" \
               --no-cache --pull -t ${IMAGE}:amd64-${META_TAG} --platform=linux/amd64 \
-              --provenance=false --sbom=false --builder=container --load \
+              --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh '''#! /bin/bash
                   set -e
@@ -668,7 +670,9 @@ pipeline {
                           for i in "${CACHE[@]}"; do
                             docker push ${i}:amd64-${COMMIT_SHA}-${BUILD_NUMBER} &
                           done
-                          wait
+                          for p in $(jobs -p); do
+                            wait "$p" || { echo "job $p failed" >&2; exit 1; }
+                          done
                         fi
                     '''
               }
@@ -696,7 +700,7 @@ pipeline {
               --label \"org.opencontainers.image.title=Sonarr\" \
               --label \"org.opencontainers.image.description=[Sonarr](https://sonarr.tv/) (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.  \" \
               --no-cache --pull -f Dockerfile.aarch64 -t ${IMAGE}:arm64v8-${META_TAG} --platform=linux/arm64 \
-              --provenance=false --sbom=false --builder=container --load \
+              --provenance=true --sbom=true --builder=container --load \
               --build-arg ${BUILD_VERSION_ARG}=${EXT_RELEASE} --build-arg VERSION=\"${VERSION_TAG}\" --build-arg BUILD_DATE=${GITHUB_DATE} ."
             sh '''#! /bin/bash
                   set -e
@@ -725,7 +729,9 @@ pipeline {
                           for i in "${CACHE[@]}"; do
                             docker push ${i}:arm64v8-${COMMIT_SHA}-${BUILD_NUMBER} &
                           done
-                          wait
+                          for p in $(jobs -p); do
+                            wait "$p" || { echo "job $p failed" >&2; exit 1; }
+                          done
                         fi
                     '''
               }
