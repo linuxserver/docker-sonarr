@@ -3,7 +3,8 @@
 
 mkdir -p /run/sonarr-temp
 
-# permissions
-lsiown -R abc:abc \
-    /config \
-    /run/sonarr-temp
+if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
+    lsiown -R abc:abc \
+        /config \
+        /run/sonarr-temp
+fi

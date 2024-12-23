@@ -29,6 +29,7 @@ param_usage_include_ports: true
 param_ports:
   - {external_port: "8989", internal_port: "8989", port_desc: "The port for the Sonarr web interface"}
 readonly_supported: true
+nonroot_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -86,6 +87,7 @@ init_diagram: |
   "sonarr:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "23.12.24:", desc: "Rebase Alpine 3.21."}
   - {date: "31.05.24:", desc: "Rebase Alpine 3.20."}
   - {date: "12.01.24:", desc: "Update download url."}
   - {date: "30.12.23:", desc: "Rebase master branch to Alpine 3.19."}
