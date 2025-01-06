@@ -1,5 +1,5 @@
 NAME                                                        VERSION                                                     TYPE                     
-Bouncy Castle for .NET (netstandard2.0)                     1.9.0.1                                                     dotnet                    
+BouncyCastle.NET                                            2.4.0.33771                                                 dotnet                    
 Dapper                                                      2.0.123.33578                                               dotnet                    
 Diacritical                                                 1.0.4.0                                                     dotnet                    
 DryIoc                                                      5.4.3.0                                                     dotnet                    
@@ -9,14 +9,14 @@ Equ                                                         2.3.0               
 FFMpegCore                                                  4.0.0.0                                                     dotnet                    
 FluentMigrator                                              3.3.2.9                                                     dotnet  (+19 duplicates)  
 FluentValidation                                            9.5.4.0                                                     dotnet                    
-Harmony                                                     2.0.1.0                                                     dotnet                    
+Harmony                                                     2.3.3.0+395749ff507ab4e2cd4f84cf99085ec18f6870bc            dotnet                    
 ICSharpCode.SharpZipLib                                     1.4.2.13                                                    dotnet                    
-IPAddressRange                                              6.0.0.0                                                     dotnet                    
-Ical.Net                                                    1.0.0.0                                                     dotnet                    
+IPAddressRange                                              6.1.0.0                                                     dotnet                    
+Ical.Net                                                    4.3.1+5889b14d90ccd3cd32b54229029dab52495a09b0              dotnet                    
 ImpromptuInterface                                          7.0.1.0                                                     dotnet                    
 Instances                                                   1.0.0.0                                                     dotnet                    
 Json.NET                                                    13.0.3.27908                                                dotnet                    
-MailKit                                                     3.6.0.0                                                     dotnet                    
+MailKit                                                     4.8.0.0                                                     dotnet                    
 Microsoft.AspNetCore                                        6.0.1322.58013                                              dotnet                    
 Microsoft.AspNetCore.Antiforgery                            6.0.1322.58013                                              dotnet                    
 Microsoft.AspNetCore.Authentication                         6.0.1322.58013                                              dotnet                    
@@ -101,7 +101,7 @@ Microsoft.AspNetCore.WebUtilities                           6.0.1322.58013      
 Microsoft.Bcl.AsyncInterfaces                               6.0.21.52210                                                dotnet                    
 Microsoft.Bcl.TimeProvider                                  8.0.23.53103                                                dotnet                    
 Microsoft.CSharp                                            6.0.1322.58009                                              dotnet                    
-Microsoft.Data.SqlClient                                    2.1.2+2a61e8301e9d21ada2338a9279cf27653e781757              dotnet                    
+Microsoft.Data.SqlClient                                    2.1.7+730a7d538680463c75dd8dceec5fb27d158abea4              dotnet                    
 Microsoft.Extensions.Caching.Abstractions                   6.0.21.52210                                                dotnet                    
 Microsoft.Extensions.Caching.Memory                         6.0.222.6406                                                dotnet                    
 Microsoft.Extensions.Configuration                          6.0.322.12309                                               dotnet                    
@@ -161,25 +161,23 @@ Microsoft.VisualBasic.Core                                  11.100.1322.58009   
 Microsoft.Win32.Primitives                                  6.0.1322.58009                                              dotnet                    
 Microsoft.Win32.Registry                                    6.0.1322.58009                                              dotnet                    
 Microsoft.Win32.SystemEvents                                6.0.21.52210                                                dotnet                    
-MimeKit                                                     3.6.0.0                                                     dotnet                    
-Mono.Cecil                                                  0.11.2.0                                                    dotnet  (+3 duplicates)   
+MimeKit                                                     4.8.0.0                                                     dotnet                    
 Mono.Nat                                                    3.0.1                                                       dotnet                    
 Mono.Posix.NETStandard                                      1.0.0.0                                                     dotnet                    
-MonoMod.Common                                              20.05.07.01+b18b2bddebe81992d218ea7e1f41aa1923459652        dotnet                    
 MonoTorrent                                                 2.0.7                                                       dotnet                    
-NLog v5.3.2                                                 5.3.2.2526                                                  dotnet                    
-NLog.Extensions.Logging v5.3.11                             5.3.11.526                                                  dotnet                    
-NLog.Layouts.ClefJsonLayout                                 1.0.0.0                                                     dotnet                    
+NLog v5.3.4                                                 5.3.4.2778                                                  dotnet                    
+NLog.Extensions.Logging v5.3.15                             5.3.15.614                                                  dotnet                    
+NLog.Layouts.ClefJsonLayout                                 1.0.2.0                                                     dotnet                    
 NLog.Targets.Syslog                                         7.0.0.0                                                     dotnet                    
-NodaTime                                                    3.0.0.0                                                     dotnet                    
-Npgsql                                                      7.0.7.0                                                     dotnet                    
-Polly                                                       8.3.1.3207                                                  dotnet                    
+NodaTime                                                    3.2.0.0                                                     dotnet                    
+Npgsql                                                      7.0.9.0                                                     dotnet                    
+Polly                                                       8.5.0.4130                                                  dotnet                    
 Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22d88bbd814bc49c28424fb6e921e9            dotnet                    
-Polly.Core                                                  8.3.1.3207                                                  dotnet                    
+Polly.Core                                                  8.5.0.4130                                                  dotnet                    
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
-SixLabors.ImageSharp                                        3.1.5.0                                                     dotnet                    
-Sonarr                                                      4.0.11.2680                                                 dotnet  (+8 duplicates)   
+SixLabors.ImageSharp                                        3.1.6.0                                                     dotnet                    
+Sonarr                                                      4.0.12.2823                                                 dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
@@ -221,7 +219,7 @@ System.Drawing                                              6.0.1322.58009      
 System.Drawing.Common                                       6.0.21.52210                                                dotnet                    
 System.Drawing.Primitives                                   6.0.1322.58009                                              dotnet                    
 System.Dynamic.Runtime                                      6.0.1322.58009                                              dotnet                    
-System.Formats.Asn1                                         6.0.1322.58009                                              dotnet                    
+System.Formats.Asn1                                         8.0.724.31311                                               dotnet                    
 System.Globalization                                        6.0.1322.58009                                              dotnet                    
 System.Globalization.Calendars                              6.0.1322.58009                                              dotnet                    
 System.Globalization.Extensions                             6.0.1322.58009                                              dotnet                    
@@ -309,7 +307,7 @@ System.Security.Cryptography.Cng                            6.0.1322.58009      
 System.Security.Cryptography.Csp                            6.0.1322.58009                                              dotnet                    
 System.Security.Cryptography.Encoding                       6.0.1322.58009                                              dotnet                    
 System.Security.Cryptography.OpenSsl                        6.0.1322.58009                                              dotnet                    
-System.Security.Cryptography.Pkcs                           6.0.522.21309                                               dotnet                    
+System.Security.Cryptography.Pkcs                           8.0.23.53103                                                dotnet                    
 System.Security.Cryptography.Primitives                     6.0.1322.58009                                              dotnet                    
 System.Security.Cryptography.ProtectedData                  6.0.21.52210                                                dotnet                    
 System.Security.Cryptography.X509Certificates               6.0.1322.58009                                              dotnet                    
@@ -355,8 +353,8 @@ System.Xml.XmlDocument                                      6.0.1322.58009      
 System.Xml.XmlSerializer                                    6.0.1322.58009                                              dotnet                    
 WindowsBase                                                 6.0.1322.58009                                              dotnet                    
 acl-libs                                                    2.3.2-r1                                                    apk                       
-alpine-baselayout                                           3.6.8-r0                                                    apk                       
-alpine-baselayout-data                                      3.6.8-r0                                                    apk                       
+alpine-baselayout                                           3.6.8-r1                                                    apk                       
+alpine-baselayout-data                                      3.6.8-r1                                                    apk                       
 alpine-keys                                                 2.5-r0                                                      apk                       
 alpine-release                                              3.21.0-r0                                                   apk                       
 apk-tools                                                   2.14.6-r2                                                   apk                       
@@ -365,8 +363,8 @@ brotli-libs                                                 1.1.0-r2            
 busybox                                                     1.37.0-r9                                                   apk                       
 busybox-binsh                                               1.37.0-r9                                                   apk                       
 c-ares                                                      1.34.3-r0                                                   apk                       
-ca-certificates                                             20241010-r0                                                 apk                       
-ca-certificates-bundle                                      20241010-r0                                                 apk                       
+ca-certificates                                             20241121-r0                                                 apk                       
+ca-certificates-bundle                                      20241121-r0                                                 apk                       
 catatonit                                                   0.2.0-r0                                                    apk                       
 coreutils                                                   9.5-r1                                                      apk                       
 coreutils-env                                               9.5-r1                                                      apk                       
