@@ -9,6 +9,6 @@ if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
 else
     exec \
         s6-notifyoncheck -d -n 300 -w 1000 \
-            cd /app/sonarr/bin s6-setuidgid abc /app/sonarr/bin/Sonarr \
+            cd /app/sonarr/bin /app/sonarr/bin/Sonarr \
             -nobrowser -data=/config
 fi
