@@ -308,6 +308,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **09.01.25:** - Fix rootless entrypoint.
 * **23.12.24:** - Rebase Alpine 3.21.
 * **31.05.24:** - Rebase Alpine 3.20.
 * **12.01.24:** - Update download url.
