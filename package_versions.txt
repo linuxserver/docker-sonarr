@@ -177,7 +177,7 @@ Polly.Core                                                  8.5.0.4130          
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
 SixLabors.ImageSharp                                        3.1.6.0                                                     dotnet                    
-Sonarr                                                      4.0.12.2823                                                 dotnet  (+8 duplicates)   
+Sonarr                                                      4.0.13.2932                                                 dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
@@ -370,15 +370,15 @@ coreutils                                                   9.5-r2              
 coreutils-env                                               9.5-r2                                                      apk                       
 coreutils-fmt                                               9.5-r2                                                      apk                       
 coreutils-sha512sum                                         9.5-r2                                                      apk                       
-curl                                                        8.11.1-r0                                                   apk                       
+curl                                                        8.12.0-r0                                                   apk                       
 findutils                                                   4.10.0-r0                                                   apk                       
 icu-data-en                                                 74.2-r0                                                     apk                       
 icu-libs                                                    74.2-r0                                                     apk                       
 jq                                                          1.7.1-r0                                                    apk                       
 libattr                                                     2.5.2-r2                                                    apk                       
 libbsd                                                      0.12.2-r0                                                   apk                       
-libcrypto3                                                  3.3.2-r4                                                    apk                       
-libcurl                                                     8.11.1-r0                                                   apk                       
+libcrypto3                                                  3.3.2-r5                                                    apk                       
+libcurl                                                     8.12.0-r0                                                   apk                       
 libgcc                                                      14.2.0-r4                                                   apk                       
 libgcrypt                                                   1.10.3-r1                                                   apk                       
 libgpg-error                                                1.51-r0                                                     apk                       
@@ -388,7 +388,7 @@ libmd                                                       1.1.0-r0            
 libncursesw                                                 6.5_p20241006-r3                                            apk                       
 libproc2                                                    4.0.4-r2                                                    apk                       
 libpsl                                                      0.21.5-r3                                                   apk                       
-libssl3                                                     3.3.2-r4                                                    apk                       
+libssl3                                                     3.3.2-r5                                                    apk                       
 libstdc++                                                   14.2.0-r4                                                   apk                       
 libunistring                                                1.2-r0                                                      apk                       
 libxml2                                                     2.13.4-r3                                                   apk                       
