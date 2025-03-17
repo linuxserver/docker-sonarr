@@ -176,8 +176,8 @@ Polly.Contrib.WaitAndRetry                                  1.1.1.0+7596d2dacf22
 Polly.Core                                                  8.5.0.4130                                                  dotnet                    
 ReusableTasks                                               2.0.0                                                       dotnet                    
 Sentry                                                      4.0.2.0                                                     dotnet                    
-SixLabors.ImageSharp                                        3.1.6.0                                                     dotnet                    
-Sonarr                                                      4.0.13.2932                                                 dotnet  (+8 duplicates)   
+SixLabors.ImageSharp                                        3.1.7.0                                                     dotnet                    
+Sonarr                                                      4.0.14.2939                                                 dotnet  (+8 duplicates)   
 Swashbuckle.AspNetCore.Annotations                          6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.Swagger                              6.6.2.401                                                   dotnet                    
 Swashbuckle.AspNetCore.SwaggerGen                           6.6.2.401                                                   dotnet                    
