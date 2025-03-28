@@ -370,7 +370,7 @@ coreutils                                                   9.5-r2              
 coreutils-env                                               9.5-r2                                                      apk                       
 coreutils-fmt                                               9.5-r2                                                      apk                       
 coreutils-sha512sum                                         9.5-r2                                                      apk                       
-curl                                                        8.12.1-r0                                                   apk                       
+curl                                                        8.12.1-r1                                                   apk                       
 findutils                                                   4.10.0-r0                                                   apk                       
 icu-data-en                                                 74.2-r0                                                     apk                       
 icu-libs                                                    74.2-r0                                                     apk                       
@@ -378,7 +378,7 @@ jq                                                          1.7.1-r0            
 libattr                                                     2.5.2-r2                                                    apk                       
 libbsd                                                      0.12.2-r0                                                   apk                       
 libcrypto3                                                  3.3.3-r0                                                    apk                       
-libcurl                                                     8.12.1-r0                                                   apk                       
+libcurl                                                     8.12.1-r1                                                   apk                       
 libgcc                                                      14.2.0-r4                                                   apk                       
 libgcrypt                                                   1.10.3-r1                                                   apk                       
 libgpg-error                                                1.51-r0                                                     apk                       
