@@ -159,7 +159,7 @@ libpsl                                                       0.21.5-r3          
 libssl3                                                      3.3.3-r0             apk                      
 libstdc++                                                    14.2.0-r4            apk                      
 libunistring                                                 1.2-r0               apk                      
-libxml2                                                      2.13.4-r5            apk                      
+libxml2                                                      2.13.4-r6            apk                      
 libxslt                                                      1.1.42-r2            apk                      
 linux-pam                                                    1.6.1-r1             apk                      
 musl                                                         1.2.5-r9             apk                      
