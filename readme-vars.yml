@@ -73,7 +73,7 @@ init_diagram: |
     svc-sonarr -> legacy-services
   }
   Base Images: {
-    "baseimage-alpine:3.21"
+    "baseimage-alpine:3.22"
   }
   "sonarr:develop" <- Base Images
 # changelog
