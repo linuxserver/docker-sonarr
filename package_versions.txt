@@ -140,8 +140,8 @@ coreutils-fmt                                                9.7-r1             
 coreutils-sha512sum                                          9.7-r1               apk                      
 curl                                                         8.14.1-r1            apk                      
 findutils                                                    4.10.0-r0            apk                      
-icu-data-en                                                  76.1-r0              apk                      
-icu-libs                                                     76.1-r0              apk                      
+icu-data-en                                                  76.1-r1              apk                      
+icu-libs                                                     76.1-r1              apk                      
 jq                                                           1.8.0-r0             apk                      
 libapk2                                                      2.14.9-r2            apk                      
 libattr                                                      2.5.2-r2             apk                      
