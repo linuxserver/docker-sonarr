@@ -78,6 +78,7 @@ init_diagram: |
   "sonarr:develop" <- Base Images
 # changelog
 changelogs:
+  - {date: "15.01.26:", desc: "Rebase to Alpine 3.23."}
   - {date: "05.07.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "12.12.24:", desc: "Rebase to Alpine 3.21."}
   - {date: "25.05.24:", desc: "Rebase to Alpine 3.20."}
