@@ -79,6 +79,7 @@ init_diagram: |
   "sonarr:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "15.01.26:", desc: "Rebase to Alpine 3.23."}
   - {date: "05.07.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "09.01.25:", desc: "Fix rootless entrypoint."}
   - {date: "23.12.24:", desc: "Rebase Alpine 3.21."}
