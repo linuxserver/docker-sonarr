@@ -124,7 +124,7 @@ acl-libs                                                     2.3.2-r1           
 alpine-baselayout                                            3.7.1-r8             apk                      
 alpine-baselayout-data                                       3.7.1-r8             apk                      
 alpine-keys                                                  2.6-r0               apk                      
-alpine-release                                               3.23.2-r0            apk                      
+alpine-release                                               3.23.3-r0            apk                      
 apk-tools                                                    3.0.3-r1             apk                      
 bash                                                         5.3.3-r1             apk                      
 brotli-libs                                                  1.2.0-r0             apk                      
@@ -146,7 +146,7 @@ jq                                                           1.8.1-r0           
 libapk                                                       3.0.3-r1             apk                      
 libattr                                                      2.5.2-r2             apk                      
 libbsd                                                       0.12.2-r0            apk                      
-libcrypto3                                                   3.5.4-r0             apk                      
+libcrypto3                                                   3.5.5-r0             apk                      
 libcurl                                                      8.17.0-r1            apk                      
 libgcc                                                       15.2.0-r2            apk                      
 libidn2                                                      2.3.8-r0             apk                      
@@ -155,7 +155,7 @@ libmd                                                        1.1.0-r0           
 libncursesw                                                  6.5_p20251123-r0     apk                      
 libproc2                                                     4.0.5-r0             apk                      
 libpsl                                                       0.21.5-r3            apk                      
-libssl3                                                      3.5.4-r0             apk                      
+libssl3                                                      3.5.5-r0             apk                      
 libstdc++                                                    15.2.0-r2            apk                      
 libunistring                                                 1.4.1-r0             apk                      
 libxml2                                                      2.13.9-r0            apk                      
