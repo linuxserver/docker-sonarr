@@ -125,7 +125,7 @@ alpine-baselayout                                            3.7.1-r8           
 alpine-baselayout-data                                       3.7.1-r8             apk                      
 alpine-keys                                                  2.6-r0               apk                      
 alpine-release                                               3.23.3-r0            apk                      
-apk-tools                                                    3.0.3-r1             apk                      
+apk-tools                                                    3.0.4-r0             apk                      
 bash                                                         5.3.3-r1             apk                      
 brotli-libs                                                  1.2.0-r0             apk                      
 busybox                                                      1.37.0-r30           apk                      
@@ -143,7 +143,7 @@ findutils                                                    4.10.0-r0          
 icu-data-en                                                  76.1-r1              apk                      
 icu-libs                                                     76.1-r1              apk                      
 jq                                                           1.8.1-r0             apk                      
-libapk                                                       3.0.3-r1             apk                      
+libapk                                                       3.0.4-r0             apk                      
 libattr                                                      2.5.2-r2             apk                      
 libbsd                                                       0.12.2-r0            apk                      
 libcrypto3                                                   3.5.5-r0             apk                      
