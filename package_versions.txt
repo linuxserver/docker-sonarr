@@ -121,8 +121,8 @@ System.Text.Json                                             6.0.10             
 System.Text.Json                                             6.0.9                dotnet                   
 System.Windows.Extensions                                    6.0.0                dotnet  (+7 duplicates)  
 acl-libs                                                     2.3.2-r1             apk                      
-alpine-baselayout                                            3.7.1-r8             apk                      
-alpine-baselayout-data                                       3.7.1-r8             apk                      
+alpine-baselayout                                            3.7.2-r0             apk                      
+alpine-baselayout-data                                       3.7.2-r0             apk                      
 alpine-keys                                                  2.6-r0               apk                      
 alpine-release                                               3.23.3-r0            apk                      
 apk-tools                                                    3.0.5-r0             apk                      
