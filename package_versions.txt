@@ -138,7 +138,7 @@ coreutils                                                    9.8-r1             
 coreutils-env                                                9.8-r1               apk                      
 coreutils-fmt                                                9.8-r1               apk                      
 coreutils-sha512sum                                          9.8-r1               apk                      
-curl                                                         8.17.0-r1            apk                      
+curl                                                         8.19.0-r0            apk                      
 findutils                                                    4.10.0-r0            apk                      
 icu-data-en                                                  76.1-r1              apk                      
 icu-libs                                                     76.1-r1              apk                      
@@ -147,7 +147,7 @@ libapk                                                       3.0.6-r0           
 libattr                                                      2.5.2-r2             apk                      
 libbsd                                                       0.12.2-r0            apk                      
 libcrypto3                                                   3.5.6-r0             apk                      
-libcurl                                                      8.17.0-r1            apk                      
+libcurl                                                      8.19.0-r0            apk                      
 libgcc                                                       15.2.0-r2            apk                      
 libidn2                                                      2.3.8-r0             apk                      
 libintl                                                      0.24.1-r1            apk                      
@@ -166,7 +166,6 @@ musl-utils                                                   1.2.5-r23          
 ncurses-terminfo-base                                        6.5_p20251123-r0     apk                      
 netcat-openbsd                                               1.234.1-r0           apk                      
 nghttp2-libs                                                 1.69.0-r0            apk                      
-nghttp3                                                      1.13.1-r0            apk                      
 oniguruma                                                    6.9.10-r0            apk                      
 procps-ng                                                    4.0.5-r0             apk                      
 readline                                                     8.3.1-r0             apk                      
