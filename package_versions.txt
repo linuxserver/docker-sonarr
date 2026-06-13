@@ -146,7 +146,7 @@ jq                                                           1.8.1-r0           
 libapk                                                       3.0.6-r0             apk                      
 libattr                                                      2.5.2-r2             apk                      
 libbsd                                                       0.12.2-r0            apk                      
-libcrypto3                                                   3.5.6-r0             apk                      
+libcrypto3                                                   3.5.7-r0             apk                      
 libcurl                                                      8.19.0-r0            apk                      
 libgcc                                                       15.2.0-r2            apk                      
 libidn2                                                      2.3.8-r0             apk                      
@@ -155,7 +155,7 @@ libmd                                                        1.1.0-r0           
 libncursesw                                                  6.5_p20251123-r0     apk                      
 libproc2                                                     4.0.5-r0             apk                      
 libpsl                                                       0.21.5-r3            apk                      
-libssl3                                                      3.5.6-r0             apk                      
+libssl3                                                      3.5.7-r0             apk                      
 libstdc++                                                    15.2.0-r2            apk                      
 libunistring                                                 1.4.1-r0             apk                      
 libxml2                                                      2.13.9-r1            apk                      
