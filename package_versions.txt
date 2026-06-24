@@ -94,15 +94,15 @@ Servarr.FluentMigrator.Runner.SqlServer                      3.3.2.9            
 Servarr.FluentMigrator.Runner.SqlServerCe                    3.3.2.9              dotnet  (+5 duplicates)  
 SharpZipLib                                                  1.4.2                dotnet  (+7 duplicates)  
 SixLabors.ImageSharp                                         3.1.12               dotnet  (+5 duplicates)  
-Sonarr                                                       4.0.17               dotnet                   
-Sonarr.Api.V3                                                4.0.17               dotnet  (+2 duplicates)  
-Sonarr.Common                                                4.0.17               dotnet  (+7 duplicates)  
-Sonarr.Core                                                  4.0.17               dotnet  (+5 duplicates)  
-Sonarr.Host                                                  4.0.17               dotnet  (+1 duplicate)   
-Sonarr.Http                                                  4.0.17               dotnet  (+3 duplicates)  
-Sonarr.Mono                                                  4.0.17               dotnet                   
-Sonarr.RuntimePatches                                        4.0.17               dotnet  (+1 duplicate)   
-Sonarr.SignalR                                               4.0.17               dotnet  (+4 duplicates)  
+Sonarr                                                       4.0.18               dotnet                   
+Sonarr.Api.V3                                                4.0.18               dotnet  (+2 duplicates)  
+Sonarr.Common                                                4.0.18               dotnet  (+7 duplicates)  
+Sonarr.Core                                                  4.0.18               dotnet  (+5 duplicates)  
+Sonarr.Host                                                  4.0.18               dotnet  (+1 duplicate)   
+Sonarr.Http                                                  4.0.18               dotnet  (+3 duplicates)  
+Sonarr.Mono                                                  4.0.18               dotnet                   
+Sonarr.RuntimePatches                                        4.0.18               dotnet  (+1 duplicate)   
+Sonarr.SignalR                                               4.0.18               dotnet  (+4 duplicates)  
 Swashbuckle.AspNetCore.Annotations                           6.6.2                dotnet  (+2 duplicates)  
 Swashbuckle.AspNetCore.Swagger                               6.6.2                dotnet  (+2 duplicates)  
 Swashbuckle.AspNetCore.SwaggerGen                            6.6.2                dotnet  (+2 duplicates)  
@@ -131,8 +131,8 @@ brotli-libs                                                  1.2.0-r0           
 busybox                                                      1.37.0-r30           apk                      
 busybox-binsh                                                1.37.0-r30           apk                      
 c-ares                                                       1.34.6-r0            apk                      
-ca-certificates                                              20260413-r0          apk                      
-ca-certificates-bundle                                       20260413-r0          apk                      
+ca-certificates                                              20260611-r0          apk                      
+ca-certificates-bundle                                       20260611-r0          apk                      
 catatonit                                                    0.2.1-r0             apk                      
 coreutils                                                    9.8-r1               apk                      
 coreutils-env                                                9.8-r1               apk                      
