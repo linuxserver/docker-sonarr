@@ -1,6 +1,8 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
+export TERM=DUMB
+
 if [[ -z ${LSIO_NON_ROOT_USER} ]]; then
     exec \
         s6-notifyoncheck -d -n 300 -w 1000 \
