@@ -131,7 +131,7 @@ bash                                                         5.3.9-r1           
 brotli-libs                                                  1.2.0-r1             apk                      
 busybox                                                      1.37.0-r31           apk                      
 busybox-binsh                                                1.37.0-r31           apk                      
-c-ares                                                       1.34.6-r0            apk                      
+c-ares                                                       1.34.8-r0            apk                      
 ca-certificates                                              20260611-r0          apk                      
 ca-certificates-bundle                                       20260611-r0          apk                      
 catatonit                                                    0.2.1-r0             apk                      
@@ -177,7 +177,7 @@ shadow                                                       4.18.0-r1          
 skalibs-libs                                                 2.15.0.0-r0          apk                      
 sqlite-libs                                                  3.53.2-r0            apk                      
 ssl_client                                                   1.37.0-r31           apk                      
-tzdata                                                       2026b-r0             apk                      
+tzdata                                                       2026c-r0             apk                      
 utmps-libs                                                   0.1.3.3-r0           apk                      
 xmlstarlet                                                   1.6.1-r2             apk                      
 xz-libs                                                      5.8.3-r0             apk                      
