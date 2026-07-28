@@ -79,6 +79,7 @@ init_diagram: |
   "sonarr:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "29.07.26:", desc: "Add healthcheck."}
   - {date: "09.07.26:", desc: "Workaround malformed ncurses database."}
   - {date: "04.07.26:", desc: "Rebase to Alpine 3.24."}
   - {date: "15.01.26:", desc: "Rebase to Alpine 3.23."}
