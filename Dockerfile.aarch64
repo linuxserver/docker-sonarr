@@ -48,3 +48,10 @@ COPY root/ /
 EXPOSE 8989
 
 VOLUME /config
+
+HEALTHCHECK \
+    --interval=30s \
+    --timeout=10s \
+    --start-period=60s \
+    --retries=3 \
+    CMD ["curl", "--fail", "--silent", "--show-error", "--connect-timeout", "2", "--max-time", "5", "http://127.0.0.1:8989/ping"]
