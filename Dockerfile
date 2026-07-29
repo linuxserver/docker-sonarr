@@ -54,4 +54,7 @@ HEALTHCHECK \
     --timeout=10s \
     --start-period=60s \
     --retries=3 \
-    CMD ["curl", "--fail", "--silent", "--show-error", "--connect-timeout", "2", "--max-time", "5", "http://127.0.0.1:8989/ping"]
+    CMD curl --fail --silent --show-error \
+        --connect-timeout 2 \
+        --max-time 5 \
+        "http://127.0.0.1:8989$(awk -F'[<>]' '$2 == "UrlBase" { print $3; exit }' /config/config.xml)/ping"
