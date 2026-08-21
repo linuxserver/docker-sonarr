@@ -175,7 +175,7 @@ runtimepack.Microsoft.NETCore.App.Runtime.linux-musl-x64     6.0.13             
 scanelf                                                      1.3.9-r1             apk                      
 shadow                                                       4.18.0-r1            apk                      
 skalibs-libs                                                 2.15.0.0-r0          apk                      
-sqlite-libs                                                  3.53.2-r0            apk                      
+sqlite-libs                                                  3.53.4-r0            apk                      
 ssl_client                                                   1.37.0-r31           apk                      
 tzdata                                                       2026c-r0             apk                      
 utmps-libs                                                   0.1.3.3-r0           apk                      
