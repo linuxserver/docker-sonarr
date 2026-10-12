@@ -33,6 +33,8 @@ nonroot_supported: true
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
+  New installs will write initial credentials to container log.
+
   Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
 readme_media: true
 # init diagram
@@ -78,6 +80,7 @@ init_diagram: |
   "sonarr:develop" <- Base Images
 # changelog
 changelogs:
+  - {date: "12.10.26:", desc: "Update `develop` branch to v5. New installs will write initial credentials to container log."}
   - {date: "04.07.26:", desc: "Rebase to Alpine 3.24."}
   - {date: "15.01.26:", desc: "Rebase to Alpine 3.23."}
   - {date: "05.07.25:", desc: "Rebase to Alpine 3.22."}

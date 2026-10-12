@@ -65,6 +65,8 @@ This image provides various versions that are available via tags. Please read th
 
 ## Application Setup
 
+New installs will write initial credentials to container log.
+
 Access the webui at `<your-ip>:8989`, for more information check out [Sonarr](https://sonarr.tv/).
 
 ### Media folders
@@ -309,6 +311,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **12.10.26:** - Update `develop` branch to v5. New installs will write initial credentials to container log.
 * **04.07.26:** - Rebase to Alpine 3.24.
 * **15.01.26:** - Rebase to Alpine 3.23.
 * **05.07.25:** - Rebase to Alpine 3.22.
