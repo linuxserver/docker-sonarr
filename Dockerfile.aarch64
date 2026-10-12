@@ -12,7 +12,7 @@ LABEL maintainer="thespad"
 # set environment variables
 ENV XDG_CONFIG_HOME="/config/xdg" \
   SONARR_BRANCH="develop" \
-  SONARR_CHANNEL="v4-nightly" \
+  SONARR_CHANNEL="v5-nightly" \
   COMPlus_EnableDiagnostics=0 \
   TMPDIR=/run/sonarr-temp
 
