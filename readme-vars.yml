@@ -80,6 +80,7 @@ init_diagram: |
   "sonarr:develop" <- Base Images
 # changelog
 changelogs:
+  - {date: "19.10.26:", desc: "Add krb5-libs for better postgresql support."}
   - {date: "12.10.26:", desc: "Update `develop` branch to v5. New installs will write initial credentials to container log."}
   - {date: "04.07.26:", desc: "Rebase to Alpine 3.24."}
   - {date: "15.01.26:", desc: "Rebase to Alpine 3.23."}
