@@ -144,9 +144,13 @@ findutils                                                    4.10.0-r1          
 icu-data-en                                                  78.1-r0              apk                      
 icu-libs                                                     78.1-r0              apk                      
 jq                                                           1.8.2-r0             apk                      
+keyutils-libs                                                1.6.3-r4             apk                      
+krb5-conf                                                    1.0-r2               apk                      
+krb5-libs                                                    1.22.2-r1            apk                      
 libapk                                                       3.0.8-r0             apk                      
 libattr                                                      2.5.2-r2             apk                      
 libbsd                                                       0.12.2-r0            apk                      
+libcom_err                                                   1.47.4-r0            apk                      
 libcrypto3                                                   3.5.9-r0             apk                      
 libcurl                                                      8.22.0-r0            apk                      
 libgcc                                                       15.2.0-r5            apk                      
@@ -159,6 +163,7 @@ libpsl                                                       0.21.5-r3          
 libssl3                                                      3.5.9-r0             apk                      
 libstdc++                                                    15.2.0-r5            apk                      
 libunistring                                                 1.4.2-r0             apk                      
+libverto                                                     0.3.2-r2             apk                      
 libxml2                                                      2.13.9-r2            apk                      
 libxslt                                                      1.1.43-r3            apk                      
 linux-pam                                                    1.7.1-r2             apk                      
