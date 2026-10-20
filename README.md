@@ -309,6 +309,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **19.10.26:** - Add krb5-libs for better postgresql support.
 * **12.10.26:** - Update `develop` branch to v5. New v5 installs will write initial credentials to container log.
 * **09.07.26:** - Workaround malformed ncurses database.
 * **04.07.26:** - Rebase to Alpine 3.24.
