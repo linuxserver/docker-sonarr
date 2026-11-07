@@ -139,7 +139,7 @@ coreutils                                                    9.11-r0            
 coreutils-env                                                9.11-r0              apk                      
 coreutils-fmt                                                9.11-r0              apk                      
 coreutils-sha512sum                                          9.11-r0              apk                      
-curl                                                         8.22.0-r0            apk                      
+curl                                                         8.23.0-r0            apk                      
 findutils                                                    4.10.0-r1            apk                      
 icu-data-en                                                  78.1-r0              apk                      
 icu-libs                                                     78.1-r0              apk                      
@@ -152,7 +152,7 @@ libattr                                                      2.5.2-r2           
 libbsd                                                       0.12.2-r0            apk                      
 libcom_err                                                   1.47.4-r0            apk                      
 libcrypto3                                                   3.5.9-r0             apk                      
-libcurl                                                      8.22.0-r0            apk                      
+libcurl                                                      8.23.0-r0            apk                      
 libgcc                                                       15.2.0-r5            apk                      
 libidn2                                                      2.3.8-r0             apk                      
 libintl                                                      1.0-r0               apk                      
