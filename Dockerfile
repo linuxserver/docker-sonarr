@@ -14,6 +14,7 @@ ENV XDG_CONFIG_HOME="/config/xdg" \
   SONARR_CHANNEL="v4-stable" \
   SONARR_BRANCH="main" \
   COMPlus_EnableDiagnostics=0 \
+  PGGSSENCMODE=disable \
   TMPDIR=/run/sonarr-temp
 
 RUN \
