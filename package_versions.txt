@@ -1,6 +1,6 @@
 NAME                                                         VERSION           TYPE                    
 BouncyCastle.Cryptography                                    2.7.0             dotnet  (+6 duplicates)  
-Dapper                                                       2.1.89            dotnet  (+6 duplicates)  
+Dapper                                                       2.1.100           dotnet  (+6 duplicates)  
 Diacritical.Net                                              1.0.5             dotnet  (+8 duplicates)  
 DryIoc.Microsoft.DependencyInjection                         6.2.0             dotnet  (+1 duplicate)   
 DryIoc.dll                                                   5.4.3             dotnet  (+8 duplicates)  
@@ -68,9 +68,9 @@ NLog.Layouts.ClefJsonLayout                                  1.0.5             d
 NLog.Targets.Syslog                                          7.0.0             dotnet  (+8 duplicates)  
 Newtonsoft.Json                                              13.0.4            dotnet  (+8 duplicates)  
 NodaTime                                                     3.2.2             dotnet  (+3 duplicates)  
-Npgsql                                                       10.0.3            dotnet  (+6 duplicates)  
+Npgsql                                                       10.0.4            dotnet  (+6 duplicates)  
 Openur.FFMpegCore                                            6.0.0.60          dotnet  (+6 duplicates)  
-Openur.FFprobeStatic                                         9.0.2.508         dotnet  (+6 duplicates)  
+Openur.FFprobeStatic                                         9.1.0.534         dotnet  (+6 duplicates)  
 Openur.Mono.Unix                                             7.1.0.256         dotnet                   
 Polly                                                        8.9.1             dotnet  (+6 duplicates)  
 Polly.Contrib.WaitAndRetry                                   1.1.1             dotnet  (+8 duplicates)  
