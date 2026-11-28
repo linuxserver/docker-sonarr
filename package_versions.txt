@@ -164,7 +164,7 @@ libssl3                                                      3.5.9-r1           
 libstdc++                                                    15.2.0-r5            apk                      
 libunistring                                                 1.4.2-r0             apk                      
 libverto                                                     0.3.2-r2             apk                      
-libxml2                                                      2.13.9-r3            apk                      
+libxml2                                                      2.13.9-r5            apk                      
 libxslt                                                      1.1.43-r4            apk                      
 linux-pam                                                    1.7.1-r2             apk                      
 musl                                                         1.2.6-r3             apk                      
